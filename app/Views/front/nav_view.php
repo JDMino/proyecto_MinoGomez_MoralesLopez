@@ -6,6 +6,12 @@
           <a class="navbar-brand text-white" href="<?= base_url('') ?>">
             <img src="assets/img/logo/logo.png" alt="logo" class="logo">
           </a>
+
+          <!-- Ícono del carrito SIEMPRE visible -->
+          <a href="#" class="d-lg-none me-2">
+            <img src="assets/img/carrito/carro.png" alt="carro" class="carro">
+          </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -17,15 +23,11 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse text-white"
-            id="navbarSupportedContent"
-          >
+
+          <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#"
-                  >Comercialización</a
-                >
+                <a class="nav-link" aria-current="page" href="#">Comercialización</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Quienes somos</a>
@@ -34,9 +36,7 @@
                 <a class="nav-link" href="#">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="false"
-                  >Contacto</a
-                >
+                <a class="nav-link" href="#">Contacto</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -50,11 +50,13 @@
                 Buscar
               </button>
             </form>
-            <a href="#">
+
+            <!-- Ícono del carrito oculto en móviles -->
+            <a href="#" class="d-none d-lg-inline">
               <img src="assets/img/carrito/carro.png" alt="carro" class="carro">
             </a>
           </div>
         </div>
       </nav>
       <!--FIN DEL NAVBAR-->
-    </header>
+  </header>

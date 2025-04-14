@@ -32,7 +32,7 @@
           <div class="carousel-item active">
             <img
               src="assets/img/microfono.webp"
-              class="d-block w-35 mx-auto"
+              class="d-block w-100"
               alt="microfono"
             />
             <div class="carousel-caption d-none d-md-block">
@@ -42,7 +42,7 @@
           <div class="carousel-item">
             <img
               src="assets/img/auriculares.webp"
-              class="d-block w-35 mx-auto"
+              class="d-block w-100"
               alt="auriculares"
             />
             <div class="carousel-caption d-none d-md-block">
@@ -52,7 +52,7 @@
           <div class="carousel-item">
             <img
               src="assets/img/mouse.webp"
-              class="d-block w-35 mx-auto"
+              class="d-block w-100"
               alt="mouse"
             />
             <div class="carousel-caption d-none d-md-block">
