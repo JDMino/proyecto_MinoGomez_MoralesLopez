@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title><?php echo $titulo; ?></title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/miestilo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/miestilo.css">
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </head>

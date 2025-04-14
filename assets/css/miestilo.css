@@ -7,8 +7,19 @@
   font-style: italic;
 }
 
+.logo {
+  width: 75px;
+  border-radius: 5px;
+}
+
+.carro {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
 .navbar {
   background-color: #0d0d0d;
+  font-size: 20px;
 }
 
 .nav-link {
@@ -16,11 +27,7 @@
 }
 
 .nav-link:hover {
-  color: #91d6f1;
-}
-
-.bi {
-  padding: 10px;
+  color: #2e8abf;
 }
 
 body {
@@ -54,6 +61,8 @@ main {
 }
 
 .info-extra {
+  display: flex;
+  justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -62,7 +71,7 @@ main {
 .div-info-extra {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex: 1;
   margin: 2px;
   padding: 20px;
   border-radius: 10px;
@@ -70,6 +79,7 @@ main {
 }
 
 .footer {
+  font-size: 16px;
   margin: 10px 10px;
   padding-bottom: 10px;
   color: #ffffff;
@@ -89,5 +99,5 @@ main {
 }
 
 .link-footer:hover {
-  color: #8cedfa;
+  color: #2e8abf;
 }
