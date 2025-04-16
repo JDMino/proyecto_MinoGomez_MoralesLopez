@@ -46,9 +46,6 @@
                 placeholder="Buscar"
                 aria-label="Search"
               />
-              <button class="btn btn-secondary btn-outline-black" type="submit">
-                Buscar
-              </button>
             </form>
 
             <!-- Ícono del carrito oculto en móviles -->

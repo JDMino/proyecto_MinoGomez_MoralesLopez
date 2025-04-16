@@ -40,12 +40,37 @@ main {
   margin: 10px 10px;
 }
 
+.presentacion {
+  margin-top: 120px;
+  background-color: #72949e;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.texto-presentacion {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.texto-presentacion h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  color: #0e3e56;
+}
+
+.img-presentacion {
+  height: 250px;
+  border-radius: 5px;
+}
+
 .carousel-custom {
   background-color: #c7d4d9;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   padding: 50px;
+  max-width: 1500px;
 }
 
 .section-marcas {
@@ -58,6 +83,12 @@ main {
 .img-marcas {
   width: 125px;
   height: 125px;
+  filter: grayscale(100);
+}
+
+.img-marcas:hover {
+  filter: grayscale(0);
+  box-shadow: -10px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .info-extra {
@@ -78,10 +109,10 @@ main {
   background-color: #74888c;
 }
 
-/*Inicio sección Quiénes somos*/
+/*Inicio Quiénes somos*/
 
 .quienes-somos {
-  margin-top: 110px;
+  margin-top: 5px;
   margin-left: 2px;
   margin-right: 2px;
   background-color: #c7d4d9;
@@ -109,15 +140,9 @@ main {
   border-radius: 100px;
 }
 
-/*Fin para sección Quiénes somos*/
+/*Fin Quiénes somos*/
 
-/*Inicio sección Contacto*/
-
-.encabezado-contacto {
-  margin-top: 120px;
-  padding: 20px;
-  font-weight: bold;
-}
+/*Inicio  Contacto*/
 
 .info-contacto,
 .formulario-contacto {
@@ -160,7 +185,7 @@ main {
   max-width: 150px;
 }
 
-/*Fin para sección Contacto*/
+/*Fin Contacto*/
 
 .header-sections {
   margin-top: 100px;
@@ -261,8 +286,16 @@ main {
     width: 35px; /* ajustar tamaño */
   }
 
+  .texto-presentacion {
+    font-size: 16px;
+  }
+
+  .img-presentacion {
+    height: 100px;
+  }
+
   .carousel-custom {
-    padding: 80px;
+    padding: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
   }
@@ -343,8 +376,12 @@ main {
     width: 30px;
   }
 
+  .img-presentacion {
+    height: 100px;
+  }
+
   .carousel-custom {
-    padding: 80px;
+    padding: 10px;
   }
 
   .carousel-caption h5 {
