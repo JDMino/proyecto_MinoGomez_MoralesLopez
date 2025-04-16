@@ -27,16 +27,16 @@
           <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Comercialización</a>
+                <a class="nav-link" aria-current="page" href="<?= base_url('comercializacion');?>">Comercialización</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos</a>
+                <a class="nav-link" href="<?= base_url('quienes_somos');?>">Quienes somos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="<?= base_url('contacto');?>">Contacto</a>
               </li>
             </ul>
             <form class="d-flex">

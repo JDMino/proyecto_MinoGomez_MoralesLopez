@@ -78,6 +78,149 @@ main {
   background-color: #74888c;
 }
 
+/*Inicio sección Quiénes somos*/
+
+.quienes-somos {
+  margin-top: 110px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #c7d4d9;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.encabezado-qs {
+  font-weight: bold;
+}
+
+.equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #74888c;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.foto-equipo {
+  width: 150px;
+  margin: 15px;
+  border-radius: 100px;
+}
+
+/*Fin para sección Quiénes somos*/
+
+/*Inicio sección Contacto*/
+
+.encabezado-contacto {
+  margin-top: 120px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.info-contacto,
+.formulario-contacto {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.info-contacto {
+  background-color: #c7d4d9;
+  margin-bottom: 10px;
+}
+
+.formulario-contacto {
+  background-color: #74888c;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.label-contacto,
+.button-contacto {
+  margin: 5px 5px;
+}
+
+.input-contacto {
+  max-width: 400px;
+}
+
+.input-contacto,
+.text-contacto {
+  margin: 2px 2px;
+  border-radius: 5px;
+}
+
+.button-contacto {
+  border-radius: 5px;
+  max-width: 150px;
+}
+
+/*Fin para sección Contacto*/
+
+.header-sections {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #72949e;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.titulo-HeaderSections {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.titulos-sections {
+  font-weight: 600;
+  color: #222;
+}
+.parrafos-terminos {
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.contenido-comercializacion {
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.envios,
+.pagos {
+  width: 50%;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logos-comercializacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: #123242;
+}
+.titulo-pagos {
+  color: #72949e;
+  text-transform: uppercase;
+}
+
 .footer {
   font-size: 16px;
   margin: 10px 10px;
@@ -111,7 +254,7 @@ main {
   .logo {
     width: 60px; /* logo más pequeño */
   }
-  
+
   .carro {
     padding-left: 5px;
     padding-right: 0;
@@ -146,6 +289,34 @@ main {
     border-radius: 100px;
   }
 
+  .header-sections {
+    padding: 30px 15px;
+  }
+
+  .titulo-Headerterminos {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+
+  .parrafos-terminos {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .contenido-comercializacion {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .envios,
+  .pagos {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .titulos-sections {
+    font-size: 18px;
+  }
   .footer-principal {
     flex-direction: column;
     align-items: center;
@@ -191,6 +362,33 @@ main {
     padding: 15px;
     font-size: 14px;
   }
+  .header-sections {
+    padding: 20px 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .titulo-Headerterminos {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .parrafos-terminos {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 5px;
+  }
+
+  .envios,
+  .pagos {
+    width: 95%;
+  }
+  .titulos-sections {
+    font-size: 16px;
+    text-align: center;
+  }
+  .logos-comercializacion img {
+    width: 60px;
+  }
 
   .footer {
     font-size: 14px;
@@ -210,4 +408,3 @@ main {
     align-items: stretch;
   }
 }
-
