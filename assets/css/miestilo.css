@@ -40,7 +40,7 @@
 }
 
 .form-control:focus {
-  background-color: #2196f3;
+  background-color: #b9e6ed;
 }
 
 body {
@@ -78,7 +78,7 @@ main {
 }
 
 .img-presentacion {
-  height: 200px;
+  min-height: 400px;
   border-radius: 5px;
 }
 
@@ -90,6 +90,68 @@ main {
   padding: 50px;
   max-width: 1500px;
 }
+
+/* Inicio Carrusel múltiple */
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #73b3d8;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.link-categoria {
+  text-decoration: none;
+}
+
+.slide {
+  text-align: center;
+  flex: 0 0 100%; /* Para móviles */
+}
+
+.slide img {
+  width: 100%;
+}
+
+.slide .category {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (min-width: 769px) {
+  .slide {
+      flex: 0 0 33.33%; /* Para escritorio */
+  }
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.button.prev {
+  left: 10px;
+}
+
+.button.next {
+  right: 10px;
+}
+/* Fin Carrusel múltiple */
 
 .section-marcas {
   border-radius: 10px;
@@ -138,6 +200,7 @@ main {
   background-color: #c7d4d9;
   border-radius: 10px;
   padding: 25px;
+  font-size: 20px;
 }
 
 .encabezado-qs {
@@ -168,6 +231,7 @@ main {
 .formulario-contacto {
   border-radius: 10px;
   padding: 20px;
+  font-size: 20px;
 }
 
 .info-contacto {

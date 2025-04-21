@@ -16,4 +16,5 @@
       </div>
     </footer>
   </body>
+  <script src="assets\js\carruselMultiple.js"></script>
 </html>

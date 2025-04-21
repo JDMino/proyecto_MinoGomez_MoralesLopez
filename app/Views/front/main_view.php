@@ -9,13 +9,13 @@
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner carrusel-presentacion">
             <div class="carousel-item active">
-              <img src="assets\img\presentacion\microprocesadores.jpg" class="d-block w-100 img-presentacion" alt="...">
+              <img src="assets\img\carrusel-presentacion\presentacion1.jpg" class="d-block w-100 img-presentacion" alt="Presentación 1">
             </div>
             <div class="carousel-item">
-              <img src="assets\img\presentacion\perifericos.jpg" class="d-block w-100  img-presentacion" alt="...">
+              <img src="assets\img\carrusel-presentacion\presentacion2.jpg" class="d-block w-100  img-presentacion" alt="Presentación 2">
             </div>
             <div class="carousel-item">
-              <img src="assets\img\presentacion\placadevideo.jpg" class="d-block w-100 img-presentacion" alt="...">
+              <img src="assets\img\carrusel-presentacion\presentacion3.jpg" class="d-block w-100 img-presentacion" alt="Presentación 3">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -27,6 +27,84 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+      <div class="carousel-container">
+          <button class="button prev" onclick="moverDiapositiva(-1)">&#10094;</button>
+          <div class="carousel" id="carousel">
+            <div class="slide">
+                <a href="enlace1.html" class="link-categoria">
+                    <img src="assets/img/categorias/almacenamiento.png" alt="Almacenamiento">
+                    <p class="category">Almacenamiento</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace2.html" class="link-categoria">
+                    <img src="assets/img/categorias/audio.png" alt="Audio">
+                    <p class="category">Audio</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace3.html" class="link-categoria">
+                    <img src="assets/img/categorias/fuente.webp" alt="Fuentes">
+                    <p class="category">Fuentes</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace4.html" class="link-categoria">
+                    <img src="assets/img/categorias/gabinetes.png" alt="Gabinetes">
+                    <p class="category">Gabinetes</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace5.html" class="link-categoria">
+                    <img src="assets/img/categorias/monitores.png" alt="Monitores">
+                    <p class="category">Monitores</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace6.html" class="link-categoria">
+                    <img src="assets/img/categorias/motherboard.webp" alt="Motherboards">
+                    <p class="category">Motherboards</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace7.html" class="link-categoria">
+                    <img src="assets/img/categorias/perifericos.png" alt="Perifericos">
+                    <p class="category">Perifericos</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace8.html" class="link-categoria">
+                    <img src="assets/img/categorias/placaDeVideo.webp" alt="Placas de Video">
+                    <p class="category">Placas de Video</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace9.html" class="link-categoria">
+                    <img src="assets/img/categorias/procesadores.png" alt="Procesadores">
+                    <p class="category">Procesadores</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace10.html" class="link-categoria">
+                    <img src="assets/img/categorias/ram.png" alt="Memorias RAM">
+                    <p class="category">Memorias RAM</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace11.html" class="link-categoria">
+                    <img src="assets/img/categorias/refrigeracion.png" alt="Refrigeración">
+                    <p class="category">Refrigeración</p>
+                </a>
+            </div>
+            <div class="slide">
+                <a href="enlace12.html" class="link-categoria">
+                    <img src="assets/img/categorias/sillas.png" alt="Sillas">
+                    <p class="category">Sillas</p>
+                </a>
+            </div>
+          </div>
+          <button class="button next" onclick="moverDiapositiva(1)">&#10095;</button>
       </div>
     </main>
     <!--Fin main-->
