@@ -6,7 +6,7 @@
           <h2>RandomTech: Potencia e Innovación en Hardware</h2>
           <p>En RandomTech ofrecemos hardware de alto rendimiento para gamers y profesionales. Nuestra misión es proporcionar tecnología innovadora al mejor precio.</p>
         </div>
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner carrusel-presentacion">
             <div class="carousel-item active">
               <img src="assets\img\carrusel-presentacion\presentacion1.jpg" class="d-block w-100 img-presentacion" alt="Presentación 1">
@@ -18,11 +18,11 @@
               <img src="assets\img\carrusel-presentacion\presentacion3.jpg" class="d-block w-100 img-presentacion" alt="Presentación 3">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -117,13 +117,16 @@
     </section>
     <section class="info-extra">
       <div class="div-info-extra">
-        <img src="assets/img/envios.png" class="mx-auto d-block" alt="envios" />
+        <img 
+          src="assets/img/infoextra/envios.png"
+          class="mx-auto d-block"
+          alt="envios" />
         <h6 class="text-center my-3 fs-4 fw-bold">Envios a todo el país</h6>
         <p>Realizamos envíos a todo el País por medio de OCA. Recibí tu producto donde sea que estés.</p>
       </div>
       <div class="div-info-extra">
         <img
-          src="assets/img/Retiros.png"
+          src="assets/img/infoextra/Retiros.png"
           class="mx-auto d-block"
           alt="retiros"
         />
@@ -133,7 +136,7 @@
       </div>
       <div class="div-info-extra">
         <img
-          src="assets/img/garantia.png"
+          src="assets/img/infoextra/garantia.png"
           class="mx-auto d-block"
           alt="garantía"
         />
@@ -142,7 +145,7 @@
       </div>
       <div class="div-info-extra">
         <img
-          src="assets/img/tarjeta.png"
+          src="assets/img/infoextra/tarjeta.png"
           class="mx-auto d-block"
           alt="financiación"
         />
