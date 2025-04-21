@@ -1,5 +1,8 @@
 <main>
-<h1 class="header-sections">Contacto</h1>
+    <div class="header-sections">
+    <p class="titulo-HeaderSections"> Contacto</p>
+    <h2>Soporte y consultas</h2>
+    </div>
 
 <div class="info-contacto">
     <h2>Datos de la Empresa</h2>

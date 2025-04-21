@@ -15,6 +15,11 @@
 .carro {
   padding-left: 15px;
   padding-right: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carro:hover {
+  transform: scale(1.1) rotate(-10deg);
 }
 
 .navbar {
@@ -28,6 +33,14 @@
 
 .nav-link:hover {
   color: #2e8abf;
+}
+
+.form-control {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  background-color: #2196f3;
 }
 
 body {
@@ -50,6 +63,10 @@ main {
 .texto-presentacion {
   color: #ffffff;
   font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 800px;
 }
 
 .texto-presentacion h2 {
@@ -57,10 +74,11 @@ main {
   font-size: 25px;
   font-weight: 700;
   color: #0e3e56;
+  letter-spacing: 2px;
 }
 
 .img-presentacion {
-  height: 250px;
+  height: 200px;
   border-radius: 5px;
 }
 
@@ -84,11 +102,13 @@ main {
   width: 125px;
   height: 125px;
   filter: grayscale(100);
+  transition: all 0.3s ease-in-out;
 }
 
 .img-marcas:hover {
   filter: grayscale(0);
   box-shadow: -10px 4px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
 
 .info-extra {
@@ -178,15 +198,31 @@ main {
 .text-contacto {
   margin: 2px 2px;
   border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-contacto:focus,
+.text-contacto:focus {
+  border: 3px solid #2196f3;
+  outline: none;
 }
 
 .button-contacto {
   border-radius: 5px;
   max-width: 150px;
+  background-color: #123242;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.button-contacto:hover {
+  background-color: #2196f3;
+  transform: scale(1.05);
 }
 
 /*Fin Contacto*/
 
+/*Inicio comercializacion*/
 .header-sections {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -207,12 +243,6 @@ main {
   font-weight: 600;
   color: #222;
 }
-.parrafos-terminos {
-  text-align: justify;
-  margin-bottom: 15px;
-  line-height: 1.6;
-  font-size: 18px;
-}
 
 .contenido-comercializacion {
   justify-content: space-between;
@@ -230,6 +260,7 @@ main {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #c7d4d9;
 }
 
 .logos-comercializacion {
@@ -240,11 +271,34 @@ main {
   padding: 20px;
   font-size: 20px;
   color: #123242;
+  background-color: #74888c;
+  border-radius: 8px;
+  margin-bottom: 8px;
 }
+
 .titulo-pagos {
-  color: #72949e;
+  color: #74888c;
   text-transform: uppercase;
+  font-weight: 600;
 }
+
+/*Fin comercializacion*/
+
+/*Inicio terminos*/
+.container-terminos {
+  background-color: #c7d4d9;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.parrafos-terminos {
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+/*Fin terminos*/
 
 .footer {
   font-size: 16px;
@@ -332,7 +386,7 @@ main {
   }
 
   .parrafos-terminos {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
   }
 
@@ -410,7 +464,7 @@ main {
   }
 
   .parrafos-terminos {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.4;
     padding: 5px;
   }

@@ -1,5 +1,8 @@
 <main>
-<h1 class="header-sections">Quiénes Somos</h1>
+    <div class="header-sections">
+    <p class="titulo-HeaderSections">Quiénes Somos</p>
+    <h2>¡Conocenos!</h2>
+    </div>
 
 <div class="quienes-somos">
     <h3 class="encabezado-qs">Innovación y tecnología para todos 🚀</h3>

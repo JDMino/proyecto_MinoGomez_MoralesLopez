@@ -6,7 +6,7 @@
     <div class="contenido-comercializacion d-flex">
         <div class="envios">
             <div class="logos-comercializacion">
-                <img src="assets/img/envios.png">
+                <img src="assets/img/envios.png" alt="icono-envios">
                 <p>Envíos</p>
             </div>
             <h4 class="titulos-sections">Formas de envio</h4>
@@ -30,7 +30,7 @@
         </div>
         <div class="pagos">
         <div class="logos-comercializacion">
-                <img src="assets/img/tarjeta.png">
+                <img src="assets/img/tarjeta.png" alt="icono-pagos">
                 <p>Pagos</p>
         </div>
             <h4 class="titulos-sections">¿Cuales son las formas de pago?</h4>

@@ -3,7 +3,7 @@
 <p class="titulo-HeaderSections">RandomTech</p>
 <h2>Términos y condiciones</h2>
 </div>
-<div class="container">
+<div class="container-terminos">
 <div>
 <p class="parrafos-terminos">Les damos la bienvenida al sitio de internet www.randomtech.com.ar, (en adelante el "Sitio" o “la plataforma”) de RandomTech. Los términos y condiciones que se describen a continuación (en adelante los "Términos y Condiciones de Uso" o las “Condiciones de Uso”) tienen por objeto regular el comportamiento de los usuarios en el sitio y las relaciones comerciales surgidas de esos comportamientos.
 <h4 class="titulos-sections">Naturaleza del servicio y destino del sitio:</h4>
