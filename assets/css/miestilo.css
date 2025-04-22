@@ -75,6 +75,20 @@ main {
   font-weight: 700;
   color: #0e3e56;
   letter-spacing: 2px;
+  animation: entradaSuave 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+/* Animacion de entrada */
+@keyframes entradaSuave {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .img-presentacion {
@@ -128,7 +142,7 @@ main {
 
 @media (min-width: 769px) {
   .slide {
-      flex: 0 0 33.33%; /* Para escritorio */
+    flex: 0 0 33.33%; /* Para escritorio */
   }
 }
 
@@ -338,6 +352,8 @@ main {
   background-color: #74888c;
   border-radius: 8px;
   margin-bottom: 8px;
+  animation: entradaSuave 1s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .titulo-pagos {
