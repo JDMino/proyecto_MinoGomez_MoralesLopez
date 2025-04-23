@@ -108,12 +108,51 @@
       </div>
     </main>
     <!--Fin main-->
+    <section class="section-ofertas">
+      <h4 class="header-ofertas">¡Ofertas Imbatibles!</h4>
+      <div class="cards-ofertas d-flex justify-content-around">
+        <div class="card" style="width: 18rem;">
+          <img src="assets\img\productos\MemoriaTeamDDR564GB.jpg" class="card-img-top" alt="RAM">
+          <div class="card-body">
+            <h5 class="card-title">Memoria RAM Team DDR5 64GB</h5>
+            <h6 class="card-precio">$99.999</h6>
+            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets\img\productos\DISCOSOLIDOM.21TBADATA.jpg" class="card-img-top" alt="SSD">
+          <div class="card-body">
+            <h5 class="card-title">Memoria M2 1TB ADATA</h5>
+            <h6 class="card-precio">$99.999</h6>
+            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets\img\productos\SillaGamerNitro.jpg" class="card-img-top" alt="Sillas">
+          <div class="card-body">
+            <h5 class="card-title">Silla Gamer Nitro</h5>
+            <h6 class="card-precio">$99.999</h6>
+            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets\img\productos\FuenteCorsair750W80PlusBronze.jpg" class="card-img-top" alt="Fuente">
+          <div class="card-body">
+            <h5 class="card-title">Fuente Corsair 750W 80PlusBronze</h5>
+            <h6 class="card-precio">$99.9999</h6>
+            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section-marcas d-flex justify-content-center">
       <img src="assets/img/marcas/amd_marca.jpg" alt="AMD" class="img-marcas">
       <img src="assets/img/marcas/asus.jpg" alt="asus" class="img-marcas">
       <img src="assets/img/marcas/intel.jpg" alt="intel" class="img-marcas">
       <img src="assets/img/marcas/hp.jpg" alt="hp" class="img-marcas">
       <img src="assets/img/marcas/corsair.jpg" alt="corsair" class="img-marcas">
+      <img src="assets\img\marcas\adata.jpg" alt="adata" class="img-marcas">
+      <img src="assets/img/marcas/gigabyte.jpg" alt="gigabyte" class="img-marcas">
     </section>
     <section class="info-extra">
       <div class="div-info-extra">

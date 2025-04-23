@@ -37,6 +37,7 @@
 
 .form-control {
   transition: background-color 0.3s ease-in-out;
+  border: none;
 }
 
 .form-control:focus {
@@ -62,7 +63,7 @@ main {
 
 .texto-presentacion {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.6;
   text-align: center;
   margin: 10px auto;
@@ -71,7 +72,7 @@ main {
 
 .texto-presentacion h2 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   color: #0e3e56;
   letter-spacing: 2px;
@@ -92,7 +93,7 @@ main {
 }
 
 .img-presentacion {
-  min-height: 400px;
+  height: 500px;
   border-radius: 5px;
 }
 
@@ -110,7 +111,7 @@ main {
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  background-color: #73b3d8;
+  background-color: #1a358b;
   margin-top: 10px;
   border-radius: 10px;
 }
@@ -136,8 +137,7 @@ main {
 .slide .category {
   margin-top: 10px;
   font-size: 18px;
-  font-weight: bold;
-  color: #333;
+  color: #ffffff;
 }
 
 @media (min-width: 769px) {
@@ -167,11 +167,67 @@ main {
 }
 /* Fin Carrusel múltiple */
 
+/*Sección Ofertas*/
+
+.section-ofertas * {
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.section-ofertas {
+  background-color: #74888c;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.header-ofertas {
+  background-color: #000000;
+  padding: 30px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.cards-ofertas {
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-precio {
+  color: rgb(155, 14, 14);
+}
+
+.card-btn {
+  background-color: rgb(255, 0, 0);
+  border: none;
+}
+
+.card-btn:hover {
+  background-color: rgb(155, 14, 14);
+  transform: scale(1.1);
+}
+
+/*Fin sección ofertas*/
+
 .section-marcas {
   border-radius: 10px;
-  background-color: #c7d4d9;
-  margin: 10px;
-  padding: 20px;
+  background-color: #fff;
+  padding: 0px;
+  box-shadow: -10px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .img-marcas {
@@ -309,6 +365,8 @@ main {
   background-color: #72949e;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   color: #fff;
+  animation: entradaSuave 1s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .titulo-HeaderSections {
@@ -425,7 +483,7 @@ main {
   }
 
   .img-presentacion {
-    height: 100px;
+    height: 400px;
   }
 
   .carousel-custom {
@@ -511,7 +569,7 @@ main {
   }
 
   .img-presentacion {
-    height: 100px;
+    height: 300px;
   }
 
   .carousel-custom {
