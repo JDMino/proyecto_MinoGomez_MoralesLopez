@@ -1,3 +1,4 @@
+/*Fuente*/
 @font-face {
   font-family: "Outfit";
   src: url("assets/fonts/Outfit-Regular.woff2") format("woff2"),
@@ -7,6 +8,7 @@
   font-style: italic;
 }
 
+/*Inicio Navbar*/
 .logo {
   width: 75px;
   border-radius: 5px;
@@ -44,6 +46,9 @@
   background-color: #b9e6ed;
 }
 
+/*Fin Navbar*/
+
+/*Estilos Generales*/
 body {
   background-color: #f2f2f2;
   font-family: "Outfit", sans-serif;
@@ -53,6 +58,10 @@ body {
 main {
   margin: 10px 10px;
 }
+
+/*Fin estilos generales*/
+
+/*Inicio Presentación Pagina Principal*/
 
 .presentacion {
   margin-top: 120px;
@@ -97,14 +106,7 @@ main {
   border-radius: 5px;
 }
 
-.carousel-custom {
-  background-color: #c7d4d9;
-  border-radius: 10px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  padding: 50px;
-  max-width: 1500px;
-}
+/*Fin Presentación Pagina Principal*/
 
 /* Inicio Carrusel múltiple */
 .carousel-container {
@@ -223,6 +225,8 @@ main {
 
 /*Fin sección ofertas*/
 
+/*Sección Marcas*/
+
 .section-marcas {
   border-radius: 10px;
   background-color: #fff;
@@ -243,6 +247,10 @@ main {
   transform: scale(1.05);
 }
 
+/*Fin Marcas*/
+
+/*Inicio InfoExtra*/
+
 .info-extra {
   display: flex;
   justify-content: space-between;
@@ -259,6 +267,33 @@ main {
   padding: 20px;
   border-radius: 10px;
   background-color: #74888c;
+}
+
+/*Fin InfoExtra*/
+
+/*INICIO SECCIONES*/
+
+.header-sections {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #72949e;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  animation: entradaSuave 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.titulo-HeaderSections {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.titulos-sections {
+  font-weight: 600;
+  color: #222;
 }
 
 /*Inicio Quiénes somos*/
@@ -357,28 +392,6 @@ main {
 /*Fin Contacto*/
 
 /*Inicio comercializacion*/
-.header-sections {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  padding: 40px 20px;
-  text-align: center;
-  background-color: #72949e;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  color: #fff;
-  animation: entradaSuave 1s ease-in-out;
-  animation-fill-mode: forwards;
-}
-
-.titulo-HeaderSections {
-  font-size: 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.titulos-sections {
-  font-weight: 600;
-  color: #222;
-}
 
 .contenido-comercializacion {
   justify-content: space-between;
@@ -438,6 +451,8 @@ main {
 }
 /*Fin terminos*/
 
+/*Inicio Footer*/
+
 .footer {
   font-size: 16px;
   margin: 10px 10px;
@@ -462,6 +477,8 @@ main {
   color: #2e8abf;
 }
 
+/*Fin Footer*/
+
 /* ----------- Tablet y menores (≤ 991px) ----------- */
 @media (max-width: 991px) {
   .navbar {
@@ -484,12 +501,6 @@ main {
 
   .img-presentacion {
     height: 400px;
-  }
-
-  .carousel-custom {
-    padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 10px;
   }
 
   .info-extra {
@@ -516,11 +527,6 @@ main {
 
   .header-sections {
     padding: 30px 15px;
-  }
-
-  .titulo-Headerterminos {
-    font-size: 24px;
-    letter-spacing: 1.5px;
   }
 
   .parrafos-terminos {
@@ -572,14 +578,6 @@ main {
     height: 300px;
   }
 
-  .carousel-custom {
-    padding: 10px;
-  }
-
-  .carousel-caption h5 {
-    font-size: 1rem;
-  }
-
   .img-marcas {
     width: 80px;
     height: 80px;
@@ -596,11 +594,6 @@ main {
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
   }
 
-  .titulo-Headerterminos {
-    font-size: 20px;
-    letter-spacing: 1px;
-  }
-
   .parrafos-terminos {
     font-size: 16px;
     line-height: 1.4;
@@ -611,6 +604,7 @@ main {
   .pagos {
     width: 95%;
   }
+
   .titulos-sections {
     font-size: 16px;
     text-align: center;
