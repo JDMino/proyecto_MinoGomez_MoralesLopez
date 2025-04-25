@@ -28,7 +28,7 @@
         <label for="mensaje" class="label-contacto">Mensaje:</label>
          <textarea class="text-contacto" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
 
-        <button type="submit" class="button-contacto">Enviar mensaje</button>
+        <button type="submit" class="button-contacto">Enviar</button>
     </form>
 </div>
 </main>

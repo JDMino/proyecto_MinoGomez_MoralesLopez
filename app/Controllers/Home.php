@@ -40,6 +40,15 @@ class Home extends BaseController
                 view('front\footer_view');
     }
 
+    public function productos(): string
+    {
+        $data = ['titulo' => 'Productos'];
+        return view('front\head_view', $data).
+                view('front\nav_view').
+                view('front\productos_view').
+                view('front\footer_view');
+    }
+
     public function contacto(): string
     {
         $data = ['titulo' => 'Información de Contacto'];

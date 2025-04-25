@@ -32,73 +32,73 @@
           <button class="button prev" onclick="moverDiapositiva(-1)">&#10094;</button>
           <div class="carousel" id="carousel">
             <div class="slide">
-                <a href="enlace1.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/almacenamiento.png" alt="Almacenamiento">
                     <p class="category">Almacenamiento</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace2.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/audio.png" alt="Audio">
                     <p class="category">Audio</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace3.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/fuente.webp" alt="Fuentes">
                     <p class="category">Fuentes</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace4.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/gabinetes.png" alt="Gabinetes">
                     <p class="category">Gabinetes</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace5.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/monitores.png" alt="Monitores">
                     <p class="category">Monitores</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace6.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/motherboard.webp" alt="Motherboards">
                     <p class="category">Motherboards</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace7.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/perifericos.png" alt="Perifericos">
                     <p class="category">Perifericos</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace8.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/placaDeVideo.webp" alt="Placas de Video">
                     <p class="category">Placas de Video</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace9.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/procesadores.png" alt="Procesadores">
                     <p class="category">Procesadores</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace10.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/ram.png" alt="Memorias RAM">
                     <p class="category">Memorias RAM</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace11.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/refrigeracion.png" alt="Refrigeración">
                     <p class="category">Refrigeración</p>
                 </a>
             </div>
             <div class="slide">
-                <a href="enlace12.html" class="link-categoria">
+                <a href="<?= base_url('productos');?>" class="link-categoria">
                     <img src="assets/img/categorias/sillas.png" alt="Sillas">
                     <p class="category">Sillas</p>
                 </a>
@@ -116,7 +116,7 @@
           <div class="card-body">
             <h5 class="card-title">Memoria RAM Team DDR5 64GB</h5>
             <h6 class="card-precio">$99.999</h6>
-            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -124,7 +124,7 @@
           <div class="card-body">
             <h5 class="card-title">Memoria M2 1TB ADATA</h5>
             <h6 class="card-precio">$99.999</h6>
-            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -132,7 +132,7 @@
           <div class="card-body">
             <h5 class="card-title">Silla Gamer Nitro</h5>
             <h6 class="card-precio">$99.999</h6>
-            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -140,7 +140,7 @@
           <div class="card-body">
             <h5 class="card-title">Fuente Corsair 750W 80PlusBronze</h5>
             <h6 class="card-precio">$99.9999</h6>
-            <a href="#" class="btn btn-primary card-btn">Ver más</a>
+            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
           </div>
         </div>
       </div>

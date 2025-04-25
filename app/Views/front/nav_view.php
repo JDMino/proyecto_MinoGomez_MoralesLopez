@@ -33,7 +33,7 @@
                 <a class="nav-link" href="<?= base_url('quienes_somos');?>">Quienes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="<?= base_url('productos');?>">Productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('contacto');?>">Contacto</a>

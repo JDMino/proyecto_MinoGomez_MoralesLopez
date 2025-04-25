@@ -306,6 +306,7 @@ main {
   border-radius: 10px;
   padding: 25px;
   font-size: 20px;
+  text-align: justify;
 }
 
 .encabezado-qs {
@@ -330,6 +331,21 @@ main {
 
 /*Fin Quiénes somos*/
 
+/*Inicio Productos*/
+.container-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.img-construccion {
+  width: 600px;
+  border-radius: 500px;
+}
+/*Fin Productos*/
+
 /*Inicio  Contacto*/
 
 .info-contacto,
@@ -342,6 +358,7 @@ main {
 .info-contacto {
   background-color: #c7d4d9;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .formulario-contacto {
@@ -548,6 +565,12 @@ main {
   .titulos-sections {
     font-size: 18px;
   }
+
+  .img-construccion {
+    width: 600px;
+    border-radius: 500px;
+  }
+
   .footer-principal {
     flex-direction: column;
     align-items: center;
@@ -611,6 +634,11 @@ main {
   }
   .logos-comercializacion img {
     width: 60px;
+  }
+
+  .img-construccion {
+    width: 350px;
+    border-radius: 500px;
   }
 
   .footer {
