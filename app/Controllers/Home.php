@@ -12,7 +12,7 @@ class Home extends BaseController
                 view('front\main_view').
                 view('front\footer_view');
     }
-
+    
     public function terminos_condiciones():string
     {   
         $data['titulo'] = 'Terminos y condiciones';
@@ -55,6 +55,15 @@ class Home extends BaseController
         return view('front\head_view', $data).
                 view('front\nav_view').
                 view('front\contacto_view').
+                view('front\footer_view');
+    }
+
+    public function registro(): string
+    {
+        $data = ['titulo' => 'Registro'];
+        return view('front\head_view', $data).
+                view('front\nav_view').
+                view('back\registro_view').
                 view('front\footer_view');
     }
 }
