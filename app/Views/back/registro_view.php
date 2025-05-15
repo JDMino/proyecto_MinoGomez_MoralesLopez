@@ -4,13 +4,15 @@
         <?php $validation = \Config\Services::validation(); ?>
         <form action="<?= base_url('enviar-form') ?>" method="post" class="form-registro">
             <?=csrf_field();?>
+            <!--Error-->
             <?php if(!empty (session()->getFlashdata('fail'))):?>
             <div class="alert alert-danger"><?=session()->getFlashdata('fail');?></div>
             <?php endif?>
-
+            <!--Exitoso-->
             <?php if(!empty (session()->getFlashdata('success'))):?>
             <div class="alert alert-success" role="alert"><?=session()->getFlashdata('success');?></div>
             <?php endif?>
+            
             <label for="nombre">Nombre:</label>
             <input class="input-registro" type="text" id="nombre" name="nombre" placeholder="Tu nombre"><br><br>
             <?php if($validation->getError('nombre')) {?>

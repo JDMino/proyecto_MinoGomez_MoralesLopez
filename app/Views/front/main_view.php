@@ -1,6 +1,11 @@
 <!--Fin del header-->
     <!--Inicio main-->
     <main>
+    <!--Error-->
+   <?php if(!empty (session()->getFlashdata('msg'))):?>
+            <div class="alert alert-success" role="alert"><?=session()->getFlashdata('msg');?></div>
+            <?php endif?>
+            
       <div class="presentacion">
         <div class="texto-presentacion">
           <h2>RandomTech: Potencia e Innovación en Hardware</h2>

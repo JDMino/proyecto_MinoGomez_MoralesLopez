@@ -1,3 +1,4 @@
+<?php $session = session(); ?>
 <body class="container">
     <header>
       <!--Barra de navegación-->
@@ -41,9 +42,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('registro');?>">Registrarse</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('login');?>">Iniciar Sesión</a>
+              <?php if (!$session->get('logged_in')): ?>
+              <li>
+                <a class="nav-link" href="<?= base_url('login')?>">Iniciar Sesión</a>
               </li>
+              <?php else: ?>
+                <li>
+                <a class="nav-link" href="<?= base_url('logout')?>">Cerrar Sesión</a>
+              </li>
+              <?php endif;?>
             </ul>
             <form class="d-flex">
               <input
