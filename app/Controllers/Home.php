@@ -66,4 +66,13 @@ class Home extends BaseController
                 view('back\registro_view').
                 view('front\footer_view');
     }
+
+    public function login(): string
+    {
+        $data = ['titulo' => 'Inicio de Sesión'];
+        return view('front\head_view', $data).
+                view('front\nav_view').
+                view('back\login_view').
+                view('front\footer_view');
+    }
 }

@@ -40,11 +40,11 @@
             </div>
             <?php }?>
 
-            <label for="password">Contraseña:</label>
-            <input class="input-registro" type="password" id="password" name="password" placeholder="Tu contraseña" required><br><br>
-             <?php if($validation->getError('password')) {?>
+            <label for="pass">Contraseña:</label>
+            <input class="input-registro" type="password" id="pass" name="pass" placeholder="Tu contraseña" required><br><br>
+             <?php if($validation->getError('pass')) {?>
                 <div class="alert alert-danger mt-2">
-                    <?= $error = $validation->getError('password');?>
+                    <?= $error = $validation->getError('pass');?>
             </div>
             <?php }?>
             <input class="button-registro" type="submit" value="Registrarse">

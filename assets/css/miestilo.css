@@ -539,6 +539,13 @@ main {
 }
 /*Fin Registrarse*/
 
+/*Inicio Login*/
+.login-form {
+  margin-top: 120px;
+  border: 2px blue solid;
+}
+/*Fin Login*/
+
 /* ----------- Tablet y menores (≤ 991px) ----------- */
 @media (max-width: 991px) {
   .navbar {
