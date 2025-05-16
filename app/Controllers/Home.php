@@ -67,8 +67,14 @@ class Home extends BaseController
                 view('front\footer_view');
     }
 
-    public function login(): string
+    public function login()
     {
+        $session = session();
+        //si ya esta logeado vuelve al inicio
+        if ($session->get('logged_in')) {
+            return redirect()->to('/');
+        }
+
         $data = ['titulo' => 'Inicio de Sesión'];
         return view('front\head_view', $data).
                 view('front\nav_view').

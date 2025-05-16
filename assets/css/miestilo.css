@@ -14,13 +14,22 @@
   border-radius: 5px;
 }
 
-.carro {
+.iniciar-sesion,
+.cerrar-sesion {
+  width: 45px;
+}
+
+.carro,
+.iniciar-sesion,
+.cerrar-sesion {
   padding-left: 15px;
   padding-right: 5px;
   transition: transform 0.3s ease-in-out;
 }
 
-.carro:hover {
+.carro:hover,
+.iniciar-sesion:hover,
+.cerrar-sesion:hover {
   transform: scale(1.1) rotate(-10deg);
 }
 
@@ -597,10 +606,16 @@ main {
     width: 60px; /* logo más pequeño */
   }
 
-  .carro {
+  .carro,
+  .iniciar-sesion {
     padding-left: 5px;
     padding-right: 0;
     width: 35px; /* ajustar tamaño */
+  }
+
+  .iniciar-sesion,
+  .cerrar-sesion {
+    margin: 8px 5px;
   }
 
   .texto-presentacion {
@@ -672,6 +687,13 @@ main {
   .footer-dos {
     padding: 10px 0;
   }
+
+  .form-registro,
+  .login-container,
+  .form-login {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 /* ----------- Móviles (≤ 576px) ----------- */
@@ -684,7 +706,8 @@ main {
     width: 50px;
   }
 
-  .carro {
+  .carro,
+  .iniciar-sesion {
     width: 30px;
   }
 

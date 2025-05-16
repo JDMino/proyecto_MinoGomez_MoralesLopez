@@ -1,4 +1,4 @@
-<div class="login-form">
+<div class="login-container">
     <h2 class="header-sections titulo-HeaderSections">Iniciar sesión</h2>
     <form action="<?= base_url('enviar-login') ?>" method="POST" class="form-login">
 

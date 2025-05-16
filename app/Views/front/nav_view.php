@@ -56,15 +56,6 @@ $nombre = $session->get('nombre');
                 <a class="nav-link" href="<?= base_url('registro');?>">Registrarse</a>
               </li>
               <?php endif;?>
-              <?php if (!$session->get('logged_in')): ?>
-              <li>
-                <a class="nav-link" href="<?= base_url('login')?>">Iniciar Sesión</a>
-              </li>
-              <?php else: ?>
-                <li>
-                <a class="nav-link text-danger" href="<?= base_url('logout')?>">Cerrar Sesión</a>
-              </li>
-              <?php endif;?>
             </ul>
             <form class="d-flex">
               <input
@@ -74,11 +65,25 @@ $nombre = $session->get('nombre');
                 aria-label="Search"
               />
             </form>
-
-            <!-- Ícono del carrito oculto en móviles -->
-            <a href="#" class="d-none d-lg-inline">
-              <img src="assets/img/carrito/carro.png" alt="carro" class="carro">
-            </a>
+            <?php if (!$session->get('logged_in')): ?>
+              <li class="list-unstyled">
+                <a class="nav-link" href="<?= base_url('login')?>">
+                  <img src="assets\img\login-logout\login.png" alt="iniciar-sesion" class="iniciar-sesion">
+                </a>
+              </li>
+              <?php else: ?>
+                <li class="list-unstyled">
+                <a class="nav-link text-danger" href="<?= base_url('logout')?>">
+                    <img src="assets\img\login-logout\logout.png" alt="cerrar-sesion" class="cerrar-sesion">
+                </a>
+                </li>
+              <?php endif;?>
+            <!-- Ícono del carrito visible en móviles -->
+            <?php if ($session->get('logged_in')): ?>
+              <a href="#" class="d-none d-lg-inline">
+                <img src="assets/img/carrito/carro.png" alt="carro" class="carro">
+              </a>
+            <?php endif; ?>
           </div>
         </div>
       </nav>
