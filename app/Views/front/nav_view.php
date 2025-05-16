@@ -1,4 +1,7 @@
-<?php $session = session(); ?>
+<?php 
+$session = session();
+$nombre = $session->get('nombre');
+?>
 <body class="container">
     <header>
       <!--Barra de navegación-->
@@ -27,6 +30,15 @@
 
           <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <?php if ($session->get('perfil_id') == 1): ?>
+                <li>
+                <a class="nav-link" href="<?= base_url('dashboard')?>">PANEL ADMIN: <?php echo $nombre ?></a>
+              </li>
+              <?php elseif($session->get('perfil_id') == 2): ?>
+                <li>
+                <a class="nav-link" href="<?= base_url('/')?>">CLIENTE: <?php echo $nombre ?></a>
+              </li>
+              <?php endif;?>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="<?= base_url('comercializacion');?>">Comercialización</a>
               </li>
@@ -39,16 +51,18 @@
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('contacto');?>">Contacto</a>
               </li>
+              <?php if (!$session->get('logged_in')): ?>
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('registro');?>">Registrarse</a>
               </li>
+              <?php endif;?>
               <?php if (!$session->get('logged_in')): ?>
               <li>
                 <a class="nav-link" href="<?= base_url('login')?>">Iniciar Sesión</a>
               </li>
               <?php else: ?>
                 <li>
-                <a class="nav-link" href="<?= base_url('logout')?>">Cerrar Sesión</a>
+                <a class="nav-link text-danger" href="<?= base_url('logout')?>">Cerrar Sesión</a>
               </li>
               <?php endif;?>
             </ul>

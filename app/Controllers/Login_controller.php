@@ -41,8 +41,14 @@ class Login_controller extends BaseController {
                 $session->set($ses_data);
 
                 session()->setFlashdata('msg', 'Bienvenido!');
-                //return redirect()->to('/dashboard'); //no existe el panel todavíaaaaa
-                return redirect()->to('/'); //pagina principal
+
+                //Si el usuario es admin, redirigir a Dashboard
+                /*if ($data['perfil_id'] == 1) {
+                    return redirect()->to('/dashboard');
+                } else {
+                    return redirect()->to('/');
+                }*/
+                return redirect()->to('/dashboard');
             } else {
                 //no paso la validacion de la password
                 $session->setFlashdata('msg', 'Password Incorrecta');

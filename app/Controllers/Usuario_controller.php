@@ -14,7 +14,7 @@ class Usuario_controller extends Controller {
         $input = $this->validate([
             'nombre' => 'required|min_length[3]',
             'apellido' => 'required|min_length[3]|max_length[25]',
-            'usuario' => 'required|min_length[3]',
+            'usuario' => 'required|min_length[3]|is_unique[usuarios.usuario]',
             'email' => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email]',
             'pass' => 'required|min_length[3]|max_length[10]',
         ]);
