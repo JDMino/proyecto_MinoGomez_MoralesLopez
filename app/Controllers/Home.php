@@ -58,8 +58,14 @@ class Home extends BaseController
                 view('front\footer_view');
     }
 
-    public function registro(): string
+    public function registro()
     {
+        $session = session();
+        //si ya esta logeado vuelve al inicio
+        if ($session->get('logged_in')) {
+            return redirect()->to('/');
+        }
+
         $data = ['titulo' => 'Registro'];
         return view('front\head_view', $data).
                 view('front\nav_view').
