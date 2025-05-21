@@ -596,6 +596,35 @@ main {
 
 /*Fin Login*/
 
+/*Inicio Sección Panel*/
+
+/*Inicio Productos
+
+.lista-productos {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c7d4d9;
+}
+.test1 {
+  display: flex;
+  border: 2px red solid;
+  justify-content: space-between;
+}
+.header-tabla,
+.body-tabla {
+  border: 2px blue solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th,
+td {
+  border: 2px green solid;
+}
+/*Fin Productos*/
+
+/*Fin Sección Panel*/
+
 /* ----------- Tablet y menores (≤ 991px) ----------- */
 @media (max-width: 991px) {
   .navbar {

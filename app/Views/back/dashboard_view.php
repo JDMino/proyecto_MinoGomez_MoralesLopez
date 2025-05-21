@@ -1,7 +1,7 @@
-<h2 class="header-sections">Panel de Administración</h2>
-<div class="menu">
-        <a href="#">Productos</a>
-        <a href="#">Pedidos</a>
-        <a href="#">Clientes</a>
-        <a href="#">Reportes</a>
+<h2 class="header-sections titulo-HeaderSections">Panel de Administración</h2>
+<div class="menu d-flex flex-column align-items-center gap-3">
+        <a href="<?= base_url('/listar_productos')?>" class="text-decoration-none">Productos</a>
+        <a href="#" class="text-decoration-none">Pedidos</a>
+        <a href="#" class="text-decoration-none">Clientes</a>
+        <a href="#" class="text-decoration-none">Reportes</a>
     </div>

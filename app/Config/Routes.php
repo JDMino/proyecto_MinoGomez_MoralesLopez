@@ -21,3 +21,11 @@ $routes->get('/login', "Home::login");
 $routes->post('/enviar-login', 'Login_controller::auth');
 $routes->get('/logout', 'Login_controller::logout');
 $routes->get('/dashboard', 'Dashboard_controller::index', ['filter' => 'auth']);
+
+//productos
+$routes->get('/listar_productos', "Producto_controller::index", ['filter' => 'auth']);
+$routes->get('/productos_eliminados', "Producto_controller::productosEliminados", ['filter' => 'auth']);
+$routes->get('/agregar_producto', "Producto_controller::creaProducto", ['filter' => 'auth']);
+$routes->post('/guardar-producto', 'Producto_controller::store', ['filter' => 'auth']);
+$routes->get('/eliminar_producto/(:num)', "Producto_controller::borrarProducto/$1", ['filter' => 'auth']);
+$routes->get('/activar_producto/(:num)', "Producto_controller::activarProducto/$1", ['filter' => 'auth']);
