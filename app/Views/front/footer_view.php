@@ -17,4 +17,5 @@
     </footer>
   </body>
   <script src="assets\js\carruselMultiple.js"></script>
+  <script src="assets\js\buscador.js"></script>
 </html>
