@@ -2,7 +2,7 @@ document
   .getElementById("buscarProducto")
   .addEventListener("keyup", function () {
     let filtro = this.value.toLowerCase();
-    let filas = document.querySelectorAll("#tablaProductos tr");
+    let filas = document.querySelectorAll("#tablaProducto tr");
 
     filas.forEach((fila) => {
       let nombreProducto = fila

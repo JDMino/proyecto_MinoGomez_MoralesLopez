@@ -8,12 +8,12 @@ $nombre = $session->get('nombre');
       <nav class="navbar navbar-expand-lg fixed-top fw-bold">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="<?= base_url('') ?>">
-            <img src="assets/img/logo/logo.png" alt="logo" class="logo">
+            <img src="<?= base_url('assets/img/logo/logo.png'); ?>" alt="logo" class="logo">
           </a>
 
           <!-- Ícono del carrito SIEMPRE visible -->
           <a href="#" class="d-lg-none me-2">
-            <img src="assets/img/carrito/carro.png" alt="carro" class="carro">
+            <img src="<?= base_url('assets/img/carrito/carro.png'); ?>" alt="carro" class="carro">
           </a>
 
           <button
@@ -68,20 +68,20 @@ $nombre = $session->get('nombre');
             <?php if (!$session->get('logged_in')): ?>
               <li class="list-unstyled">
                 <a class="nav-link" href="<?= base_url('login')?>">
-                  <img src="assets\img\login-logout\login.png" alt="iniciar-sesion" class="iniciar-sesion">
+                  <img src="<?= base_url('assets/img/login-logout/login.png'); ?>" alt="iniciar-sesion" class="iniciar-sesion">
                 </a>
               </li>
               <?php else: ?>
                 <li class="list-unstyled">
                 <a class="nav-link text-danger" href="<?= base_url('logout')?>">
-                    <img src="assets\img\login-logout\logout.png" alt="cerrar-sesion" class="cerrar-sesion">
+                    <img src="<?= base_url('assets/img/login-logout/logout.png'); ?>" alt="cerrar-sesion" class="cerrar-sesion">
                 </a>
                 </li>
               <?php endif;?>
             <!-- Ícono del carrito visible en móviles -->
             <?php if ($session->get('logged_in')): ?>
               <a href="#" class="d-none d-lg-inline">
-                <img src="assets/img/carrito/carro.png" alt="carro" class="carro">
+                <img src="<?= base_url('assets/img/carrito/carro.png'); ?>" alt="carro" class="carro">
               </a>
             <?php endif; ?>
           </div>

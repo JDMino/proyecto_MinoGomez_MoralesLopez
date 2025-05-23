@@ -42,7 +42,7 @@ class Producto_controller extends Controller {
         //realizo la consulta para mostrar todos los productos
         $data['producto'] = $productModel->getProductoAll();
 
-        $dato = ['titulo' => 'Crud_Productos'];
+        $dato = ['titulo' => 'Productos Eliminados'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
                 view('back\productos_eliminados_view', $data).
@@ -207,7 +207,9 @@ class Producto_controller extends Controller {
             'nombre_prod' => $this->request->getVar('nombre_prod'),
             'categoria_id' => $this->request->getVar('categoria_id'),
             'precio' => $this->request->getVar('precio'),
+            'precio_vta' => $this->request->getVar('precio_vta'),
             'stock' => $this->request->getVar('stock'),
+            'stock_min' => $this->request->getVar('stock_min'),
         ];
 
         if ($this->request->getFile('imagen')->isValid()) {

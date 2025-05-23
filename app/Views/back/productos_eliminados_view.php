@@ -1,7 +1,7 @@
 <h2 class="header-sections">Productos Eliminados</h2>
  <?php if(!empty (session()->getFlashdata('success'))):?>
             <div class="alert alert-success" role="alert"><?=session()->getFlashdata('success');?></div>
-            <?php endif?>
+<?php endif?>
 <div class="container lista-productos">
     <div class="d-flex justify-content-between mb-3">
         <input type="text" id="buscarProducto" class="form-control w-25" placeholder="Buscar producto...">
@@ -37,7 +37,8 @@
                             <td>$<?= number_format($prod['precio'], 2) ?></td>
                             <td><?= $prod['stock'] ?></td>
                             <td>
-                                <a href="<?= base_url('activar_producto/' . $prod['id']) ?>" class="btn btn-warning btn-sm">Activar</a>
+                                <a href="<?= base_url('editar_producto/' . $prod['id']) ?>" class="btn btn-warning btn-sm">Editar</a>
+                                <a href="<?= base_url('activar_producto/' . $prod['id']) ?>" class="btn btn-success btn-sm">Activar</a>
                             </td>
                         </tr>
                     <?php endif; ?>

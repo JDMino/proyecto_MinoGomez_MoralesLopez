@@ -62,7 +62,7 @@ class Home extends BaseController
     {
         $session = session();
         //si ya esta logeado vuelve al inicio
-        if ($session->get('logged_in')) {
+        if ($session->get('logged_in') && $session->get(('perfil_id') != 1)) {
             return redirect()->to('/');
         }
 

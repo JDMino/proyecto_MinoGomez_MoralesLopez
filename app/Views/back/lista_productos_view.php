@@ -21,10 +21,10 @@
                     <th>ID</th>
                     <th>Producto</th>
                     <th>Imagen</th>
-                    <th>Categoría</th>
                     <th>Precio</th>
                     <th>Precio de Venta</th>
                     <th>Stock</th>
+                    <th>Stock Mínimo</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -37,10 +37,10 @@
                             <td class="text-center align-middle">
                                 <img src="<?= base_url('assets/uploads/' . $prod['imagen']) ?>" alt="Imagen Producto" class="img-fluid" style="width: 100px; height: auto;">
                             </td>
-                            <td><?= $prod['categoria_id'] ?></td>
                             <td>$<?= number_format($prod['precio'], 2) ?></td>
                             <td>$<?= number_format($prod['precio_vta'], 2) ?></td>
                             <td><?= $prod['stock'] ?></td>
+                            <td><?= $prod['stock_min'] ?></td>
                             <td>
                                 <a href="<?= base_url('editar_producto/' . $prod['id']) ?>" class="btn btn-warning btn-sm">Editar</a>
                                 <a href="<?= base_url('eliminar_producto/' . $prod['id']) ?>" class="btn btn-danger btn-sm">Borrar</a>

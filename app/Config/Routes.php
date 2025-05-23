@@ -31,3 +31,11 @@ $routes->get('/eliminar_producto/(:num)', "Producto_controller::borrarProducto/$
 $routes->get('/activar_producto/(:num)', "Producto_controller::activarProducto/$1", ['filter' => 'auth']);
 $routes->get('/editar_producto/(:num)', "Producto_controller::editarProducto/$1", ['filter' => 'auth']);
 $routes->post('/actualizar-producto/(:num)', "Producto_controller::actualizarProducto/$1", ['filter' => 'auth']);
+
+//clientes
+$routes->get('/listar_clientes', "Usuario_controller::index", ['filter' => 'auth']);
+$routes->get('/eliminar_cliente/(:num)', "Usuario_controller::borrarCliente/$1", ['filter' => 'auth']);
+$routes->get('/clientes_eliminados', "Usuario_controller::clientesEliminados", ['filter' => 'auth']);
+$routes->get('/activar_cliente/(:num)', "Usuario_controller::activarCliente/$1", ['filter' => 'auth']);
+$routes->get('/editar_cliente/(:num)', "Usuario_controller::editarCliente/$1", ['filter' => 'auth']);
+$routes->post('/actualizar-cliente/(:num)', "Usuario_controller::actualizarCliente/$1", ['filter' => 'auth']);

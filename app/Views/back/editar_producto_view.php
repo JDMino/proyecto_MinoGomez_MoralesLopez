@@ -25,9 +25,16 @@
     <label>Precio:</label>
     <input type="number" name="precio" value="<?= $producto['precio'] ?>" required><br>
 
+    <label>Precio de Venta:</label>
+    <input type="number" name="precio_vta" value="<?= $producto['precio_vta'] ?>" required><br>
+
     <label>Stock:</label>
     <input type="number" name="stock" value="<?= $producto['stock'] ?>" required><br>
 
+    <label>Stock Mínimo:</label>
+    <input type="number" name="stock_min" value="<?= $producto['stock_min'] ?>" required><br>
+
     <button type="submit">Actualizar Producto</button>
+    <a href="<?= base_url('listar_productos') ?>" class="btn btn-danger">Cancelar</a>
 </form>
 
