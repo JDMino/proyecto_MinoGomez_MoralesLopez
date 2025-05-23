@@ -598,13 +598,12 @@ main {
 
 /*Inicio Sección Panel*/
 
-/*Inicio Productos
+/*Inicio Productos*/
 
 .lista-productos {
-  display: flex;
-  justify-content: space-around;
-  background-color: #c7d4d9;
+    padding: 20px;
 }
+/*
 .test1 {
   display: flex;
   border: 2px red solid;
@@ -723,6 +722,20 @@ td {
     margin-left: 0;
     margin-right: 0;
   }
+
+  .lista-productos .d-flex {
+        flex-direction: column;
+        align-items: center;
+   }
+
+  #buscarProducto {
+        width: 100%;
+        margin-bottom: 10px;
+   }
+
+  .btn {
+        margin-top: 5px;
+  }
 }
 
 /* ----------- Móviles (≤ 576px) ----------- */
@@ -801,4 +814,22 @@ td {
     flex-direction: column;
     align-items: stretch;
   }
+
+  .table-responsive {
+        overflow-x: auto;
+    }
+
+    .table th, .table td {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .img-fluid {
+        width: 70px; 
+    }
+
+    .btn-sm {
+        font-size: 12px;
+        padding: 4px;
+    }
 }

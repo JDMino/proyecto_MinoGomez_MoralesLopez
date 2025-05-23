@@ -163,6 +163,62 @@ class Producto_controller extends Controller {
 
         session()->setFlashdata('success', 'Producto activado correctamente.');
         return redirect()->to('productos_eliminados');
-}
+    }
 
+    public function editarProducto($id) {
+        $session = session();
+        if ($session->get('perfil_id') != 1) {
+            return redirect()->to('/');
+        }
+
+        $productoModel = new Productos_model();
+        $producto = $productoModel->find($id);
+
+        if (!$producto) {
+            session()->setFlashdata('error', 'El producto no existe.');
+            return redirect()->to('listar_productos');
+        }
+
+        $categoriasModel = new Categorias_model();
+        $data['categorias'] = $categoriasModel->getCategorias();
+        $data['producto'] = $producto;
+
+        $dato = ['titulo' => 'Editar producto'];
+        return view('front\head_view', $dato).
+                view('front\nav_view').
+                view('back\editar_producto_view', $data).
+                view('front\footer_view');
+    }
+
+    public function actualizarProducto($id) {
+        $session = session();
+        if ($session->get('perfil_id') != 1) {
+            return redirect()->to('/');
+        }
+
+        $productoModel = new Productos_model();
+
+        if (!$productoModel->find($id)) {
+            session()->setFlashdata('error', 'El producto no existe.');
+            return redirect()->to('listar_productos');
+        }
+
+        $data = [
+            'nombre_prod' => $this->request->getVar('nombre_prod'),
+            'categoria_id' => $this->request->getVar('categoria_id'),
+            'precio' => $this->request->getVar('precio'),
+            'stock' => $this->request->getVar('stock'),
+        ];
+
+        if ($this->request->getFile('imagen')->isValid()) {
+            $img = $this->request->getFile('imagen');
+            $nombre_aleatorio = $img->getRandomName();
+            $img->move(ROOTPATH.'assets/uploads', $nombre_aleatorio);
+            $data['imagen'] = $img->getName();
+        }
+
+        $productoModel->update($id, $data);
+        session()->setFlashdata('success', 'Producto actualizado correctamente.');
+        return redirect()->to('listar_productos');
+    }
 }

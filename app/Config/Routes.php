@@ -29,3 +29,5 @@ $routes->get('/agregar_producto', "Producto_controller::creaProducto", ['filter'
 $routes->post('/guardar-producto', 'Producto_controller::store', ['filter' => 'auth']);
 $routes->get('/eliminar_producto/(:num)', "Producto_controller::borrarProducto/$1", ['filter' => 'auth']);
 $routes->get('/activar_producto/(:num)', "Producto_controller::activarProducto/$1", ['filter' => 'auth']);
+$routes->get('/editar_producto/(:num)', "Producto_controller::editarProducto/$1", ['filter' => 'auth']);
+$routes->post('/actualizar-producto/(:num)', "Producto_controller::actualizarProducto/$1", ['filter' => 'auth']);
