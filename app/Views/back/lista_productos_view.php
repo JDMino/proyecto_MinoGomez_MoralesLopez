@@ -1,4 +1,4 @@
-<h2 class="header-sections">Lista de Productos</h2>
+<h2 class="header-sections titulo-HeaderSections">Lista de Productos</h2>
 <?php if(!empty(session()->getFlashdata('success'))): ?>
     <div class="alert alert-success" role="alert"><?= session()->getFlashdata('success'); ?></div>
 <?php elseif(!empty(session()->getFlashdata('msj-eliminado'))): ?>
@@ -9,13 +9,13 @@
     <div class="d-flex justify-content-between mb-3">
         <input type="text" id="buscarProducto" class="form-control w-25" placeholder="Buscar producto...">
         <div>
-            <a href="<?= base_url('agregar_producto') ?>" class="btn btn-success">Agregar</a>
-            <a href="<?= base_url('productos_eliminados') ?>" class="btn btn-secondary ms-2">Eliminados</a>
+            <a href="<?= base_url('agregar_producto') ?>" class="btn btn-crud btn-success">Agregar</a>
+            <a href="<?= base_url('productos_eliminados') ?>" class="btn btn-crud btn-secondary ms-2">Eliminados</a>
         </div>
     </div>
 
     <div class="table-responsive">
-        <table class="table table-bordered table-striped w-100">
+        <table class="table table-success table-bordered  border-light table-striped table-hover  w-100">
             <thead class="header-tabla">
                 <tr class="test1">
                     <th>ID</th>
@@ -42,8 +42,8 @@
                             <td><?= $prod['stock'] ?></td>
                             <td><?= $prod['stock_min'] ?></td>
                             <td>
-                                <a href="<?= base_url('editar_producto/' . $prod['id']) ?>" class="btn btn-warning btn-sm">Editar</a>
-                                <a href="<?= base_url('eliminar_producto/' . $prod['id']) ?>" class="btn btn-danger btn-sm">Borrar</a>
+                                <a href="<?= base_url('editar_producto/' . $prod['id']) ?>" class="btn btn-crud btn-warning btn-sm">Editar</a>
+                                <a href="<?= base_url('eliminar_producto/' . $prod['id']) ?>" class="btn btn-crud btn-danger btn-sm">Borrar</a>
                             </td>
                         </tr>
                     <?php endif; ?>

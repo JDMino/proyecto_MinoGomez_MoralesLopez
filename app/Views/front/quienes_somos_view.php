@@ -28,25 +28,25 @@
         <div class="equipo">
             <h3 class="encabezado-qs">El equipo detrás de RandomTech 👩‍💻👨‍💻</h3>
             <div class="persona">
-                <img src="assets\img\equipo\ValentinaOrtega.jpg" alt="Valentina Ortega" class="foto-equipo">
+                <img src="<?= base_url('assets/img/equipo/ValentinaOrtega.jpg')?>" alt="Valentina Ortega" class="foto-equipo">
                 <h5 class="encabezado-qs">Valentina Ortega</h5>
                 <p>Fundadora y apasionada por la tecnología.</p>
                 <p>Valentina lidera RandomTech con la misión de acercar hardware de calidad a la comunidad. Supervisa el crecimiento de la empresa, desarrolla estrategias y busca nuevas oportunidades para ofrecer lo mejor a nuestros clientes.</p>
             </div>
             <div class="persona">
-                <img src="assets\img\equipo\AgustinLopez.jpg" alt="Agustín López" class="foto-equipo">
+                <img src="<?= base_url('assets/img/equipo/AgustinLopez.jpg')?>" alt="Agustín López" class="foto-equipo">
                 <h5 class="encabezado-qs">Agustín López</h5>
                 <p>Especialista en atención al cliente.</p>
                 <p>Agustín se encarga de atender consultas, brindar asesoramiento personalizado y garantizar que cada experiencia de compra sea fluida y satisfactoria. Si necesitas ayuda, él es quien te orientará con paciencia y conocimiento.</p>
             </div>
             <div class="persona">
-                <img src="assets\img\equipo\SofiaGimenez.png" alt="Sofía Giménez" class="foto-equipo">
+                <img src="<?= base_url('assets/img/equipo/SofiaGimenez.png')?>" alt="Sofía Giménez" class="foto-equipo">
                 <h5 class="encabezado-qs">Sofía Giménez</h5>
                 <p>Selecciona productos de máxima calidad.</p>
                 <p>Con un ojo experto para la selección de hardware, Sofía investiga las últimas tendencias y elige productos de alto rendimiento para el catálogo de RandomTech. Su objetivo es garantizar que cada componente y accesorio cumpla con los estándares de calidad y funcionalidad.</p>
             </div>
             <div class="persona">
-                <img src="assets\img\equipo\EzequielFernandez.jpg" alt="Ezequiel Fernández" class="foto-equipo">
+                <img src="<?= base_url('assets/img/equipo/EzequielFernandez.jpg')?>" alt="Ezequiel Fernández" class="foto-equipo">
                 <h5 class="encabezado-qs">Ezequiel Fernández</h5>
                 <p>Solucionador de problemas y experto en tecnología.</p>
                 <p>Si hay un problema, Ezequiel encuentra la solución. Su conocimiento técnico en hardware y software lo convierte en el experto en resolver dudas, optimizar equipos y asegurarse de que los clientes encuentren lo que realmente necesitan para sus proyectos.</p>

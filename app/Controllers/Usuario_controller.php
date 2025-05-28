@@ -44,10 +44,6 @@ class Usuario_controller extends Controller {
 
     //mostrar la lista de clientes
     public function index() {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
 
         $usuarioModel = new Usuarios_model();
         
@@ -62,10 +58,7 @@ class Usuario_controller extends Controller {
     }
 
     public function clientesEliminados() {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
 
         $usuarioModel = new Usuarios_model();
         
@@ -81,10 +74,7 @@ class Usuario_controller extends Controller {
 
     //dar de baja un cliente
     public function borrarCliente($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
         
         $usuarioModel = new Usuarios_model();
 
@@ -103,10 +93,7 @@ class Usuario_controller extends Controller {
     }
 
     public function activarCliente($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
         $usuarioModel = new Usuarios_model();
 
         // Verificar si el usuario existe y está eliminado
@@ -124,10 +111,7 @@ class Usuario_controller extends Controller {
     }
 
     public function editarCliente($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
 
         $usuarioModel = new Usuarios_model();
         $usuario = $usuarioModel->find($id);
@@ -147,10 +131,7 @@ class Usuario_controller extends Controller {
     }
 
     public function actualizarCliente($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
 
         $usuarioModel = new Usuarios_model();
 

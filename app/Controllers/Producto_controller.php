@@ -14,11 +14,6 @@ class Producto_controller extends Controller {
 
     //mostrar los productos en lista
     public function index() {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
-
         $productModel = new Productos_model();
         
         //realizo la consulta para mostrar todos los productos
@@ -32,10 +27,7 @@ class Producto_controller extends Controller {
     }
 
     public function productosEliminados() {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
 
         $productModel = new Productos_model();
         
@@ -50,10 +42,7 @@ class Producto_controller extends Controller {
     }
 
     public function creaProducto() {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
 
         $categoriasModel = new Categorias_model();
         $data['categorias'] = $categoriasModel->getCategorias();
@@ -69,10 +58,7 @@ class Producto_controller extends Controller {
     }
 
     public function store() {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
         //construimos las reglas de validación
         $input = $this->validate([
             //'nombre_prod', 'imagen', 'categoria_id', 'precio', 'precio_vta', 'stock', 'stock_min'
@@ -124,10 +110,7 @@ class Producto_controller extends Controller {
     }
 
     public function borrarProducto($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
         $productoModel = new Productos_model();
 
         // Verificar si el producto existe
@@ -145,10 +128,7 @@ class Producto_controller extends Controller {
     }
 
     public function activarProducto($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
         $productoModel = new Productos_model();
 
         // Verificar si el producto existe y está eliminado
@@ -166,10 +146,7 @@ class Producto_controller extends Controller {
     }
 
     public function editarProducto($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
 
         $productoModel = new Productos_model();
         $producto = $productoModel->find($id);
@@ -191,10 +168,7 @@ class Producto_controller extends Controller {
     }
 
     public function actualizarProducto($id) {
-        $session = session();
-        if ($session->get('perfil_id') != 1) {
-            return redirect()->to('/');
-        }
+
 
         $productoModel = new Productos_model();
 

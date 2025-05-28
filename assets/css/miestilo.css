@@ -601,7 +601,7 @@ main {
 /*Inicio Productos*/
 
 .lista-productos {
-    padding: 20px;
+  padding: 20px;
 }
 /*
 .test1 {
@@ -621,7 +621,57 @@ td {
   border: 2px green solid;
 }
 /*Fin Productos*/
+.dashboard-menu {
+  background-color: #c7d4d9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
 
+.dashboard-link {
+  color: #74888c;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.dashboard-link:hover {
+  background-color: #9dabae;
+}
+
+/*CRUD estilos*/
+.crud-card {
+  background-color: #c7d4d9;
+  color: #0a0a0a;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.crud-label {
+  color: #0a0a0a;
+  font-weight: 500;
+}
+
+.crud-form-control,
+.crud-form-select {
+  box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.2);
+}
+
+.btn-crud {
+  transition: 0.3s ease-in-out;
+  margin-left: 5px;
+}
+
+.btn-crud:hover {
+  transform: scale(1.05);
+}
+/*Fin CRUD estilos*/
 /*Fin Sección Panel*/
 
 /* ----------- Tablet y menores (≤ 991px) ----------- */
@@ -724,17 +774,17 @@ td {
   }
 
   .lista-productos .d-flex {
-        flex-direction: column;
-        align-items: center;
-   }
+    flex-direction: column;
+    align-items: center;
+  }
 
   #buscarProducto {
-        width: 100%;
-        margin-bottom: 10px;
-   }
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
   .btn {
-        margin-top: 5px;
+    margin-top: 5px;
   }
 }
 
@@ -816,20 +866,21 @@ td {
   }
 
   .table-responsive {
-        overflow-x: auto;
-    }
+    overflow-x: auto;
+  }
 
-    .table th, .table td {
-        font-size: 14px;
-        padding: 6px;
-    }
+  .table th,
+  .table td {
+    font-size: 14px;
+    padding: 6px;
+  }
 
-    .img-fluid {
-        width: 70px; 
-    }
+  .img-fluid {
+    width: 70px;
+  }
 
-    .btn-sm {
-        font-size: 12px;
-        padding: 4px;
-    }
+  .btn-sm {
+    font-size: 12px;
+    padding: 4px;
+  }
 }

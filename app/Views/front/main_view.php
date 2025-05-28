@@ -38,73 +38,73 @@
           <div class="carousel" id="carousel">
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/almacenamiento.png" alt="Almacenamiento">
+                    <img src="<?= base_url('assets/img/categorias/almacenamiento.png')?>" alt="Almacenamiento">
                     <p class="category">Almacenamiento</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/audio.png" alt="Audio">
+                    <img src="<?= base_url('assets/img/categorias/audio.png')?>" alt="Audio">
                     <p class="category">Audio</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/fuente.webp" alt="Fuentes">
+                    <img src="<?= base_url('assets/img/categorias/fuente.webp')?>" alt="Fuentes">
                     <p class="category">Fuentes</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/gabinetes.png" alt="Gabinetes">
+                    <img src="<?= base_url('assets/img/categorias/gabinetes.png')?>" alt="Gabinetes">
                     <p class="category">Gabinetes</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/monitores.png" alt="Monitores">
+                    <img src="<?= base_url('assets/img/categorias/monitores.png')?>" alt="Monitores">
                     <p class="category">Monitores</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/motherboard.webp" alt="Motherboards">
+                    <img src="<?= base_url('assets/img/categorias/motherboard.webp')?>" alt="Motherboards">
                     <p class="category">Motherboards</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/perifericos.png" alt="Perifericos">
+                    <img src="<?= base_url('assets/img/categorias/perifericos.png')?>" alt="Perifericos">
                     <p class="category">Perifericos</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/placaDeVideo.webp" alt="Placas de Video">
+                    <img src="<?= base_url('assets/img/categorias/placaDeVideo.webp')?>" alt="Placas de Video">
                     <p class="category">Placas de Video</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/procesadores.png" alt="Procesadores">
+                    <img src="<?= base_url('assets/img/categorias/procesadores.png')?>" alt="Procesadores">
                     <p class="category">Procesadores</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/ram.png" alt="Memorias RAM">
+                    <img src="<?= base_url('assets/img/categorias/ram.png')?>" alt="Memorias RAM">
                     <p class="category">Memorias RAM</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/refrigeracion.png" alt="Refrigeración">
+                    <img src="<?= base_url('assets/img/categorias/refrigeracion.png')?>" alt="Refrigeración">
                     <p class="category">Refrigeración</p>
                 </a>
             </div>
             <div class="slide">
                 <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="assets/img/categorias/sillas.png" alt="Sillas">
+                    <img src="<?= base_url('assets/img/categorias/sillas.png')?>" alt="Sillas">
                     <p class="category">Sillas</p>
                 </a>
             </div>
@@ -117,7 +117,7 @@
       <h4 class="header-ofertas">¡Ofertas Imbatibles!</h4>
       <div class="cards-ofertas d-flex justify-content-around">
         <div class="card" style="width: 18rem;">
-          <img src="assets\img\productos\MemoriaTeamDDR564GB.jpg" class="card-img-top" alt="RAM">
+          <img src="<?= base_url('assets/img/productos/MemoriaTeamDDR564GB.jpg')?>" class="card-img-top" alt="RAM">
           <div class="card-body">
             <h5 class="card-title">Memoria RAM Team DDR5 64GB</h5>
             <h6 class="card-precio">$99.999</h6>
@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img src="assets\img\productos\DISCOSOLIDOM.21TBADATA.jpg" class="card-img-top" alt="SSD">
+          <img src="<?= base_url('assets/img/productos/DISCOSOLIDOM.21TBADATA.jpg')?>" class="card-img-top" alt="SSD">
           <div class="card-body">
             <h5 class="card-title">Memoria M2 1TB ADATA</h5>
             <h6 class="card-precio">$99.999</h6>
@@ -133,7 +133,7 @@
           </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img src="assets\img\productos\SillaGamerNitro.jpg" class="card-img-top" alt="Sillas">
+          <img src="<?= base_url('assets/img/productos/SillaGamerNitro.jpg')?>" class="card-img-top" alt="Sillas">
           <div class="card-body">
             <h5 class="card-title">Silla Gamer Nitro</h5>
             <h6 class="card-precio">$99.999</h6>
@@ -141,7 +141,7 @@
           </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img src="assets\img\productos\FuenteCorsair750W80PlusBronze.jpg" class="card-img-top" alt="Fuente">
+          <img src="<?= base_url('assets/img/productos/FuenteCorsair750W80PlusBronze.jpg')?>" class="card-img-top" alt="Fuente">
           <div class="card-body">
             <h5 class="card-title">Fuente Corsair 750W 80PlusBronze</h5>
             <h6 class="card-precio">$99.9999</h6>
@@ -151,18 +151,18 @@
       </div>
     </section>
     <section class="section-marcas d-flex justify-content-center">
-      <img src="assets/img/marcas/amd_marca.jpg" alt="AMD" class="img-marcas">
-      <img src="assets/img/marcas/asus.jpg" alt="asus" class="img-marcas">
-      <img src="assets/img/marcas/intel.jpg" alt="intel" class="img-marcas">
-      <img src="assets/img/marcas/hp.jpg" alt="hp" class="img-marcas">
-      <img src="assets/img/marcas/corsair.jpg" alt="corsair" class="img-marcas">
-      <img src="assets\img\marcas\adata.jpg" alt="adata" class="img-marcas">
-      <img src="assets/img/marcas/gigabyte.jpg" alt="gigabyte" class="img-marcas">
+      <img src="<?= base_url('assets/img/marcas/amd_marca.jpg')?>" alt="AMD" class="img-marcas">
+      <img src="<?= base_url('assets/img/marcas/asus.jpg')?>" alt="asus" class="img-marcas">
+      <img src="<?= base_url('assets/img/marcas/intel.jpg')?>" alt="intel" class="img-marcas">
+      <img src="<?= base_url('assets/img/marcas/hp.jpg')?>" alt="hp" class="img-marcas">
+      <img src="<?= base_url('assets/img/marcas/corsair.jpg')?>" alt="corsair" class="img-marcas">
+      <img src="<?= base_url('assets/img/marcas/adata.jpg')?>" alt="adata" class="img-marcas">
+      <img src="<?= base_url('assets/img/marcas/gigabyte.jpg')?>" alt="gigabyte" class="img-marcas">
     </section>
     <section class="info-extra">
       <div class="div-info-extra">
         <img 
-          src="assets/img/infoextra/envios.png"
+          src="<?= base_url('assets/img/infoextra/envios.png')?>"
           class="mx-auto d-block"
           alt="envios" />
         <h6 class="text-center my-3 fs-4 fw-bold">Envios a todo el país</h6>
@@ -170,7 +170,7 @@
       </div>
       <div class="div-info-extra">
         <img
-          src="assets/img/infoextra/Retiros.png"
+          src="<?= base_url('assets/img/infoextra/Retiros.png')?>"
           class="mx-auto d-block"
           alt="retiros"
         />
@@ -180,7 +180,7 @@
       </div>
       <div class="div-info-extra">
         <img
-          src="assets/img/infoextra/garantia.png"
+          src="<?= base_url('assets/img/infoextra/garantia.png')?>"
           class="mx-auto d-block"
           alt="garantía"
         />
@@ -189,7 +189,7 @@
       </div>
       <div class="div-info-extra">
         <img
-          src="assets/img/infoextra/tarjeta.png"
+          src="<?= base_url('assets/img/infoextra/tarjeta.png')?>"
           class="mx-auto d-block"
           alt="financiación"
         />

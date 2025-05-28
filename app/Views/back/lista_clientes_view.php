@@ -23,6 +23,7 @@
                     <th>Apellido</th>
                     <th>Usuario</th>
                     <th>Email</th>
+                     <th>Perfil ID</th>
                     <th>Baja</th>
                     <th>Acciones</th>
                 </tr>
@@ -36,6 +37,7 @@
                             <td class="apellido-cliente"><?= $cliente['apellido'] ?></td>
                             <td class="usuario-cliente"><?= $cliente['usuario'] ?></td>
                             <td class="email-cliente"><?= $cliente['email'] ?></td>
+                            <td class="perfil-usuario"><?= $cliente['perfil_id'] ?></td>
                             <td class="baja-cliente"><?= $cliente['baja'] ?></td>
                             <td>
                                 <a href="<?= base_url('editar_cliente/' . $cliente['id_usuario']) ?>" class="btn btn-warning btn-sm">Editar</a>
