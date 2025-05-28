@@ -32,10 +32,10 @@ $routes->get('/activar_producto/(:num)', "Producto_controller::activarProducto/$
 $routes->get('/editar_producto/(:num)', "Producto_controller::editarProducto/$1", ['filter' => 'authAdmin']);
 $routes->post('/actualizar-producto/(:num)', "Producto_controller::actualizarProducto/$1", ['filter' => 'authAdmin']);
 
-//clientes
-$routes->get('/listar_clientes', "Usuario_controller::index", ['filter' => 'authAdmin']);
-$routes->get('/eliminar_cliente/(:num)', "Usuario_controller::borrarCliente/$1", ['filter' => 'authAdmin']);
-$routes->get('/clientes_eliminados', "Usuario_controller::clientesEliminados", ['filter' => 'authAdmin']);
-$routes->get('/activar_cliente/(:num)', "Usuario_controller::activarCliente/$1", ['filter' => 'authAdmin']);
-$routes->get('/editar_cliente/(:num)', "Usuario_controller::editarCliente/$1", ['filter' => 'authAdmin']);
-$routes->post('/actualizar-cliente/(:num)', "Usuario_controller::actualizarCliente/$1", ['filter' => 'authAdmin']);
+//usuarios
+$routes->get('/listar_usuarios', "Usuario_controller::index", ['filter' => 'authAdmin']);
+$routes->get('/eliminar_usuario/(:num)', "Usuario_controller::borrarUsuario/$1", ['filter' => 'authAdmin']);
+$routes->get('/usuarios_eliminados', "Usuario_controller::usuariosEliminados", ['filter' => 'authAdmin']);
+$routes->get('/activar_usuario/(:num)', "Usuario_controller::activarUsuario/$1", ['filter' => 'authAdmin']);
+$routes->get('/editar_usuario/(:num)', "Usuario_controller::editarUsuario/$1", ['filter' => 'authAdmin']);
+$routes->post('/actualizar-usuario/(:num)', "Usuario_controller::actualizarUsuario/$1", ['filter' => 'authAdmin']);

@@ -1,6 +1,7 @@
 <?php
 namespace App\Controllers;
 use App\Models\Usuarios_model;
+use App\Models\Perfiles_model;
 use CodeIgniter\Controller;
 
 class Usuario_controller extends Controller {
@@ -42,75 +43,75 @@ class Usuario_controller extends Controller {
         }
     }
 
-    //mostrar la lista de clientes
+    //mostrar la lista de usuarios
     public function index() {
 
         $usuarioModel = new Usuarios_model();
         
-        //realizo la consulta para mostrar todos los clientes
-        $data['clientes'] = $usuarioModel->getClientesAll();
+        //realizo la consulta para mostrar todos los usuarios
+        $data['usuarios'] = $usuarioModel->getUsuariosAll();
 
-        $dato = ['titulo' => 'Clientes'];
+        $dato = ['titulo' => 'Usuarios'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
-                view('back\lista_clientes_view', $data).
+                view('back\lista_usuarios_view', $data).
                 view('front\footer_view');
     }
 
-    public function clientesEliminados() {
+    public function usuariosEliminados() {
 
 
         $usuarioModel = new Usuarios_model();
         
-        //realizo la consulta para mostrar todos los clientes
-        $data['clientes'] = $usuarioModel->getClientesAll();
+        //realizo la consulta para mostrar todos los usuarios
+        $data['usuarios'] = $usuarioModel->getUsuariosAll();
 
-        $dato = ['titulo' => 'Clientes'];
+        $dato = ['titulo' => 'Usuarios'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
-                view('back\clientes_eliminados_view', $data).
+                view('back\usuarios_eliminados_view', $data).
                 view('front\footer_view');
     }
 
-    //dar de baja un cliente
-    public function borrarCliente($id) {
+    //dar de baja un usuario
+    public function borrarUsuario($id) {
 
         
         $usuarioModel = new Usuarios_model();
 
-        // Verificar si el cliente existe
+        // Verificar si el usuario existe
         $usuario = $usuarioModel->find($id);
         if (!$usuario) {
-            session()->setFlashdata('error', 'El cliente no existe.');
-            return redirect()->to('listar_clientes');
+            session()->setFlashdata('error', 'El usuario no existe.');
+            return redirect()->to('listar_usuarios');
         }
 
         // Realizar eliminación lógica (marcar como dado de baja en la BD)
         $usuarioModel->update($id, ['baja' => 'SI']);
         
-        session()->setFlashdata('msj-cliente-eliminado', 'Cliente dado de baja correctamente.');
-        return redirect()->to('listar_clientes');
+        session()->setFlashdata('msj-usuario-eliminado', 'Usuario dado de baja correctamente.');
+        return redirect()->to('listar_usuarios');
     }
 
-    public function activarCliente($id) {
+    public function activarUsuario($id) {
 
         $usuarioModel = new Usuarios_model();
 
         // Verificar si el usuario existe y está eliminado
         $usuario = $usuarioModel->find($id);
         if (!$usuario || $usuario['baja'] == 'NO') {
-            session()->setFlashdata('error', 'El cliente no existe o ya está activo.');
-            return redirect()->to('clientes_eliminados');
+            session()->setFlashdata('error', 'El usuario no existe o ya está activo.');
+            return redirect()->to('usuarios_eliminados');
         }
 
         // Reactivar el producto
         $usuarioModel->update($id, ['baja' => 'NO']);
 
-        session()->setFlashdata('success', 'Cliente activado correctamente.');
-        return redirect()->to('clientes_eliminados');
+        session()->setFlashdata('success', 'Usuario activado correctamente.');
+        return redirect()->to('usuarios_eliminados');
     }
 
-    public function editarCliente($id) {
+    public function editarUsuario($id) {
 
 
         $usuarioModel = new Usuarios_model();
@@ -118,26 +119,28 @@ class Usuario_controller extends Controller {
 
         if (!$usuario) {
             session()->setFlashdata('error', 'El usuario no existe.');
-            return redirect()->to('listar_clientes');
+            return redirect()->to('listar_usuarios');
         }
 
+        $perfilesModel = new Perfiles_model();
+        $data['perfiles'] = $perfilesModel->getPerfiles();
         $data['usuario'] = $usuario;
 
-        $dato = ['titulo' => 'Editar Cliente'];
+        $dato = ['titulo' => 'Editar Usuario'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
-                view('back\editar_cliente_view', $data).
+                view('back\editar_usuario_view', $data).
                 view('front\footer_view');
     }
 
-    public function actualizarCliente($id) {
+    public function actualizarUsuario($id) {
 
 
         $usuarioModel = new Usuarios_model();
 
         if (!$usuarioModel->find($id)) {
-            session()->setFlashdata('error', 'El cliente no existe.');
-            return redirect()->to('listar_clientes');
+            session()->setFlashdata('error', 'El usuario no existe.');
+            return redirect()->to('listar_usuarios');
         }
 
         $data = [
@@ -145,10 +148,11 @@ class Usuario_controller extends Controller {
             'apellido' => $this->request->getVar('apellido'),
             'usuario' => $this->request->getVar('usuario'),
             'email' => $this->request->getVar('email'),
+            'perfil_id' => $this->request->getVar('perfil_id'),
         ];
 
         $usuarioModel->update($id, $data);
-        session()->setFlashdata('success', 'Cliente actualizado correctamente.');
-        return redirect()->to('listar_clientes');
+        session()->setFlashdata('success', 'Usuario actualizado correctamente.');
+        return redirect()->to('listar_usuarios');
     }
 }

@@ -18,5 +18,5 @@
   </body>
   <script src="assets\js\carruselMultiple.js"></script>
   <script src="assets\js\buscadorProducto.js"></script>
-  <script src="assets\js\buscadorClientes.js"></script>
+  <script src="assets\js\buscadorUsuarios.js"></script>
 </html>

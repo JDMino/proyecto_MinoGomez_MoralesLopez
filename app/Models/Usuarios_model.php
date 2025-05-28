@@ -8,7 +8,7 @@ class Usuarios_model extends Model
     protected $primaryKey = 'id_usuario';
     protected $allowedFields = ['nombre', 'apellido', 'usuario', 'email', 'pass', 'perfil_id', 'baja'];
 
-    public function getClientesAll() {
+    public function getUsuariosAll() {
         return $this->findAll();
     }
 }
