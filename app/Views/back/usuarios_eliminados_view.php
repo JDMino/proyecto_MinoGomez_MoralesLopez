@@ -1,4 +1,4 @@
-<h2 class="header-sections">Usuarios Eliminados</h2>
+<h2 class="header-sections ">Usuarios Eliminados</h2>
 <?php if(!empty(session()->getFlashdata('success'))): ?>
     <div class="alert alert-success" role="alert"><?= session()->getFlashdata('success'); ?></div>
 <?php endif ?>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="table-responsive">
-        <table class="table table-bordered table-striped w-100">
+        <table class="table table-success table-bordered  border-light table-striped table-hover  w-100">
             <thead class="header-tabla">
                 <tr class="test1">
                     <th>ID</th>

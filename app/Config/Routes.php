@@ -9,7 +9,6 @@ $routes->get('/', 'Home::index');
 $routes->get('/terminos', 'Home::terminos_condiciones');
 $routes->get('/comercializacion', 'Home::comercializacion');
 $routes->get('/quienes_somos','Home::quienes_somos');
-$routes->get('/productos','Home::productos');
 $routes->get('/contacto', 'Home::contacto');
 
 //registrarse
@@ -39,3 +38,6 @@ $routes->get('/usuarios_eliminados', "Usuario_controller::usuariosEliminados", [
 $routes->get('/activar_usuario/(:num)', "Usuario_controller::activarUsuario/$1", ['filter' => 'authAdmin']);
 $routes->get('/editar_usuario/(:num)', "Usuario_controller::editarUsuario/$1", ['filter' => 'authAdmin']);
 $routes->post('/actualizar-usuario/(:num)', "Usuario_controller::actualizarUsuario/$1", ['filter' => 'authAdmin']);
+
+//catalogo
+$routes->get('/catalogo','Cart_controller::mostrarCatalogo');

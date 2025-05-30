@@ -40,6 +40,7 @@ class Home extends BaseController
                 view('front\footer_view');
     }
 
+    /*
     public function productos(): string
     {
         $data = ['titulo' => 'Productos'];
@@ -48,6 +49,7 @@ class Home extends BaseController
                 view('front\productos_view').
                 view('front\footer_view');
     }
+    */
 
     public function contacto(): string
     {
