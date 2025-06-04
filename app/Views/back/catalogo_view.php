@@ -15,10 +15,10 @@
                     </div>
                     <?php foreach($producto as $row): ?>
                         <div class="col-md-4 mt-3">
-                            <div class="card">
+                            <div class="card catalogo-section">
                                 <!-- Muestra la imagen del producto -->
                                 <img src="<?= base_url('assets/uploads/' . $row['imagen']) ?>" class="card-img-top img-catalogo" alt="<?= $row['nombre_prod'] ?>">
-                                <div class="card-body text-center">
+                                <div class="card-body catalogo-producto text-center">
                                     <h5 class="card-title fw-bold"><?= $row['nombre_prod'] ?></h5>
                                     <p class="card-text">$<?= number_format($row['precio_vta'], 2) ?></p>
                                     <p class="card-text"><?= ($row['stock'] > 0) ? 'Hay stock' : 'No hay stock' ?></p>

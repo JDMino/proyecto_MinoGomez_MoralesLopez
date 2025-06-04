@@ -657,14 +657,14 @@ main {
 /*Fin CRUD estilos*/
 
 /*Catalogo*/
-.card {
+.catalogo-section {
   height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
 }
 
-.card-body {
+.catalogo-producto {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
