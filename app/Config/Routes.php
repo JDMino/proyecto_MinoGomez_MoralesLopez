@@ -41,3 +41,8 @@ $routes->post('/actualizar-usuario/(:num)', "Usuario_controller::actualizarUsuar
 
 //catalogo
 $routes->get('/catalogo','Cart_controller::mostrarCatalogo');
+$routes->get('/mostrar_carrito','Cart_controller::mostrarCarrito', ['filter' => 'auth']);
+$routes->get('/actualizar_carrito','Cart_controller::actualizarCarrito', ['filter' => 'auth']);
+$routes->post('/agregar_carrito','Cart_controller::agregarAlCarrito', ['filter' => 'auth']);
+$routes->get('/eliminar_item/(:any)','Cart_controller::remove/$1', ['filter' => 'auth']);
+$routes->get('/eliminar_item/(:any)','Cart_controller::remove/$1', ['filter' => 'auth']);

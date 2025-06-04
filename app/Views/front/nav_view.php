@@ -69,18 +69,20 @@ $nombre = $session->get('nombre');
               <li class="list-unstyled">
                 <a class="nav-link" href="<?= base_url('login')?>">
                   <img src="<?= base_url('assets/img/login-logout/login.png'); ?>" alt="iniciar-sesion" class="iniciar-sesion">
+                  Iniciar Sesión
                 </a>
               </li>
               <?php else: ?>
                 <li class="list-unstyled">
                 <a class="nav-link text-danger" href="<?= base_url('logout')?>">
                     <img src="<?= base_url('assets/img/login-logout/logout.png'); ?>" alt="cerrar-sesion" class="cerrar-sesion">
+                    Cerrar Sesión
                 </a>
                 </li>
               <?php endif;?>
             <!-- Ícono del carrito visible en móviles -->
             <?php if ($session->get('logged_in')): ?>
-              <a href="#" class="d-none d-lg-inline">
+              <a href="<?= base_url('mostrar_carrito')?>" class="d-none d-lg-inline">
                 <img src="<?= base_url('assets/img/carrito/carro.png'); ?>" alt="carro" class="carro">
               </a>
             <?php endif; ?>

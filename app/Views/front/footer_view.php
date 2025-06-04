@@ -1,5 +1,5 @@
 <footer class="footer">
-      <div class="footer-principal d-flex justify-content-around">
+      <div class="footer-principal d-flex justify-content-around mt-5">
         <div class="footer-uno">
           <p><a href="<?= base_url('comercializacion');?>" class="link-footer">Comercialización</a></p>
           <p><a href="<?= base_url('terminos');?>" class="link-footer">Términos y condiciones</a></p>
