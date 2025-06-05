@@ -1,88 +1,74 @@
-<!-- carrito_parte_view.php -->
-<h2 class="header-sections titulo-HeaderSections">Carrito de Compras</h2>
 <div class="container-fluid" id="carrito">
     <div class="cart">
         <div class="heading">
-            <h2 id="h3" align="center">Productos en tu Carrito</h2>
+            <h2 class="text-center header-sections">Productos en tu Carrito</h2>
         </div>
-        <div class="text" align="center">
-            <?php 
-                $session = session();
-                $cart = \Config\Services::cart();
-                $cart = $cart->contents();
-                // Si el carrito está vacío, mostrar el siguiente mensaje
-                if (empty($cart)) {
-                    echo 'Para agregar productos al carrito, click en '; ?>
-                    <a href="<?= base_url('catalogo') ?>">Catalogo</a>
-                <?php }
-            ?>
-        </div>
-    </div>
-    <table class="table table-hover table-dark table-responsive-md" border="0" cellpadding="5px" cellspacing="1px">
-        <!-- (Opcional: también se podría usar una clase "table-striped") -->
-        <?php 
-            // Verifica si existen items en el carrito
-            if ($cart == TRUE) : 
-        ?>
-        <div class="container">
-            <div class="table-responsive-sm">
-                <table class="table table-bordered table-hover table-dark table-striped ml-3">
-                    <tr>
-                        <td>ID</td>
-                        <td>nombre_prod</td>
-                        <td>Precio</td>
-                        <td>Cantidad</td>
-                        <td>Total</td>
-                        <td>Cancelar Producto</td>
-                    </tr>
-                    <?php 
-                        // Se abre el formulario que enviará los datos a carrito_controller/actualiza
-                        echo form_open('carrito_actualiza');
-                        $gran_total = 0;
-                        $i = 1;
-                        foreach ($cart as $item) :
-                            // Se crean campos ocultos para enviar la información de cada producto
-                            // Se castea los valores numéricos a string para evitar TypeError.
-                            echo form_hidden('cart[' . $item['id'] . '][id]', (string)$item['id']);
-                            echo form_hidden('cart[' . $item['id'] . '][rowid]', $item['rowid']);
-                            echo form_hidden('cart[' . $item['id'] . '][name]', $item['name']);
-                            echo form_hidden('cart[' . $item['id'] . '][price]', (string)$item['price']);
-                            echo form_hidden('cart[' . $item['id'] . '][qty]', (string)$item['qty']);
-                    ?>
-                    <tr>
-                        <td><?php echo $i++; ?></td>
-                        <td><?php echo $item['name']; ?></td>
-                        <td>$ <?php echo number_format($item['price'], 2); ?></td>
-                        <td><?php echo $item['qty']; ?></td>
-                        <?php $gran_total += $item['price'] * $item['qty']; ?>
-                        <td>$ <?php echo number_format($item['subtotal'], 2); ?></td>
-                        <td>
-                            <?php 
-                                // Se define el ícono para borrar el producto
-                                $path = '<img src="' . base_url('assets/img/carrito/carro.png') . '" width="25px" height="20px">';
-                                echo anchor('eliminar_item/' . $item['rowid'], $path);
-                            ?>
-                        </td>
-                    </tr>
-                    <?php 
-                        endforeach;
-                    ?>
-                    <tr class="table-light">
-                        <td colspan="5">
-                            <b>Total: $ <?php echo number_format($gran_total, 2); ?></b>
-                        </td>
-                        <td colspan="5" align="center">
-                            <!-- Botón para borrar el carrito (con confirmación javascript implementada en head_view) -->
-                            <input type="button" class="btn btn-primary btn-1g" value="Borrar Carrito" onclick="window.location = '<?= base_url('eliminar_item/'. 'all');?>'">
-                            <!-- Botón para confirmar la compra, redirigiendo a carrito-comprar -->
-                            <input type="button" class="btn btn-primary btn-1g" value="Comprar" onclick="window.location = '#'">
-                        </td>
-                    </tr>
-                    <?php echo form_close(); ?>
-                </table>
+
+        <!-- Mostrar mensaje Flash si existe -->
+        <?php if (session()->getFlashdata('mensaje')): ?>
+            <div class="alert alert-warning alert-dismissible fade show mt-3 mx-3" role="alert">
+                <?= session()->getFlashdata('mensaje') ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
             </div>
-        </div>
         <?php endif; ?>
-        <br>
-    </table>
+
+        <?php if (empty($cart)): ?>
+            <p>Para agregar productos al carrito, hace clic en:</p>
+            <a class="btn btn-warning text-dark mt-2" href="<?= base_url('catalogo') ?>">
+                <i class="fa-solid fa-circle-chevron-left"></i> Volver al catálogo
+            </a>
+        <?php endif; ?>
+
+        <?php if (!empty($cart)): ?>
+            <form action="<?= base_url('actualizar_carrito') ?>" method="post">
+                <table class="table table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th>IMAGEN</th>
+                            <th>PRODUCTO</th>
+                            <th>PRECIO</th>
+                            <th>CANTIDAD</th>
+                            <th>TOTAL</th>
+                            <th>Cancelar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php $gran_total = 0; ?>
+                        <?php foreach ($cart as $item): ?>
+                            <?php $gran_total += $item['price'] * $item['qty']; ?>
+                            
+                            <input type="hidden" name="cart[<?= esc($item['rowid']) ?>][id]" value="<?= esc($item['id']) ?>">
+                            <input type="hidden" name="cart[<?= esc($item['rowid']) ?>][rowid]" value="<?= esc($item['rowid']) ?>">
+                            <input type="hidden" name="cart[<?= esc($item['rowid']) ?>][name]" value="<?= esc($item['name']) ?>">
+                            <input type="hidden" name="cart[<?= esc($item['rowid']) ?>][price]" value="<?= esc($item['price']) ?>">
+                            <input type="hidden" name="cart[<?= esc($item['rowid']) ?>][qty]" value="<?= esc($item['qty']) ?>">
+                            <input type="hidden" name="cart[<?= esc($item['rowid']) ?>][imagen]" value="<?= esc($item['imagen']) ?>">
+                            
+                            
+                            <tr class="table-danger">
+                                <td><img src="<?= base_url('assets/uploads/' . $item['imagen']) ?>" width="80" height="80"></td>
+                                <td><?= esc($item['name']) ?></td>
+                                <td>$ <?= number_format($item['price'], 2) ?></td>
+                                <td>
+                                    <a class="btn btn-sm btn-success" href="<?= base_url('carrito_suma/' . $item['rowid']) ?>">+</a>
+                                    <?= number_format($item['qty']) ?>
+                                    <a class="btn btn-sm btn-danger" href="<?= base_url('carrito_resta/' . $item['rowid']) ?>">-</a>
+                                </td>
+                                <td>$ <?= number_format($item['price'] * $item['qty'], 2) ?></td>
+                                <td><a href="<?= base_url('eliminar_item/' . $item['rowid']) ?>">Eliminar</a></td>
+                            </tr>
+                        <?php endforeach; ?>
+
+                        <tr class="table-light">
+                            <td colspan="4"><strong>Total: $ <?= number_format($gran_total, 2) ?></strong></td>
+                            <td colspan="2" class="text-end">
+                                <input type="button" class="btn btn-primary btn-lg" value="Borrar Carrito" onclick="window.location='<?= base_url('eliminar_item/' . 'all') ?>'">
+                                <input type="button" class="btn btn-secondary btn-lg" value="Comprar" onclick="window.location='<?= base_url('confirmar_compra') ?>'">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        <?php endif; ?>
+    </div>
 </div>

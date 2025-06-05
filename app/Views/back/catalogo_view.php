@@ -23,14 +23,24 @@
                                     <p class="card-text">$<?= number_format($row['precio_vta'], 2) ?></p>
                                     <p class="card-text"><?= ($row['stock'] > 0) ? 'Hay stock' : 'No hay stock' ?></p>
                                     <p class="card-text">Stock disponible: <?= number_format($row['stock']) ?></p>
-                                    
-                                    <!-- Formulario para agregar el producto al carrito -->
-                                    <?= form_open('agregar_carrito') ?>
-                                        <?= form_hidden('id', $row['id']) ?>
-                                        <?= form_hidden('precio_vta', $row['precio_vta']) ?>
-                                        <?= form_hidden('nombre_prod', $row['nombre_prod']) ?>
-                                        <button type="submit" class="btn btn-secondary">Agregar al Carrito</button>
-                                    <?= form_close() ?>
+
+                                    <?php if ($row['stock'] <= 0): ?>
+                                        <p class="text-danger fw-bold">No hay stock disponible</p>
+                                    <?php else: ?>
+                                        <?php if ($row['stock_min'] >= $row['stock']): ?>
+                                            <p class="text-warning fw-bold">Últimas unidades</p>
+                                        <?php endif; ?>
+
+                                        <!-- Formulario para agregar el producto al carrito -->
+                                        <?= form_open('agregar_carrito') ?>
+                                            <?= form_hidden('id', $row['id']) ?>
+                                            <?= form_hidden('precio_vta', $row['precio_vta']) ?>
+                                            <?= form_hidden('nombre_prod', $row['nombre_prod']) ?>
+                                            <?= form_hidden('imagen', $row['imagen']) ?>
+                                            
+                                            <button type="submit" class="btn btn-secondary">Agregar al Carrito</button>
+                                        <?= form_close() ?>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>

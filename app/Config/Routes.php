@@ -39,10 +39,15 @@ $routes->get('/activar_usuario/(:num)', "Usuario_controller::activarUsuario/$1",
 $routes->get('/editar_usuario/(:num)', "Usuario_controller::editarUsuario/$1", ['filter' => 'authAdmin']);
 $routes->post('/actualizar-usuario/(:num)', "Usuario_controller::actualizarUsuario/$1", ['filter' => 'authAdmin']);
 
-//catalogo
+//catalogo y carrito
 $routes->get('/catalogo','Cart_controller::mostrarCatalogo');
 $routes->get('/mostrar_carrito','Cart_controller::mostrarCarrito', ['filter' => 'auth']);
 $routes->get('/actualizar_carrito','Cart_controller::actualizarCarrito', ['filter' => 'auth']);
 $routes->post('/agregar_carrito','Cart_controller::agregarAlCarrito', ['filter' => 'auth']);
 $routes->get('/eliminar_item/(:any)','Cart_controller::remove/$1', ['filter' => 'auth']);
-$routes->get('/eliminar_item/(:any)','Cart_controller::remove/$1', ['filter' => 'auth']);
+$routes->get('/carrito_suma/(:any)','Cart_controller::suma/$1', ['filter' => 'auth']);
+$routes->get('/carrito_resta/(:any)','Cart_controller::resta/$1', ['filter' => 'auth']);
+
+//ventas
+$routes->get('/confirmar_compra','Ventas_controller::registrar_venta', ['filter' => 'auth']);
+$routes->get('/vista_compras/(:any)','Ventas_controller::ver_factura/$1', ['filter' => 'auth']);
