@@ -21,7 +21,6 @@
                                 <div class="card-body catalogo-producto text-center">
                                     <h5 class="card-title fw-bold"><?= $row['nombre_prod'] ?></h5>
                                     <p class="card-text">$<?= number_format($row['precio_vta'], 2) ?></p>
-                                    <p class="card-text"><?= ($row['stock'] > 0) ? 'Hay stock' : 'No hay stock' ?></p>
                                     <p class="card-text">Stock disponible: <?= number_format($row['stock']) ?></p>
 
                                     <?php if ($row['stock'] <= 0): ?>

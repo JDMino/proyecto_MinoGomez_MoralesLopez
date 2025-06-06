@@ -124,7 +124,6 @@ class Cart_controller extends Controller {
 
     public function devolver_carrito() {
         $cart = \Config\Services::Cart();
-
         return $cart->contents();
     }
 }

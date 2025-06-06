@@ -1,5 +1,6 @@
 <?php 
 $session = session();
+$id = $session->get('id_usuario');
 $nombre = $session->get('nombre');
 ?>
 <body class="container">
@@ -56,6 +57,9 @@ $nombre = $session->get('nombre');
                 <a class="nav-link" href="<?= base_url('registro');?>">Registrarse</a>
               </li>
               <?php endif;?>
+              <li class="nav-item">
+                <a class="nav-link" href="<?= base_url('listar_compras/' . $id);?>">Historial de Compras</a>
+              </li>
             </ul>
             <form class="d-flex">
               <input

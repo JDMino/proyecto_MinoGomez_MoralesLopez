@@ -16,6 +16,7 @@
             </thead>
             <tbody>
                 <?php $gran_total = 0; ?>
+                
                 <?php foreach ($cart as $item): ?>
                     <?php $subtotal = $item['price'] * $item['qty']; ?>
                     <?php $gran_total += $subtotal; ?>
@@ -37,8 +38,8 @@
         </table>
 
         <div class="text-end mt-3">
-            <a class="btn btn-primary btn-lg" href="<?= base_url('descargar_factura') ?>">Descargar Factura</a>
-            <a class="btn btn-secondary btn-lg" href="<?= base_url('volver_inicio') ?>">Volver al Inicio</a>
+            
+            <a class="btn btn-secondary btn-lg" href="<?= base_url('/') ?>">Volver al Inicio</a>
         </div>
     </div>
 </div>
