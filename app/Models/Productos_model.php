@@ -6,7 +6,7 @@ class Productos_model extends Model
 {
     protected $table = 'productos';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['nombre_prod', 'imagen', 'categoria_id', 'precio', 'precio_vta', 'stock', 'stock_min', 'eliminado'];
+    protected $allowedFields = ['nombre_prod', 'marca', 'imagen', 'categoria_id', 'precio', 'precio_vta', 'stock', 'stock_min', 'eliminado'];
 
     // Obtener todos los productos
     public function getProductoAll() {
@@ -29,5 +29,35 @@ class Productos_model extends Model
                         ->set('stock', $nuevo_stock)
                         ->where('id', $producto_id)
                         ->update();
+    }
+
+    // Obtener productos filtrados
+    public function getProductosFiltrados($categoria = null, $precio_min = null, $precio_max = null, $marca = null) {
+        $query = $this->db->table($this->table)->where('eliminado', 'NO');
+
+        if ($categoria) {
+            $query->where('categoria_id', $categoria);
+        }
+        if ($precio_min) {
+            $query->where('precio_vta >=', $precio_min);
+        }
+        if ($precio_max) {
+            $query->where('precio_vta <=', $precio_max);
+        }
+        if ($marca) {
+            $query->where('marca', $marca); // Filtra por marca en el nuevo campo
+        }
+
+        return $query->get()->getResultArray();
+    }
+
+    // Obtener todas las marcas únicas
+    public function getMarcas() {
+    return $this->db->table($this->table)
+                    ->select('marca')
+                    ->distinct()
+                    ->where('eliminado', 'NO')
+                    ->get()
+                    ->getResultArray();
     }
 }

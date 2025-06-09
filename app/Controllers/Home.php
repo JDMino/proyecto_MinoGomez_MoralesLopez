@@ -1,17 +1,23 @@
 <?php
 
 namespace App\Controllers;
+Use App\Models\Categorias_model;
 
 class Home extends BaseController
 {
-    public function index(): string
-    {
-        $data = ['titulo' => 'RandomTech'];
-        return view('front\head_view', $data).
-                view('front\nav_view').
-                view('front\main_view').
-                view('front\footer_view');
+    public function index() {
+        $categoriasModel = new Categorias_model();
+
+        // Obtener categorías activas desde la base de datos
+        $data['categorias'] = $categoriasModel->getCategorias();
+
+        // Cargar la vista con las categorías dinámicas
+        return view('front/head_view', ['titulo' => 'Inicio'])
+            . view('front/nav_view')
+            . view('front/main_view', $data)
+            . view('front/footer_view');
     }
+
     
     public function terminos_condiciones():string
     {   

@@ -10,6 +10,11 @@
                 </div>
 
                 <div class="mb-3">
+                    <label for="marca" class="form-label crud-label">Marca del Producto</label>
+                    <input type="text" class="form-control crud-form-control" id="marca" name="marca" required>
+                </div>
+
+                <div class="mb-3">
                     <label for="imagen" class="form-label crud-label">Imagen del Producto</label>
                     <input type="file" class="form-control crud-form-control" id="imagen" name="imagen" accept="image/*" required>
                 </div>

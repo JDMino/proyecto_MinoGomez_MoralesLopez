@@ -17,6 +17,8 @@ class Cart_controller extends Controller {
     }
 
     public function mostrarCatalogo() {
+
+        /*
         $productModel = new Productos_model();
         
         //realizo la consulta para mostrar todos los productos
@@ -27,6 +29,29 @@ class Cart_controller extends Controller {
                 view('front\nav_view').
                 view('back\catalogo_view', $data).
                 view('front\footer_view');
+                */
+
+        $productModel = new Productos_model();
+        $categoriasModel = new Categorias_model();
+        
+        // Obtener parámetros de filtrado
+        $categoria = $this->request->getGet('categoria');
+        $precio_min = $this->request->getGet('precio_min');
+        $precio_max = $this->request->getGet('precio_max');
+        $marca = $this->request->getGet('marca');
+
+        // Obtener productos filtrados
+        $data['producto'] = $productModel->getProductosFiltrados($categoria, $precio_min, $precio_max, $marca);
+        $data['categorias'] = $categoriasModel->getCategorias();
+
+        $data['marcas'] = $productModel->getMarcas();
+
+        $dato = ['titulo' => 'Catálogo'];
+        return view('front/head_view', $dato)
+            . view('front/nav_view')
+            . view('back/catalogo_view', $data)
+            . view('front/footer_view');
+        
     }
 
     public function agregarAlCarrito() {
@@ -76,7 +101,7 @@ class Cart_controller extends Controller {
     public function mostrarCarrito() {
         
         $cart = \Config\Services::cart();
-        $data['cart'] = $cart->contents(); // Aquí pasamos el carrito correctamente a la vista
+        $data['cart'] = $cart->contents(); // Acá pasamos el carrito correctamente a la vista
 
         $dato = array('titulo' => 'Confirmar compra');
 

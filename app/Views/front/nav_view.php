@@ -12,11 +12,12 @@ $nombre = $session->get('nombre');
             <img src="<?= base_url('assets/img/logo/logo.png'); ?>" alt="logo" class="logo">
           </a>
 
-          <!-- Ícono del carrito SIEMPRE visible -->
-          <a href="#" class="d-lg-none me-2">
-            <img src="<?= base_url('assets/img/carrito/carro.png'); ?>" alt="carro" class="carro">
-          </a>
-
+          <!-- Ícono del carrito móviles//// -->
+          <?php if ($session->get('logged_in')): ?>
+            <a href="<?= base_url('mostrar_carrito')?>" class="d-lg-none me-2">
+              <img src="<?= base_url('assets/img/carrito/carro.png'); ?>" alt="carro" class="carro">
+            </a>
+            <?php endif; ?>
           <button
             class="navbar-toggler"
             type="button"
@@ -57,9 +58,11 @@ $nombre = $session->get('nombre');
                 <a class="nav-link" href="<?= base_url('registro');?>">Registrarse</a>
               </li>
               <?php endif;?>
+              <?php if ($session->get('logged_in')): ?>
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('listar_compras/' . $id);?>">Historial de Compras</a>
               </li>
+              <?php endif;?>
             </ul>
             <form class="d-flex">
               <input
@@ -84,7 +87,7 @@ $nombre = $session->get('nombre');
                 </a>
                 </li>
               <?php endif;?>
-            <!-- Ícono del carrito visible en móviles -->
+            <!-- Ícono del carrito PC///-->
             <?php if ($session->get('logged_in')): ?>
               <a href="<?= base_url('mostrar_carrito')?>" class="d-none d-lg-inline">
                 <img src="<?= base_url('assets/img/carrito/carro.png'); ?>" alt="carro" class="carro">

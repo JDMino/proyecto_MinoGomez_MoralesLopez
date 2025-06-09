@@ -33,84 +33,22 @@
           </button>
         </div>
       </div>
+      <!--Inicio Carrusel categorías-->
       <div class="carousel-container">
           <button class="button prev" onclick="moverDiapositiva(-1)">&#10094;</button>
           <div class="carousel" id="carousel">
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/almacenamiento.png')?>" alt="Almacenamiento">
-                    <p class="category">Almacenamiento</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/audio.png')?>" alt="Audio">
-                    <p class="category">Audio</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/fuente.webp')?>" alt="Fuentes">
-                    <p class="category">Fuentes</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/gabinetes.png')?>" alt="Gabinetes">
-                    <p class="category">Gabinetes</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/monitores.png')?>" alt="Monitores">
-                    <p class="category">Monitores</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/motherboard.webp')?>" alt="Motherboards">
-                    <p class="category">Motherboards</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/perifericos.png')?>" alt="Perifericos">
-                    <p class="category">Perifericos</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/placaDeVideo.webp')?>" alt="Placas de Video">
-                    <p class="category">Placas de Video</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/procesadores.png')?>" alt="Procesadores">
-                    <p class="category">Procesadores</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/ram.png')?>" alt="Memorias RAM">
-                    <p class="category">Memorias RAM</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/refrigeracion.png')?>" alt="Refrigeración">
-                    <p class="category">Refrigeración</p>
-                </a>
-            </div>
-            <div class="slide">
-                <a href="<?= base_url('productos');?>" class="link-categoria">
-                    <img src="<?= base_url('assets/img/categorias/sillas.png')?>" alt="Sillas">
-                    <p class="category">Sillas</p>
-                </a>
-            </div>
+              <?php foreach ($categorias as $categoria): ?>
+                  <div class="slide">
+                      <a href="<?= base_url('catalogo') ?>?categoria=<?= $categoria['id'] ?>" class="link-categoria">
+                          <img src="<?= base_url('assets/img/categorias/' . strtolower(str_replace(' ', '', $categoria['descripcion'])) . '.png') ?>" alt="<?= $categoria['descripcion'] ?>">
+                          <p class="category"><?= $categoria['descripcion'] ?></p>
+                      </a>
+                  </div>
+              <?php endforeach; ?>
           </div>
           <button class="button next" onclick="moverDiapositiva(1)">&#10095;</button>
       </div>
+      <!--Fin Carrusel categorías-->
     </main>
     <!--Fin main-->
     <section class="section-ofertas">
@@ -151,13 +89,27 @@
       </div>
     </section>
     <section class="section-marcas d-flex justify-content-center">
-      <img src="<?= base_url('assets/img/marcas/amd_marca.jpg')?>" alt="AMD" class="img-marcas">
-      <img src="<?= base_url('assets/img/marcas/asus.jpg')?>" alt="asus" class="img-marcas">
-      <img src="<?= base_url('assets/img/marcas/intel.jpg')?>" alt="intel" class="img-marcas">
-      <img src="<?= base_url('assets/img/marcas/hp.jpg')?>" alt="hp" class="img-marcas">
-      <img src="<?= base_url('assets/img/marcas/corsair.jpg')?>" alt="corsair" class="img-marcas">
-      <img src="<?= base_url('assets/img/marcas/adata.jpg')?>" alt="adata" class="img-marcas">
-      <img src="<?= base_url('assets/img/marcas/gigabyte.jpg')?>" alt="gigabyte" class="img-marcas">
+        <a href="<?= base_url('catalogo') ?>?marca=AMD">
+            <img src="<?= base_url('assets/img/marcas/amd_marca.jpg') ?>" alt="AMD" class="img-marcas">
+        </a>
+        <a href="<?= base_url('catalogo') ?>?marca=Asus">
+            <img src="<?= base_url('assets/img/marcas/asus.jpg') ?>" alt="Asus" class="img-marcas">
+        </a>
+        <a href="<?= base_url('catalogo') ?>?marca=Intel">
+            <img src="<?= base_url('assets/img/marcas/intel.jpg') ?>" alt="Intel" class="img-marcas">
+        </a>
+        <a href="<?= base_url('catalogo') ?>?marca=HP">
+            <img src="<?= base_url('assets/img/marcas/hp.jpg') ?>" alt="HP" class="img-marcas">
+        </a>
+        <a href="<?= base_url('catalogo') ?>?marca=Corsair">
+            <img src="<?= base_url('assets/img/marcas/corsair.jpg') ?>" alt="Corsair" class="img-marcas">
+        </a>
+        <a href="<?= base_url('catalogo') ?>?marca=Adata">
+            <img src="<?= base_url('assets/img/marcas/adata.jpg') ?>" alt="Adata" class="img-marcas">
+        </a>
+        <a href="<?= base_url('catalogo') ?>?marca=Gigabyte">
+            <img src="<?= base_url('assets/img/marcas/gigabyte.jpg') ?>" alt="Gigabyte" class="img-marcas">
+        </a>
     </section>
     <section class="info-extra">
       <div class="div-info-extra">

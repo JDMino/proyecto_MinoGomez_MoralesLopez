@@ -9,6 +9,7 @@ class Categorias_model extends Model
     protected $allowedFields = ['descripcion', 'activo'];
 
     public function getCategorias() {
-        return $this->findAll();
+        return $this->select('id, descripcion')->where('activo', 1)->get()->getResultArray();
     }
+
 }

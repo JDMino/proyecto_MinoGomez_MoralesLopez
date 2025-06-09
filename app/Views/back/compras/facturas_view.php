@@ -1,6 +1,7 @@
 
 <h2 class="header-sections">Lista de Compras</h2>    
     <div class="container">
+        <div class="table-responsive">
         <table class="table">
             <thead>
                 <tr>
@@ -17,4 +18,5 @@
                 <?php endforeach; ?>
             </tbody>
         </table>
+        </div>
     </div>

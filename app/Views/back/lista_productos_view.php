@@ -20,6 +20,7 @@
                 <tr class="test1">
                     <th>ID</th>
                     <th>Producto</th>
+                    <th>Marca</th>
                     <th>Imagen</th>
                     <th>Precio</th>
                     <th>Precio de Venta</th>
@@ -34,6 +35,7 @@
                         <tr class="test1">
                             <td><?= $prod['id'] ?></td>
                             <td class="nombre-producto"><?= $prod['nombre_prod'] ?></td>
+                            <td class="marca-producto"><?= $prod['marca'] ?></td>
                             <td class="text-center align-middle">
                                 <img src="<?= base_url('assets/uploads/' . $prod['imagen']) ?>" alt="Imagen Producto" class="img-fluid" style="width: 100px; height: auto;">
                             </td>

@@ -14,6 +14,11 @@
             </div>
 
             <div class="mb-3">
+                <label for="marca" class="form-label crud-label">Marca del Producto</label>
+                <input type="text" class="form-control crud-form-control" id="marca" name="marca" value="<?= $producto['marca'] ?>" required>
+            </div>
+
+            <div class="mb-3">
                 <label for="imagen" class="form-label crud-label">Imagen del Producto</label>
                 <input type="file" class="form-control file-upload" id="imagen" name="imagen" accept="image/*">
                 <img src="<?= base_url('assets/uploads/'.$producto['imagen']) ?>" width="100" class="mt-2">

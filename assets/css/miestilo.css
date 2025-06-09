@@ -657,6 +657,59 @@ main {
 /*Fin CRUD estilos*/
 
 /*Catalogo*/
+.filtro-productos {
+  background-color: #505f6f;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-filtroProductos {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.label-filtroProductos {
+  color: #d1d1d1; 
+  font-weight: 600;
+}
+
+.form-filtroProductos {
+  background-color: #3c4756;
+  color: #ffffff;
+  border: 1px solid #6c7a89;
+  border-radius: 5px;
+}
+
+.form-filtroProductos:focus {
+  border-color: #f8c471;
+  box-shadow: 0px 0px 5px rgba(248, 196, 113, 0.5);
+}
+
+.btn-catalogo {
+  background-color: #f8c471; 
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-catalogo:hover {
+  background-color: #e67e22;
+  transform: scale(1.05);
+}
+
+.btn-catalogo:focus {
+  background-color: #e67e22;
+}
+
 .catalogo-section {
   height: 100%;
   display: flex;
@@ -675,16 +728,6 @@ main {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
-}
-
-.btn-catalogo {
-  background-color: #007bff;
-  transition: 0.3s ease-in-out;
-}
-
-.btn-catalogo:hover {
-  transform: scale(1.05);
-  background-color: #0056b3;
 }
 /*Fin catalogo*/
 
@@ -797,7 +840,7 @@ main {
   .dashboard-menu {
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
   }
 
   #buscarProducto {

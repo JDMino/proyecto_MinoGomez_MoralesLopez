@@ -61,8 +61,9 @@ class Producto_controller extends Controller {
 
         //construimos las reglas de validación
         $input = $this->validate([
-            //'nombre_prod', 'imagen', 'categoria_id', 'precio', 'precio_vta', 'stock', 'stock_min'
+            //'nombre_prod', 'marca', 'imagen', 'categoria_id', 'precio', 'precio_vta', 'stock', 'stock_min'
             'nombre_prod' => 'required|min_length[3]',
+            'marca' => 'required|min_length[3]',
             'imagen' => 'uploaded[imagen]',
             'categoria_id' => 'is_not_unique[categorias.id]',
             'precio' => 'required|numeric',
@@ -95,6 +96,7 @@ class Producto_controller extends Controller {
 
             $data = [
                 'nombre_prod' => $this->request->getVar('nombre_prod'),
+                'marca' => $this->request->getVar('marca'),
                 'imagen' => $img->getName(),
                 'categoria_id' => $this->request->getVar('categoria_id'),
                 'precio' => $this->request->getVar('precio'),
@@ -179,6 +181,7 @@ class Producto_controller extends Controller {
 
         $data = [
             'nombre_prod' => $this->request->getVar('nombre_prod'),
+            'marca' => $this->request->getVar('marca'),
             'categoria_id' => $this->request->getVar('categoria_id'),
             'precio' => $this->request->getVar('precio'),
             'precio_vta' => $this->request->getVar('precio_vta'),

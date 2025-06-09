@@ -1,7 +1,53 @@
 <div class="container colorF">
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col">
+        <div class="col-md-12">
+            <div class="container-fluid mt-2 mb-3">
+                <h2 class="header-sections titulo-HeaderSections text-center">Productos</h2>
+            </div>
+
+            <!-- Panel de filtros en una fila por encima del catálogo -->
+            <div class="card p-3 mb-3 filtro-productos">
+                <h4 class="text-center titulo-filtroProductos">Filtrar Productos</h4>
+                <form method="GET" action="<?= base_url('catalogo') ?>">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="categoria" class="form-label label-filtroProductos">Categoría:</label>
+                            <select name="categoria" id="categoria" class="form-control form-filtroProductos">
+                                <option value="">Todas</option>
+                                <?php foreach($categorias as $cat): ?>
+                                    <option value="<?= $cat['id'] ?>" <?= (isset($_GET['categoria']) && $_GET['categoria'] == $cat['id']) ? 'selected' : '' ?>>
+                                        <?= $cat['descripcion'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="marca" class="form-label label-filtroProductos">Marca:</label>
+                            <select name="marca" id="marca" class="form-control form-filtroProductos">
+                                <option value="">Todas</option>
+                                <?php foreach($marcas as $marca): ?>
+                                    <option value="<?= $marca['marca'] ?>" <?= (isset($_GET['marca']) && $_GET['marca'] == $marca['marca']) ? 'selected' : '' ?>>
+                                        <?= $marca['marca'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="precio_min" class="form-label label-filtroProductos">Precio mínimo:</label>
+                            <input type="number" name="precio_min" id="precio_min" class="form-control form-filtroProductos" value="<?= $_GET['precio_min'] ?? '' ?>">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="precio_max" class="form-label label-filtroProductos">Precio máximo:</label>
+                            <input type="number" name="precio_max" id="precio_max" class="form-control form-filtroProductos" value="<?= $_GET['precio_max'] ?? '' ?>">
+                        </div>
+                        <div class="col-md-12 text-center mt-3">
+                            <button type="submit" class="btn btn-catalogo">Aplicar Filtros</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Catálogo de productos -->
             <div class="row">
                 <?php if (!$producto): ?>
                     <div class="container-fluid">
@@ -10,9 +56,6 @@
                         </div>
                     </div>
                 <?php else: ?>
-                    <div class="container-fluid mt-2 mb-3">
-                        <h2 class="header-sections titulo-HeaderSections text-center">Todos los Productos</h2>
-                    </div>
                     <?php foreach($producto as $row): ?>
                         <div class="col-md-4 mt-3">
                             <div class="card catalogo-section">
@@ -37,7 +80,7 @@
                                             <?= form_hidden('nombre_prod', $row['nombre_prod']) ?>
                                             <?= form_hidden('imagen', $row['imagen']) ?>
                                             
-                                            <button type="submit" class="btn btn-secondary">Agregar al Carrito</button>
+                                            <button type="submit" class="btn btn-catalogo">Agregar al Carrito</button>
                                         <?= form_close() ?>
                                     <?php endif; ?>
                                 </div>
