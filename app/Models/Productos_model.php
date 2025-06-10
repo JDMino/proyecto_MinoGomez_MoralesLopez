@@ -60,4 +60,18 @@ class Productos_model extends Model
                     ->get()
                     ->getResultArray();
     }
+
+    public function getProductosDestacados() {
+        return $this->db->table('ventas_detalle')
+                        ->select('productos.id, productos.nombre_prod, productos.marca, productos.imagen, productos.precio_vta, SUM(ventas_detalle.cantidad) AS total_vendido')
+                        ->join('productos', 'productos.id = ventas_detalle.producto_id')
+                        ->where('productos.stock >', 0) // Filtra productos con stock
+                        ->groupBy('productos.id')
+                        ->orderBy('total_vendido', 'DESC')
+                        ->limit(4)
+                        ->get()
+                        ->getResultArray();
+    }
+
+
 }

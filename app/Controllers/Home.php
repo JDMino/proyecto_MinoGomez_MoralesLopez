@@ -2,11 +2,14 @@
 
 namespace App\Controllers;
 Use App\Models\Categorias_model;
+Use App\Models\Productos_model;
 
 class Home extends BaseController
 {
     public function index() {
         $categoriasModel = new Categorias_model();
+        $productoModel = new Productos_model();
+        $data['productos_destacados'] = $productoModel->getProductosDestacados();
 
         // Obtener categorías activas desde la base de datos
         $data['categorias'] = $categoriasModel->getCategorias();

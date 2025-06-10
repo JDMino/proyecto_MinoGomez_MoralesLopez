@@ -181,23 +181,23 @@ main {
 }
 /* Fin Carrusel múltiple */
 
-/*Sección Ofertas*/
+/*Sección destacados*/
 
-.section-ofertas * {
+.section-destacados * {
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
   margin: 10px;
 }
 
-.section-ofertas {
+.section-destacados {
   background-color: #74888c;
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
 }
 
-.header-ofertas {
+.header-destacados {
   background-color: #000000;
   padding: 30px;
   color: #fff;
@@ -205,7 +205,7 @@ main {
   text-transform: uppercase;
 }
 
-.cards-ofertas {
+.cards-destacados {
   flex-wrap: wrap;
 }
 
@@ -235,7 +235,7 @@ main {
   transform: scale(1.1);
 }
 
-/*Fin sección ofertas*/
+/*Fin sección destacados*/
 
 /*Sección Marcas*/
 
@@ -675,7 +675,7 @@ main {
 }
 
 .label-filtroProductos {
-  color: #d1d1d1; 
+  color: #d1d1d1;
   font-weight: 600;
 }
 
@@ -692,7 +692,7 @@ main {
 }
 
 .btn-catalogo {
-  background-color: #f8c471; 
+  background-color: #f8c471;
   color: #333;
   font-weight: bold;
   padding: 10px;

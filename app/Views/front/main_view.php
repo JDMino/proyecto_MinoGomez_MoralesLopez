@@ -51,43 +51,32 @@
       <!--Fin Carrusel categorías-->
     </main>
     <!--Fin main-->
-    <section class="section-ofertas">
-      <h4 class="header-ofertas">¡Ofertas Imbatibles!</h4>
-      <div class="cards-ofertas d-flex justify-content-around">
-        <div class="card" style="width: 18rem;">
-          <img src="<?= base_url('assets/img/productos/MemoriaTeamDDR564GB.jpg')?>" class="card-img-top" alt="RAM">
-          <div class="card-body">
-            <h5 class="card-title">Memoria RAM Team DDR5 64GB</h5>
-            <h6 class="card-precio">$99.999</h6>
-            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
-          </div>
+    <section class="section-destacados">
+        <h4 class="header-destacados">¡Productos Destacados!</h4>
+        <div class="cards-destacados d-flex justify-content-around">
+            <?php foreach ($productos_destacados as $producto): ?>
+            <div class="card" style="width: 18rem;">
+                <img src="<?= base_url('assets/uploads/'.$producto['imagen']) ?>" class="card-img-top" alt="<?= $producto['nombre_prod'] ?>">
+                <div class="card-body">
+                    <h5 class="card-title"><?= $producto['nombre_prod'] ?></h5>
+                    <h6 class="card-precio">$<?= number_format($producto['precio_vta'], 2, ',', '.') ?></h6>
+                    
+
+                  <!-- Formulario para agregar el producto al carrito -->
+                  <form action="<?= base_url('agregar_carrito') ?>" method="post">
+                      <input type="hidden" name="id" value="<?= $producto['id'] ?>">
+                      <input type="hidden" name="precio_vta" value="<?= $producto['precio_vta'] ?>">
+                      <input type="hidden" name="nombre_prod" value="<?= $producto['nombre_prod'] ?>">
+                      <input type="hidden" name="imagen" value="<?= $producto['imagen'] ?>">
+                      <button type="submit" class="btn btn-catalogo">Agregar al Carrito</button>
+                  </form>
+
+                </div>
+            </div>
+            <?php endforeach; ?>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="<?= base_url('assets/img/productos/DISCOSOLIDOM.21TBADATA.jpg')?>" class="card-img-top" alt="SSD">
-          <div class="card-body">
-            <h5 class="card-title">Memoria M2 1TB ADATA</h5>
-            <h6 class="card-precio">$99.999</h6>
-            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="<?= base_url('assets/img/productos/SillaGamerNitro.jpg')?>" class="card-img-top" alt="Sillas">
-          <div class="card-body">
-            <h5 class="card-title">Silla Gamer Nitro</h5>
-            <h6 class="card-precio">$99.999</h6>
-            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="<?= base_url('assets/img/productos/FuenteCorsair750W80PlusBronze.jpg')?>" class="card-img-top" alt="Fuente">
-          <div class="card-body">
-            <h5 class="card-title">Fuente Corsair 750W 80PlusBronze</h5>
-            <h6 class="card-precio">$99.9999</h6>
-            <a href="<?= base_url('productos');?>" class="btn btn-primary card-btn">Ver más</a>
-          </div>
-        </div>
-      </div>
     </section>
+
     <section class="section-marcas d-flex justify-content-center">
         <a href="<?= base_url('catalogo') ?>?marca=AMD">
             <img src="<?= base_url('assets/img/marcas/amd_marca.jpg') ?>" alt="AMD" class="img-marcas">
