@@ -27,7 +27,7 @@
             </thead>
             <tbody class="body-tabla" id="tablaUsuarios">
                 <?php foreach ($usuarios as $usuario): ?>
-                    <?php if ($usuario['baja'] === 'SI' && $usuario['perfil_id'] != 1): ?>
+                    <?php if ($usuario['baja'] === 'SI'): ?>
                         <tr class="">
                             <td><?= $usuario['id_usuario'] ?></td>
                             <td class="nombre-usuario"><?= $usuario['nombre'] ?></td>

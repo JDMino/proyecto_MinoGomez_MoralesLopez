@@ -98,7 +98,8 @@ class Ventas_controller extends Controller
     }
 
     public function ver_factura_usuario($usuario_id) {
-        $detalle_ventas = new Ventas_cabecera_model();
+        
+        /*$detalle_ventas = new Ventas_cabecera_model();
         $data['ventas'] = $detalle_ventas->getVentasCabecera($usuario_id);
 
         //var_dump($data['ventas']);
@@ -109,7 +110,17 @@ class Ventas_controller extends Controller
         return view('front\head_view', $dato).
                 view('front\nav_view').
                 view('back\compras\facturas_view', $data).
-                view('front\footer_view');
+                view('front\footer_view');*/
+
+        $ventasModel = new Ventas_cabecera_model();
+        $data['compras'] = $ventasModel->getHistorialCompras($usuario_id);
+
+        $dato = ['titulo' => 'Historial de Compras'];
+        return view('front\head_view', $dato).
+            view('front\nav_view').
+            view('back\compras\facturas_view', $data).
+            view('front\footer_view');
+
     }
 
 }
