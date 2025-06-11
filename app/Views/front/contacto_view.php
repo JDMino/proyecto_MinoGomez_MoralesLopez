@@ -14,21 +14,4 @@
     <p><strong>Email:</strong> contacto@randomtech.com.ar</p>
     <p><strong>Horario de atención:</strong> Lunes a Sábados de 9:00 a 13:00 y de 17:00 a 21:00</p>
 </div>
-
-
-<div class="formulario-contacto">
-    <h2>Envíanos un mensaje</h2>
-    <form action="#" method="POST" class="form-container">
-        <label for="nombre" class="label-contacto">Nombre:</label>
-        <input class="input-contacto" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-
-        <label for="email" class="label-contacto">Correo electrónico:</label>
-        <input class="input-contacto" type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
-
-        <label for="mensaje" class="label-contacto">Mensaje:</label>
-         <textarea class="text-contacto" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
-
-        <button type="submit" class="button-contacto">Enviar</button>
-    </form>
-</div>
 </main>

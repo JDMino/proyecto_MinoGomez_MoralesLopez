@@ -66,6 +66,7 @@ class Home extends BaseController
         return view('front\head_view', $data).
                 view('front\nav_view').
                 view('front\contacto_view').
+                view('back\consultas\consulta_view').
                 view('front\footer_view');
     }
 

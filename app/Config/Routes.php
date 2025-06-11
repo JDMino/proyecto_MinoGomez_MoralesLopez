@@ -9,7 +9,6 @@ $routes->get('/', 'Home::index');
 $routes->get('/terminos', 'Home::terminos_condiciones');
 $routes->get('/comercializacion', 'Home::comercializacion');
 $routes->get('/quienes_somos','Home::quienes_somos');
-$routes->get('/contacto', 'Home::contacto');
 
 //registrarse
 $routes->get('/registro', 'Home::registro');
@@ -53,3 +52,8 @@ $routes->get('/confirmar_compra','Ventas_controller::registrar_venta', ['filter'
 $routes->get('/vista_compras/(:any)','Ventas_controller::ver_factura/$1', ['filter' => 'auth']);
 $routes->get('/listar_compras/(:any)','Ventas_controller::ver_factura_usuario/$1', ['filter' => 'auth']);
 $routes->get('/listar_ventas','Ventas_controller::listar_ventas', ['filter' => 'auth']);
+
+//consultas
+$routes->get('/contacto', 'Home::contacto');
+$routes->post('/enviar-consulta', 'Usuario_controller::formValidationConsultas');
+$routes->get('/listar_consultas', "Usuario_controller::listar_consultas", ['filter' => 'authAdmin']);
