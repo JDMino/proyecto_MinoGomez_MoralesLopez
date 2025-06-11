@@ -1,5 +1,5 @@
     <div class="container mt-5">
-        <h2 class="header-sections titulo-HeaderSections text-center">Alta de Producto</h2>
+        <h2 class="header-sections titulo-HeaderSections text-center"><?= $titulo ?></h2>
 
         <div class="card crud-card shadow p-4">
             <form action="<?= base_url('guardar-producto') ?>" method="post" enctype="multipart/form-data">

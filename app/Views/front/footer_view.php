@@ -19,4 +19,5 @@
   <script src="assets\js\carruselMultiple.js"></script>
   <script src="assets\js\buscadorProducto.js"></script>
   <script src="assets\js\buscadorUsuarios.js"></script>
+  <script src="assets\js\buscadorCatalogo.js"></script>
 </html>

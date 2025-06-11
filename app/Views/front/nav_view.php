@@ -64,14 +64,6 @@ $nombre = $session->get('nombre');
               </li>
               <?php endif;?>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Buscar"
-                aria-label="Search"
-              />
-            </form>
             <?php if (!$session->get('logged_in')): ?>
               <li class="list-unstyled">
                 <a class="nav-link" href="<?= base_url('login')?>">

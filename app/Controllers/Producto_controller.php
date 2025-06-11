@@ -19,7 +19,7 @@ class Producto_controller extends Controller {
         //realizo la consulta para mostrar todos los productos
         $data['producto'] = $productModel->getProductoAll();
 
-        $dato = ['titulo' => 'Crud_Productos'];
+        $dato = ['titulo' => 'Lista de Productos'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
                 view('back\lista_productos_view', $data).
@@ -50,7 +50,7 @@ class Producto_controller extends Controller {
         $productoModel = new Productos_model();
         $data['producto'] = $productoModel->getProductoAll();
 
-        $dato = ['titulo' => 'Alta Producto'];
+        $dato = ['titulo' => 'Alta de Producto'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
                 view('back\alta_producto_view', $data).
@@ -82,7 +82,7 @@ class Producto_controller extends Controller {
             $data['categorias'] = $categoriasModel->getCategorias();
             $data['validation'] = $this->validator;
 
-            $dato = ['titulo' => 'Alta Producto'];
+            $dato = ['titulo' => 'Alta de Producto'];
             return view('front\head_view', $dato).
                     view('front\nav_view').
                     view('back\alta_producto_view', $data).

@@ -1,6 +1,6 @@
 
     <div>
-        <h2 class="header-sections titulo-HeaderSections">Registro de Usuario</h2>
+        <h2 class="header-sections titulo-HeaderSections"><?= $titulo ?></h2>
         <?php $validation = \Config\Services::validation(); ?>
         <form action="<?= base_url('enviar-form') ?>" method="post" class="form-registro">
             <?=csrf_field();?>

@@ -3,7 +3,7 @@
     <div class="alert alert-danger" role="alert"><?= session()->getFlashdata('error'); ?></div>
 <?php endif; ?>
 <div class="container mt-5">
-    <h2 class="header-sections titulo-HeaderSections text-center">Editar Usuario</h2>
+    <h2 class="header-sections titulo-HeaderSections text-center"><?= $titulo ?></h2>
 
     <div class="card crud-card shadow p-4">
         <form action="<?= base_url('actualizar-usuario/'.$usuario['id_usuario']) ?>" method="post" enctype="multipart/form-data">

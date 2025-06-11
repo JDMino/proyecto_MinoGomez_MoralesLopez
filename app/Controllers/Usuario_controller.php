@@ -66,7 +66,7 @@ class Usuario_controller extends Controller {
         //realizo la consulta para mostrar todos los usuarios
         $data['usuarios'] = $usuarioModel->getUsuariosAll();
 
-        $dato = ['titulo' => 'Usuarios'];
+        $dato = ['titulo' => 'Usuarios Eliminados'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
                 view('back\usuarios_eliminados_view', $data).

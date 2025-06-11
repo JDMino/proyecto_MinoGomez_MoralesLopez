@@ -1,4 +1,4 @@
-<h2 class="header-sections titulo-HeaderSections">Panel de Administración</h2>
+<h2 class="header-sections titulo-HeaderSections"><?= $titulo ?></h2>
 <div class="dashboard-menu d-flex justify-content-between w-100 gap-3">
         <a href="<?= base_url('/listar_productos')?>" class="dashboard-link">Productos</a>
         <a href="#" class=" dashboard-link">Pedidos</a>

@@ -3,7 +3,7 @@
     <div class="alert alert-danger" role="alert"><?= session()->getFlashdata('error'); ?></div>
     <?php endif; ?>
 <div class="container mt-5">
-    <h2 class="header-sections titulo-HeaderSections text-center">Editar Producto</h2>
+    <h2 class="header-sections titulo-HeaderSections text-center"><?= $titulo ?></h2>
 
     <div class="card crud-card shadow p-4">
         <form action="<?= base_url('actualizar-producto/'.$producto['id']) ?>" method="post" enctype="multipart/form-data">

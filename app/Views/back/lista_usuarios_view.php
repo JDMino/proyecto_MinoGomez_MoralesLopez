@@ -1,4 +1,4 @@
-<h2 class="header-sections titulo-HeaderSections">Usuarios</h2>
+<h2 class="header-sections titulo-HeaderSections"><?= $titulo ?></h2>
 <?php if(!empty(session()->getFlashdata('success'))): ?>
     <div class="alert alert-success" role="alert"><?= session()->getFlashdata('success'); ?></div>
 <?php elseif(!empty(session()->getFlashdata('msj-usuario-eliminado'))): ?>

@@ -1,5 +1,5 @@
 <div class="login-container">
-    <h2 class="header-sections titulo-HeaderSections">Iniciar sesión</h2>
+    <h2 class="header-sections titulo-HeaderSections"><?= $titulo ?></h2>
     <form action="<?= base_url('enviar-login') ?>" method="POST" class="form-login">
 
      <label for="email">Email:</label>
