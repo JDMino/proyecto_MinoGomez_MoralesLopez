@@ -123,4 +123,25 @@ class Ventas_controller extends Controller
 
     }
 
+    public function listar_ventas() {
+        $ventasModel = new Ventas_cabecera_model();
+        $usuariosModel = new Usuarios_model(); // Para obtener lista de usuarios
+
+        $usuario_id = $this->request->getGet('usuario_id');
+        $fecha_inicio = $this->request->getGet('fecha_inicio');
+        $fecha_fin = $this->request->getGet('fecha_fin');
+
+        $data['ventas'] = $ventasModel->getTodasLasVentas($usuario_id, $fecha_inicio, $fecha_fin);
+        $data['usuarios'] = $usuariosModel->findAll(); // Obtener lista de usuarios para el filtro
+
+        // Calcular el total de ventas
+        $data['total_ventas'] = array_sum(array_column($data['ventas'], 'total_venta'));
+
+        $dato = ['titulo' => 'Administrar Ventas'];
+        return view('front\head_view', $dato).
+            view('front\nav_view').
+            view('back\listar_ventas_view', $data).
+            view('front\footer_view');
+    }
+
 }

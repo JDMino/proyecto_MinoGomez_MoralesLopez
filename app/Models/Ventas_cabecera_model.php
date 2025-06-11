@@ -50,4 +50,39 @@ class Ventas_cabecera_model extends Model
         // Ejecuta la consulta y obtiene los resultados en formato de array asociativo
         return $builder->get()->getResultArray();
     }
+
+
+    public function getTodasLasVentas($usuario_id = null, $fecha_inicio = null, $fecha_fin = null) {
+        $db = \Config\Database::connect();
+        $builder = $db->table('ventas_cabecera');
+
+        // Selección de datos
+        $builder->select('ventas_cabecera.id_ventas_cabecera, ventas_cabecera.fecha, ventas_cabecera.total_venta, 
+                        usuarios.nombre AS usuario, productos.nombre_prod, productos.marca, productos.imagen, 
+                        ventas_detalle.cantidad, ventas_detalle.precio');
+
+        // Uniones con otras tablas
+        $builder->join('usuarios', 'usuarios.id_usuario = ventas_cabecera.usuario_id');
+        $builder->join('ventas_detalle', 'ventas_detalle.venta_id = ventas_cabecera.id_ventas_cabecera');
+        $builder->join('productos', 'productos.id = ventas_detalle.producto_id');
+
+        // Ordenamiento por fecha
+        $builder->orderBy('ventas_cabecera.fecha', 'DESC');
+
+        // Filtrar por usuario si se especifica
+        if ($usuario_id) {
+            $builder->where('ventas_cabecera.usuario_id', $usuario_id);
+        }
+
+        // Filtrar por rango de fechas si se especifica
+        if ($fecha_inicio && $fecha_fin) {
+            $builder->where('ventas_cabecera.fecha >=', $fecha_inicio);
+            $builder->where('ventas_cabecera.fecha <=', $fecha_fin);
+        }
+
+        // Ejecución de la consulta y retorno de resultados
+        return $builder->get()->getResultArray();
+    }
+
+
 }

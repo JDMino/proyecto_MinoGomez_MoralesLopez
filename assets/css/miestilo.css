@@ -657,7 +657,7 @@ main {
 /*Fin CRUD estilos*/
 
 /*Catalogo*/
-.filtro-productos {
+.filtro {
   background-color: #505f6f;
   color: #ffffff;
   padding: 15px;
@@ -665,7 +665,7 @@ main {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.titulo-filtroProductos {
+.titulo-filtro {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -674,24 +674,24 @@ main {
   text-transform: uppercase;
 }
 
-.label-filtroProductos {
+.label-filtro {
   color: #d1d1d1;
   font-weight: 600;
 }
 
-.form-filtroProductos {
+.form-filtro {
   background-color: #3c4756;
   color: #ffffff;
   border: 1px solid #6c7a89;
   border-radius: 5px;
 }
 
-.form-filtroProductos:focus {
+.form-filtro:focus {
   border-color: #f8c471;
   box-shadow: 0px 0px 5px rgba(248, 196, 113, 0.5);
 }
 
-.btn-catalogo {
+.btn-filtro {
   background-color: #f8c471;
   color: #333;
   font-weight: bold;
@@ -701,12 +701,12 @@ main {
   transition: 0.3s ease-in-out;
 }
 
-.btn-catalogo:hover {
+.btn-filtro:hover {
   background-color: #e67e22;
   transform: scale(1.05);
 }
 
-.btn-catalogo:focus {
+.btn-filtro:focus {
   background-color: #e67e22;
 }
 

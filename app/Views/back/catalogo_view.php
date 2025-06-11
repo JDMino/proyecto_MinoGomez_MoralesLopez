@@ -6,13 +6,13 @@
             </div>
 
             <!-- Panel de filtros en una fila por encima del catálogo -->
-            <div class="card p-3 mb-3 filtro-productos">
-                <h4 class="text-center titulo-filtroProductos">Filtrar Productos</h4>
+            <div class="card p-3 mb-3 filtro">
+                <h4 class="text-center titulo-filtro">Filtrar Productos</h4>
                 <form method="GET" action="<?= base_url('catalogo') ?>">
                     <div class="row">
                         <div class="col-md-3">
-                            <label for="categoria" class="form-label label-filtroProductos">Categoría:</label>
-                            <select name="categoria" id="categoria" class="form-control form-filtroProductos">
+                            <label for="categoria" class="form-label label-filtro">Categoría:</label>
+                            <select name="categoria" id="categoria" class="form-control form-filtro">
                                 <option value="">Todas</option>
                                 <?php foreach($categorias as $cat): ?>
                                     <option value="<?= $cat['id'] ?>" <?= (isset($_GET['categoria']) && $_GET['categoria'] == $cat['id']) ? 'selected' : '' ?>>
@@ -22,8 +22,8 @@
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <label for="marca" class="form-label label-filtroProductos">Marca:</label>
-                            <select name="marca" id="marca" class="form-control form-filtroProductos">
+                            <label for="marca" class="form-label label-filtro">Marca:</label>
+                            <select name="marca" id="marca" class="form-control form-filtro">
                                 <option value="">Todas</option>
                                 <?php foreach($marcas as $marca): ?>
                                     <option value="<?= $marca['marca'] ?>" <?= (isset($_GET['marca']) && $_GET['marca'] == $marca['marca']) ? 'selected' : '' ?>>
@@ -33,15 +33,15 @@
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <label for="precio_min" class="form-label label-filtroProductos">Precio mínimo:</label>
-                            <input type="number" name="precio_min" id="precio_min" class="form-control form-filtroProductos" value="<?= $_GET['precio_min'] ?? '' ?>">
+                            <label for="precio_min" class="form-label label-filtro">Precio mínimo:</label>
+                            <input type="number" name="precio_min" id="precio_min" class="form-control form-filtro" value="<?= $_GET['precio_min'] ?? '' ?>">
                         </div>
                         <div class="col-md-3">
-                            <label for="precio_max" class="form-label label-filtroProductos">Precio máximo:</label>
-                            <input type="number" name="precio_max" id="precio_max" class="form-control form-filtroProductos" value="<?= $_GET['precio_max'] ?? '' ?>">
+                            <label for="precio_max" class="form-label label-filtro">Precio máximo:</label>
+                            <input type="number" name="precio_max" id="precio_max" class="form-control form-filtro" value="<?= $_GET['precio_max'] ?? '' ?>">
                         </div>
                         <div class="col-md-12 text-center mt-3">
-                            <button type="submit" class="btn btn-catalogo">Aplicar Filtros</button>
+                            <button type="submit" class="btn btn-filtro">Aplicar Filtros</button>
                         </div>
                     </div>
                 </form>
@@ -84,7 +84,7 @@
                                             <?= form_hidden('nombre_prod', $row['nombre_prod']) ?>
                                             <?= form_hidden('imagen', $row['imagen']) ?>
                                             
-                                            <button type="submit" class="btn btn-catalogo">Agregar al Carrito</button>
+                                            <button type="submit" class="btn btn-filtro">Agregar al Carrito</button>
                                         <?= form_close() ?>
                                     <?php endif; ?>
                                 </div>
