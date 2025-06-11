@@ -57,3 +57,7 @@ $routes->get('/listar_ventas','Ventas_controller::listar_ventas', ['filter' => '
 $routes->get('/contacto', 'Home::contacto');
 $routes->post('/enviar-consulta', 'Usuario_controller::formValidationConsultas');
 $routes->get('/listar_consultas', "Usuario_controller::listar_consultas", ['filter' => 'authAdmin']);
+$routes->get('/responder_consulta/(:num)', "Usuario_controller::responder_consulta/$1", ['filter' => 'authAdmin']);
+$routes->post('/guardar_respuesta/(:num)', "Usuario_controller::guardar_respuesta/$1", ['filter' => 'authAdmin']);
+$routes->get('/eliminar_consulta/(:num)', "Usuario_controller::eliminar_consulta/$1", ['filter' => 'authAdmin']);
+$routes->get('/consultas_eliminadas', "Usuario_controller::listar_consultas_eliminadas", ['filter' => 'authAdmin']);

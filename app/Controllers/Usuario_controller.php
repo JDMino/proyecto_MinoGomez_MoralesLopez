@@ -205,7 +205,7 @@ class Usuario_controller extends Controller {
         //realizo la consulta para mostrar todos los usuarios
         $data['consultas'] = $consultasModel->getConsultasAll();
 
-        $dato = ['titulo' => 'Usuarios'];
+        $dato = ['titulo' => 'Lista de Consultas'];
         return view('front\head_view', $dato).
                 view('front\nav_view').
                 view('back\consultas\listar_consultas_view', $data).
@@ -221,9 +221,10 @@ class Usuario_controller extends Controller {
             return redirect()->to('/listar_consultas_admin');
         }
 
-        return view('front/head_view')
+        $dato = ['titulo' => 'Responder consulta'];
+        return view('front/head_view', $dato)
                .view('front/nav_view')
-               .view('back/responder_consulta_view', ['consulta' => $consulta])
+               .view('back/consultas/responder_consulta_view', ['consulta' => $consulta])
                .view('front/footer_view');
     }
 
@@ -234,11 +235,47 @@ class Usuario_controller extends Controller {
 
         if (!$id_consulta || !$respuesta) {
             session()->setFlashdata('error', 'Debe ingresar una respuesta.');
-            return redirect()->to('/responder_consulta/' . $id_consulta);
+            return redirect()->to('/responder_consulta' . $id_consulta);
         }
 
         $consultasModel->responderConsulta($id_consulta, $respuesta);
         session()->setFlashdata('success', 'Respuesta guardada con éxito.');
-        return redirect()->to('/listar_consultas_admin');
+        return redirect()->to('/listar_consultas');
     }
+
+    public function eliminar_consulta($id_consulta) {
+        $consultasModel = new Consultas_model();
+        $consulta = $consultasModel->find($id_consulta);
+
+        if (!$consulta) {
+            session()->setFlashdata('error', 'Consulta no encontrada.');
+            return redirect()->to('/listar_consultas_admin');
+        }
+
+        if (!empty($consulta['respuesta'])) {
+            $consultasModel->actualizarEstado($id_consulta, 'CONSULTA ELIMINADA');
+            session()->setFlashdata('success', 'Consulta Eliminada.');
+        } else {
+            session()->setFlashdata('error', 'No puedes marcar como respondida una consulta sin respuesta.');
+        }
+
+        return redirect()->to('/listar_consultas');
+    }
+
+
+    public function listar_consultas_eliminadas() {
+    $consultasModel = new Consultas_model();
+
+    // Filtrar solo consultas con estado "CONSULTA ELIMINADA"
+    $data['consultas'] = $consultasModel->where('estado', 'CONSULTA ELIMINADA')->findAll();
+    $data['titulo'] = 'Consultas Eliminadas';
+
+    return view('front/head_view', $data)
+           .view('front/nav_view')
+           .view('back/consultas/consultas_eliminadas_view', $data)
+           .view('front/footer_view');
 }
+
+
+}
+

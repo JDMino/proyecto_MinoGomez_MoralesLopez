@@ -8,7 +8,7 @@
             <p class="card-text"><strong>Teléfono:</strong> <?= $consulta['telefono'] ?></p>
             <p class="card-text"><strong>Mensaje:</strong> <?= $consulta['mensaje'] ?></p>
 
-            <form action="<?= base_url('guardar_respuesta') ?>" method="POST">
+            <form action="<?= base_url('guardar_respuesta/' .$consulta['id_consulta']) ?>" method="POST">
                 <input type="hidden" name="id_consulta" value="<?= $consulta['id_consulta'] ?>">
                 
                 <label for="respuesta" class="form-label">Respuesta:</label>
