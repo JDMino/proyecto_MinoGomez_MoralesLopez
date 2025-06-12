@@ -90,14 +90,24 @@ class Ventas_controller extends Controller
 
     public function ver_factura_usuario($usuario_id) {
         $ventasModel = new Ventas_cabecera_model();
-        $data['compras'] = $ventasModel->getHistorialCompras($usuario_id);
+
+        // Capturar filtros GET
+        $fecha_inicio = $this->request->getGet('fecha_inicio');
+        $fecha_fin = $this->request->getGet('fecha_fin');
+        $total_inicio = $this->request->getGet('total_inicio');
+        $total_fin = $this->request->getGet('total_fin');
+
+        // Validar valores para evitar errores en la consulta
+        $total_inicio = is_numeric($total_inicio) ? $total_inicio : null;
+        $total_fin = is_numeric($total_fin) ? $total_fin : null;
+
+        $data['compras'] = $ventasModel->getHistorialCompras($usuario_id, $fecha_inicio, $fecha_fin, $total_inicio, $total_fin);
 
         $dato = ['titulo' => 'Historial de Compras'];
         return view('front\head_view', $dato).
             view('front\nav_view').
             view('back\compras\facturas_view', $data).
             view('front\footer_view');
-
     }
 
     public function listar_ventas() {
@@ -107,8 +117,14 @@ class Ventas_controller extends Controller
         $usuario_id = $this->request->getGet('usuario_id');
         $fecha_inicio = $this->request->getGet('fecha_inicio');
         $fecha_fin = $this->request->getGet('fecha_fin');
+        $total_inicio = $this->request->getGet('total_inicio');
+        $total_fin = $this->request->getGet('total_fin');
 
-        $data['ventas'] = $ventasModel->getTodasLasVentas($usuario_id, $fecha_inicio, $fecha_fin);
+        $total_inicio = is_numeric($total_inicio) ? $total_inicio : null;
+        $total_fin = is_numeric($total_fin) ? $total_fin : null;
+
+        $data['ventas'] = $ventasModel->getTodasLasVentas($usuario_id, $fecha_inicio, $fecha_fin, $total_inicio, $total_fin);
+
         $data['usuarios'] = $usuariosModel->findAll(); // Obtener lista de usuarios para el filtro
 
         // Calcular el total de ventas

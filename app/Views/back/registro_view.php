@@ -14,7 +14,7 @@
             <?php endif?>
             
             <label for="nombre">Nombre:</label>
-            <input class="input-registro" type="text" id="nombre" name="nombre" placeholder="Tu nombre"><br><br>
+            <input class="input-registro" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
             <?php if($validation->getError('nombre')) {?>
                 <div class="alert alert-danger mt-2">
                     <?= $error = $validation->getError('nombre');?>

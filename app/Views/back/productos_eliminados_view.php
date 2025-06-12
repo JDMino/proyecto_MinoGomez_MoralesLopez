@@ -36,8 +36,8 @@
                                 <img src="<?= base_url('assets/uploads/' . $prod['imagen']) ?>" alt="Imagen Producto" class="img-fluid" style="width: 100px; height: auto;">
                             </td>
                             <td><?= $prod['categoria_id'] ?></td>
-                            <td>$<?= number_format($prod['precio'], 2) ?></td>
-                            <td>$<?= number_format($prod['precio_vta'], 2) ?></td>
+                            <td>$<?= number_format($prod['precio'], 2, ',', '.') ?></td>
+                            <td>$<?= number_format($prod['precio_vta'], 2, ',', '.') ?></td>
                             <td><?= $prod['stock'] ?></td>
                             <td><?= $prod['stock_min'] ?></td>
                             <td>

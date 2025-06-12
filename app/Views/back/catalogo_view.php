@@ -42,13 +42,14 @@
                         </div>
                         <div class="col-md-12 text-center mt-3">
                             <button type="submit" class="btn btn-filtro">Aplicar Filtros</button>
+                            <a href="<?= base_url('catalogo') ?>" class="btn btn-danger btn-crud ms-2">Limpiar Filtros</a>
                         </div>
                     </div>
                 </form>
             </div>
              <div class="mb-3 mt-5 d-flex justify-content-end">
              <div class="col-12 col-md-4">
-             <input type="text" id="buscarProductoCatalogo" class="form-control" placeholder="Buscar producto...">
+             <input type="text" id="buscarProductoCatalogo" class="form-control" placeholder="Nombre del producto...">
               </div>
             </div>
             <!-- Catálogo de productos -->
@@ -67,7 +68,7 @@
                                 <img src="<?= base_url('assets/uploads/' . $row['imagen']) ?>" class="card-img-top img-catalogo" alt="<?= $row['nombre_prod'] ?>">
                                 <div class="card-body catalogo-producto text-center">
                                     <h5 class="card-title fw-bold"><?= $row['nombre_prod'] ?></h5>
-                                    <p class="card-text card-precio fw-bold">$<?= number_format($row['precio_vta'], 2) ?></p>
+                                    <p class="card-text card-precio fw-bold">$<?= number_format($row['precio_vta'], 2, ',', '.') ?></p>
                                     <p class="card-text">Stock disponible: <?= number_format($row['stock']) ?></p>
 
                                     <?php if ($row['stock'] <= 0): ?>

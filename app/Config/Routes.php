@@ -55,9 +55,9 @@ $routes->get('/listar_ventas','Ventas_controller::listar_ventas', ['filter' => '
 
 //consultas
 $routes->get('/contacto', 'Home::contacto');
-$routes->post('/enviar-consulta', 'Usuario_controller::formValidationConsultas');
-$routes->get('/listar_consultas', "Usuario_controller::listar_consultas", ['filter' => 'authAdmin']);
-$routes->get('/responder_consulta/(:num)', "Usuario_controller::responder_consulta/$1", ['filter' => 'authAdmin']);
-$routes->post('/guardar_respuesta/(:num)', "Usuario_controller::guardar_respuesta/$1", ['filter' => 'authAdmin']);
-$routes->get('/eliminar_consulta/(:num)', "Usuario_controller::eliminar_consulta/$1", ['filter' => 'authAdmin']);
-$routes->get('/consultas_eliminadas', "Usuario_controller::listar_consultas_eliminadas", ['filter' => 'authAdmin']);
+$routes->post('/enviar-consulta', 'Consultas_controller::formValidationConsultas');
+$routes->get('/listar_consultas', "Consultas_controller::listar_consultas", ['filter' => 'authAdmin']);
+$routes->get('/responder_consulta/(:num)', "Consultas_controller::responder_consulta/$1", ['filter' => 'authAdmin']);
+$routes->post('/guardar_respuesta/(:num)', "Consultas_controller::guardar_respuesta/$1", ['filter' => 'authAdmin']);
+$routes->get('/eliminar_consulta/(:num)', "Consultas_controller::eliminar_consulta/$1", ['filter' => 'authAdmin']);
+$routes->get('/consultas_eliminadas', "Consultas_controller::listar_consultas_eliminadas", ['filter' => 'authAdmin']);

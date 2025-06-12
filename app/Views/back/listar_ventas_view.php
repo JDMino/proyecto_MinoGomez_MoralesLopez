@@ -24,9 +24,22 @@
                 <label for="fecha_fin" class="form-label label-filtro">Fecha fin:</label>
                 <input type="date" name="fecha_fin" id="fecha_fin" class="form-control form-filtro" value="<?= $_GET['fecha_fin'] ?? '' ?>">
             </div>
+           <div class="col-md-12 d-flex justify-content-center mt-3">
+            <div class="me-2">
+                <label for="total_inicio" class="form-label label-filtro">Total Venta mínimo:</label>
+                <input type="number" name="total_inicio" id="total_inicio" class="form-control form-filtro" value="<?= $_GET['total_inicio'] ?? '' ?>">
+             </div>
+
+            <div class="ms-2">
+                <label for="total_fin" class="form-label label-filtro">Total Venta máximo:</label>
+                <input type="number" name="total_fin" id="total_fin" class="form-control form-filtro" value="<?= $_GET['total_fin'] ?? '' ?>">
+            </div>
+</div>
+
             
             <div class="col-12 text-center mt-3">
                 <button type="submit" class="btn btn-filtro">Aplicar Filtros</button>
+                <a href="<?= base_url('listar_ventas') ?>" class="btn btn-danger btn-crud ms-2">Limpiar Filtros</a>
             </div>
         </div>
     </form>
