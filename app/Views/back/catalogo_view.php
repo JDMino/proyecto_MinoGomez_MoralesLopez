@@ -96,3 +96,4 @@
         </div>
     </div>
 </div>
+<script src="assets\js\buscadorCatalogo.js"></script>

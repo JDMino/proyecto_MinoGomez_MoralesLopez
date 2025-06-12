@@ -68,7 +68,7 @@
                       <input type="hidden" name="precio_vta" value="<?= $producto['precio_vta'] ?>">
                       <input type="hidden" name="nombre_prod" value="<?= $producto['nombre_prod'] ?>">
                       <input type="hidden" name="imagen" value="<?= $producto['imagen'] ?>">
-                      <button type="submit" class="btn btn-catalogo">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-filtro">Agregar al Carrito</button>
                   </form>
 
                 </div>
@@ -138,3 +138,5 @@
         <p>Tarjetas de crédito VISA y MASTER con 3, 6 y 12 cuotas sin interés</p>
       </div>
     </section>
+
+<script src="assets\js\carruselMultiple.js"></script>

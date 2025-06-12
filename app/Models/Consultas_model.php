@@ -19,4 +19,9 @@ class Consultas_model extends Model
     public function actualizarEstado($id, $nuevoEstado) {
         return $this->update($id, ['estado' => $nuevoEstado]);
     }
+
+    public function getConsultasEliminadas() {
+        return $this->where('estado', 'CONSULTA ELIMINADA')->findAll();
+    }
+    
 }

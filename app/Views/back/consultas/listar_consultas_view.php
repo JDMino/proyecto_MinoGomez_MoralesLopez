@@ -15,8 +15,8 @@
     </div>
 
     <div class="table-responsive">
-        <table class="table table-success table-bordered border-light table-striped table-hover w-100">
-            <thead class="header-tabla">
+        <table class="table table-success table-bordered border-light table-striped table-hover text-center w-100">
+            <thead class="table-dark">
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
@@ -31,7 +31,7 @@
             </thead>
             <tbody class="body-tabla" id="tablaConsultas">
                 <?php foreach ($consultas as $consulta): ?>
-                    <?php if ($consulta['estado'] !== 'CONSULTA ELIMINADA'): ?> <!-- Filtra las consultas eliminadas -->
+                    <?php if ($consulta['estado'] !== 'CONSULTA ELIMINADA'): ?> <!-- Filtra las consultas no eliminadas -->
                     <tr>
                         <td><?= $consulta['id_consulta'] ?></td>
                         <td><?= $consulta['nombre'] ?></td>
@@ -39,15 +39,15 @@
                         <td><?= $consulta['email'] ?></td>
                         <td><?= $consulta['telefono'] ?></td>
                         <td><?= $consulta['mensaje'] ?></td>
-                        <td><?= $consulta['estado'] ?></td>
+                        <td> <span class="badge bg-primary"> <?= $consulta['estado'] ?></span></td>
                         <td>
                             <?= !empty($consulta['respuesta']) ? htmlspecialchars($consulta['respuesta']) : 'Pendiente' ?>
                         </td>
                         <td>
                             <?php if (empty($consulta['respuesta'])): ?>
-                                <a href="<?= base_url('responder_consulta/' . $consulta['id_consulta']) ?>" class="btn btn-primary btn-sm">Responder</a>
+                                <a href="<?= base_url('responder_consulta/' . $consulta['id_consulta']) ?>" class="btn btn-warning btn-crud btn-sm">Responder</a>
                             <?php elseif (!empty($consulta['respuesta'])): ?>
-                                <a href="<?= base_url('eliminar_consulta/' . $consulta['id_consulta']) ?>" class="btn btn-danger btn-sm">Eliminar</a>
+                                <a href="<?= base_url('eliminar_consulta/' . $consulta['id_consulta']) ?>" class="btn btn-danger btn-crud btn-sm">Eliminar</a>
                             <?php endif; ?>
                         </td>
                     </tr>
@@ -58,30 +58,5 @@
     </div>
 </div>
 
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        let inputBuscar = document.getElementById("buscarConsulta");
-        let tablaConsultas = document.getElementById("tablaConsultas").getElementsByTagName("tr");
-
-        inputBuscar.addEventListener("keyup", function () {
-            let filtro = inputBuscar.value.toLowerCase();
-
-            for (let fila of tablaConsultas) {
-                let id = fila.cells[0].textContent.toLowerCase();
-                let nombre = fila.cells[1].textContent.toLowerCase();
-                let apellido = fila.cells[2].textContent.toLowerCase();
-                let email = fila.cells[3].textContent.toLowerCase();
-                let telefono = fila.cells[4].textContent.toLowerCase();
-                let mensaje = fila.cells[5].textContent.toLowerCase();
-
-                if (id.includes(filtro) || nombre.includes(filtro) || apellido.includes(filtro) || email.includes(filtro) || telefono.includes(filtro) || mensaje.includes(filtro)) {
-                    fila.style.display = "";
-                } else {
-                    fila.style.display = "none";
-                }
-            }
-        });
-    });
-</script>
+<script src="assets\js\buscadorConsultas.js"></script>
 

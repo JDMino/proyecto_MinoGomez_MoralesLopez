@@ -28,13 +28,6 @@ class Ventas_controller extends Controller
 
         foreach ($cart_contents as $item) {
             $producto = $productoModel->getProducto($item['id']);
-            //var_dump(($producto['stock']));
-            //print_r(array_keys($producto));
-            //exit;
-
-            //exit;
-            //if ($producto && isset($producto['stock']) && $producto['stock'] >= $item['qty']) {
-
             if ($producto &&  $producto['stock'] >= $item['qty']) {
                 $productos_validos[] = $item;
                 $total += $item['subtotal'];
@@ -87,8 +80,6 @@ class Ventas_controller extends Controller
         $data['cart'] = $cartController->devolver_carrito();
 
         $dato['titulo'] = "Mi compra";
-        //var_dump($cartController->devolver_carrito());
-        //exit;
         $cartController->remove('all');
 
         return view('front\head_view', $dato).
@@ -98,20 +89,6 @@ class Ventas_controller extends Controller
     }
 
     public function ver_factura_usuario($usuario_id) {
-        
-        /*$detalle_ventas = new Ventas_cabecera_model();
-        $data['ventas'] = $detalle_ventas->getVentasCabecera($usuario_id);
-
-        //var_dump($data['ventas']);
-        //die;
-
-        $dato['titulo'] = "Lista de compras";
-
-        return view('front\head_view', $dato).
-                view('front\nav_view').
-                view('back\compras\facturas_view', $data).
-                view('front\footer_view');*/
-
         $ventasModel = new Ventas_cabecera_model();
         $data['compras'] = $ventasModel->getHistorialCompras($usuario_id);
 

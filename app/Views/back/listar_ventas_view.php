@@ -1,4 +1,4 @@
-<h2 class="header-sections">Historial de Ventas</h2>    
+<h2 class="header-sections titulo-HeaderSections">Historial de Ventas</h2>    
 
 <!-- Panel de filtros -->
 <div class="card p-3 mb-3 filtro">
@@ -25,7 +25,7 @@
                 <input type="date" name="fecha_fin" id="fecha_fin" class="form-control form-filtro" value="<?= $_GET['fecha_fin'] ?? '' ?>">
             </div>
             
-            <div class="col-md-3 text-center mt-3">
+            <div class="col-12 text-center mt-3">
                 <button type="submit" class="btn btn-filtro">Aplicar Filtros</button>
             </div>
         </div>
@@ -86,7 +86,10 @@
     </div>
 
     <!-- Total de ventas -->
-    <div class="total-ventas text-end">
-        <h4>Total de Ventas: <strong>$<?= number_format($total_ventas, 2, ',', '.') ?></strong></h4>
-    </div>
+   <div class="text-end p-3 bg-dark text-white rounded">
+    <h4 class="fw-bold">
+        Total de Ventas: <strong>$<?= number_format($total_ventas, 2, ',', '.') ?></strong>
+    </h4>
+</div>
+
 </div>

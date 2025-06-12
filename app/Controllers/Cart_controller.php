@@ -18,19 +18,6 @@ class Cart_controller extends Controller {
 
     public function mostrarCatalogo() {
 
-        /*
-        $productModel = new Productos_model();
-        
-        //realizo la consulta para mostrar todos los productos
-        $data['producto'] = $productModel->getProductosActivos();
-
-        $dato = ['titulo' => 'Catálogo'];
-        return view('front\head_view', $dato).
-                view('front\nav_view').
-                view('back\catalogo_view', $data).
-                view('front\footer_view');
-                */
-
         $productModel = new Productos_model();
         $categoriasModel = new Categorias_model();
         

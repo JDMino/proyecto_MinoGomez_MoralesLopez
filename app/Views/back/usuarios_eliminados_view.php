@@ -47,3 +47,5 @@
         </table>
     </div>
 </div>
+
+ <script src="assets\js\buscadorUsuarios.js"></script>

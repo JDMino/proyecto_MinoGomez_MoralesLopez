@@ -21,6 +21,11 @@
         <label for="mensaje" class="label-contacto">Mensaje:</label>
          <textarea class="text-contacto" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
 
-        <button type="submit" class="button-contacto">Enviar</button>
+        <div class="d-flex justify-content-between mt-3">
+            <button type="submit" class="button-contacto">Enviar</button>
+            <button type="button" class="button-contacto limpiar-btn">Limpiar</button>
+        </div>
     </form>
 </div>
+
+<script src="assets\js\botonReiniciarCampos.js"></script>

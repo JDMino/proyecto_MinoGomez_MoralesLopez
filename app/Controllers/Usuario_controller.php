@@ -267,7 +267,7 @@ class Usuario_controller extends Controller {
     $consultasModel = new Consultas_model();
 
     // Filtrar solo consultas con estado "CONSULTA ELIMINADA"
-    $data['consultas'] = $consultasModel->where('estado', 'CONSULTA ELIMINADA')->findAll();
+    $data['consultas'] = $consultasModel->getConsultasEliminadas();
     $data['titulo'] = 'Consultas Eliminadas';
 
     return view('front/head_view', $data)

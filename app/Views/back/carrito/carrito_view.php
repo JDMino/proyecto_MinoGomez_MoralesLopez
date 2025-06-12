@@ -53,20 +53,20 @@
                                 <td><?= esc($item['name']) ?></td>
                                 <td>$ <?= number_format($item['price'], 2) ?></td>
                                 <td>
-                                    <a class="btn btn-sm btn-success" href="<?= base_url('carrito_suma/' . $item['rowid']) ?>">+</a>
+                                    <a class="btn btn-sm btn-success btn-crud" href="<?= base_url('carrito_suma/' . $item['rowid']) ?>">+</a>
                                     <?= number_format($item['qty']) ?>
-                                    <a class="btn btn-sm btn-danger" href="<?= base_url('carrito_resta/' . $item['rowid']) ?>">-</a>
+                                    <a class="btn btn-sm btn-danger btn-crud" href="<?= base_url('carrito_resta/' . $item['rowid']) ?>">-</a>
                                 </td>
                                 <td>$ <?= number_format($item['price'] * $item['qty'], 2) ?></td>
-                                <td><a href="<?= base_url('eliminar_item/' . $item['rowid']) ?>">Eliminar</a></td>
+                                <td><a class="btn btn-danger btn-crud"href="<?= base_url('eliminar_item/' . $item['rowid']) ?>">Eliminar</a></td>
                             </tr>
                         <?php endforeach; ?>
 
                         <tr class="table-dark">
                             <td colspan="4"><strong>Total: $ <?= number_format($gran_total, 2) ?></strong></td>
                             <td colspan="2" class="text-end">
-                                <input type="button" class="btn btn-danger" value="Borrar Carrito" onclick="window.location='<?= base_url('eliminar_item/' . 'all') ?>'">
-                                <input type="button" class="btn btn-warning" value="Comprar" onclick="window.location='<?= base_url('confirmar_compra') ?>'">
+                                <input type="button" class="btn btn-danger btn-crud" value="Borrar Carrito" onclick="window.location='<?= base_url('eliminar_item/' . 'all') ?>'">
+                                <input type="button" class="btn btn-warning btn-crud" value="Comprar" onclick="window.location='<?= base_url('confirmar_compra') ?>'">
                             </td>
                         </tr>
                     </tbody>

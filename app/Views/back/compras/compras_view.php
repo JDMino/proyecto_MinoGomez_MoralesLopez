@@ -1,7 +1,7 @@
 <div class="container-fluid" id="venta">
     <div class="sale">
         <div class="heading">
-            <h2 class="text-center header-sections">Resumen de Venta</h2>
+            <h2 class="text-center header-sections titulo-HeaderSections">Resumen de Venta</h2>
         </div>
     <div class="table-responsive">
         <table class="table table-hover table-dark">
@@ -30,7 +30,7 @@
                     </tr>
                 <?php endforeach; ?>
 
-                <tr class="table-light">
+                <tr class="table-dark">
                     <td colspan="4"><strong>Total de Venta:</strong></td>
                     <td><strong>$ <?= number_format($gran_total, 2) ?></strong></td>
                 </tr>
@@ -39,7 +39,7 @@
     </div>
         <div class="text-end mt-3">
             
-            <a class="btn btn-secondary btn-lg" href="<?= base_url('/') ?>">Volver al Inicio</a>
+            <a class="btn btn-primary fw-bold" href="<?= base_url('/') ?>">Volver al Inicio</a>
         </div>
     </div>
 </div>

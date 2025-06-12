@@ -54,3 +54,4 @@
         </table>
     </div>
 </div>
+<script src="assets\js\buscadorProducto.js"></script>
