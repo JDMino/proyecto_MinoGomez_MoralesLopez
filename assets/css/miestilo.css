@@ -154,7 +154,7 @@ main {
   color: #ffffff;
 }
 
-@media (min-width: 769px) {
+@m (min-width: 769px) {
   .slide {
     flex: 0 0 33.33%; /* Para escritorio */
   }

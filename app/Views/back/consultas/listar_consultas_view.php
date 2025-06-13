@@ -41,7 +41,7 @@
                         <td><?= $consulta['mensaje'] ?></td>
                         <td> <span class="badge bg-primary"> <?= $consulta['estado'] ?></span></td>
                         <td>
-                            <?= !empty($consulta['respuesta']) ? htmlspecialchars($consulta['respuesta']) : 'Pendiente' ?>
+                            <?= !empty($consulta['respuesta']) ? ($consulta['respuesta']) : 'Pendiente' ?>
                         </td>
                         <td>
                             <?php if (empty($consulta['respuesta'])): ?>

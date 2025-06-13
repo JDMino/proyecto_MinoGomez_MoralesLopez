@@ -18,7 +18,6 @@
         <table class="table table-success table-bordered  border-light table-striped table-hover  w-100">
             <thead class="header-tabla">
                 <tr class="">
-                    <th>ID</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
                     <th>Usuario</th>
@@ -32,7 +31,6 @@
                 <?php foreach ($usuarios as $usuario): ?>
                     <?php if ($usuario['baja'] != 'SI'): ?>
                         <tr class="">
-                            <td><?= $usuario['id_usuario'] ?></td>
                             <td class="nombre-usuario"><?= $usuario['nombre'] ?></td>
                             <td class="apellido-usuario"><?= $usuario['apellido'] ?></td>
                             <td class="usuario-usuario"><?= $usuario['usuario'] ?></td>
@@ -40,8 +38,10 @@
                             <td class="perfil-usuario"><?= $usuario['perfil_id'] ?></td>
                             <td class="baja-usuario"><?= $usuario['baja'] ?></td>
                             <td>
+                                <?php if ($usuario['perfil_id'] != '1'): ?>
                                 <a href="<?= base_url('editar_usuario/' . $usuario['id_usuario']) ?>" class="btn btn-crud btn-warning btn-sm">Editar</a>
                                 <a href="<?= base_url('eliminar_usuario/' . $usuario['id_usuario']) ?>" class="btn btn-crud btn-danger btn-sm">Borrar</a>
+                                <?php endif; ?>
                             </td>
                         </tr>
                     <?php endif; ?>
