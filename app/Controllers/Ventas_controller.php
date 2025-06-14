@@ -88,7 +88,15 @@ class Ventas_controller extends Controller
                 view('front\footer_view');
     }
 
-    public function ver_factura_usuario($usuario_id) {
+    public function listar_compras($usuario_id) {
+        //si un cliente intenta ingresar a la lista de compras de otro usuario, probando IDs en la barra de direcciones:
+        $session = session();
+        $id_usuario = $session->get('id_usuario');
+        if ($id_usuario != $usuario_id) {
+            return redirect()->to(base_url('/')); //vuelve a la página de inicio
+        }
+
+        //si id_usuario y usuario_id coinciden, entonces se muestra la lista de compras:
         $ventasModel = new Ventas_cabecera_model();
 
         // Capturar filtros GET

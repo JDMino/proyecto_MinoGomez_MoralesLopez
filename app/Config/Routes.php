@@ -50,7 +50,7 @@ $routes->get('/carrito_resta/(:any)','Cart_controller::resta/$1', ['filter' => '
 //ventas
 $routes->get('/confirmar_compra','Ventas_controller::registrar_venta', ['filter' => 'auth']);
 $routes->get('/vista_compras/(:any)','Ventas_controller::ver_factura/$1', ['filter' => 'auth']);
-$routes->get('/listar_compras/(:any)','Ventas_controller::ver_factura_usuario/$1', ['filter' => 'auth']);
+$routes->get('/listar_compras/(:any)','Ventas_controller::listar_compras/$1', ['filter' => 'auth']);
 $routes->get('/listar_ventas','Ventas_controller::listar_ventas', ['filter' => 'auth']);
 
 //consultas

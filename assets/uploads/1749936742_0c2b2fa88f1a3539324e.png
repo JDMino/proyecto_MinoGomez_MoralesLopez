@@ -1,0 +1,1814 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="es" class="theme-light">
+
+<head>
+    <meta name="facebook-domain-verification" content="s7fclbz5mto7kvd8zbajoy5nm9tpgp" />
+    <!-- 
+    Google tag (gtag.js) -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=GTM-5HDKXRZ' type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'GTM-5HDKXRZ');
+    </script>
+    <!-- Google tag (gtag.js) end -->
+    <style>
+        html {
+            visibility: hidden;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/css/main/Areas/item.css?v=Zlr2yLvF2ZuLlB-yycYMH49yYmrD1qG7_HXQ-Rofjcs" />
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <!-- Google Tag Manager -->
+    <script type="ec4d75c0ce65c8966b1c514e-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5HDKXRZ');</script>
+    <!-- End Google Tag Manager -->
+    
+        <title>Disco S&#xF6;lido SSD ADATA LEGEND 710 5</title>
+        <meta content="Disco S&#xF6;lido SSD ADATA LEGEND 710 512GB M.2 2280 PCIe Gen3 x4 2400MB/s" name="description">
+        <meta content="Intel Amd Hardware" name="keywords">
+        <meta content="LOGG HARDSTORE" name="author">
+        <link rel="shortcut icon">
+            <meta name="Procesadores Intel" content="Procesadores Intel solo en LOGG" property="Logg"/>
+            <meta name="Disco S&#xF6;lido SSD ADATA LEGEND 710 5" content="og:title"/>
+            <meta name="http://www.logg.com.ar/ProductDetail/ADATA-LEGEND-710-512GB" content="og:url"/>
+            <meta name="&lt;p&gt;&lt;strong&gt;Mejora Tu Creatividad&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;LEGEND 710 utiliz" content="og:description"/>
+            <meta name="Disco S&#xF6;lido SSD ADATA LEGEND 710 512GB M.2 2280 PCIe Gen3 x4 2400MB/s" content="description"/>
+            <meta name="Disco S&#xF6;lido SSD ADATA LEGEND 710 512GB M.2 2280 PCIe Gen3 x4 2400MB/s" content="keywords"/>
+            <meta name="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/06b46c360fc9488bad4bc4481876a67a.webp" content="og:image"/>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="preload" href="/fonts/Muli-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/fonts/Muli-Italic.ttf" as="font" type="font/ttf" crossorigin>
+
+    
+
+</head>
+<body class="corporate">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HDKXRZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    
+<div id="snackbar" class="row">
+    <div class="col-2" style="display:flex">
+        <img id="imgToast" src="/images/icons/check.svg" alt="check icon"/>
+    </div>
+    <div class="col-10 text-right">
+        <p id="snackMsg"></p>
+    </div>
+</div>
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+    function showSnack(TypeMsg, msg) {
+        let x = document.getElementById("snackbar");
+        let y = document.getElementById("snackMsg");
+        x.className = "show row";
+        if (TypeMsg === "Check") {
+            $('#imgToast').attr('src', '/images/icons/check.svg');
+            y.innerHTML = msg;
+        }
+        else if (TypeMsg === "Warn") {
+            $('#imgToast').attr('src', '/images/icons/warning_w.webp');
+            y.innerHTML = msg;
+        }
+        setTimeout(function () { x.className = x.className.replace("show row", ""); }, 3000);
+    }
+</script>
+
+
+
+    
+
+
+<nav id="sticky-nav" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/">
+        <img src="/images/logo-w.webp" alt="logo">
+        <!--<p class="d-none d-lg-block">HARD STORE</p>-->
+    </a>
+
+
+    <!-- control del menu hamburguesa en mobile -->
+
+    <button class="navbar-toggler navigation" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleNavbar()" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+        <div id="hamburguer-btn">
+            <span class="navigation__icon">&nbsp;</span>
+        </div>
+
+    </button>
+
+
+
+    <!-- Interior del menu en desktop y collapso en mobile -->
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+
+        <ul id="nav-ul" class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                        <li class="nav-item dropdown megamenu-drop">
+
+                            <a class="nav-link dropdown-toggle navbar-item nav-link-animation" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle-sidebar="megaMenuSidebar" aria-label="Toggle the document main sidebar visibility" onclick="if (!window.__cfRLUnblockHandlers) return false; openMegamenu();" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+                                Productos
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                                    <path fill="#21232A" d="M2.479 16.384L7.788 11.479 25.008 27.667 42.212 11.479 47.521 16.384 25.008 37.479z" transform="rotate(-90 25 24.48)" />
+                                </svg>
+                            </a>
+
+                            <!-- Menu xl -->
+
+                            <div id="megaMenuSidebar" 
+                                 class="dropdown-menu dropdown-megamenu" aria-labelledby="navbarDropdownMenuLink">
+
+                                <div class="container megamenu-sidebar-container">
+                                    <a class="nav-link dropdown-toggle sidebar-close" onclick="if (!window.__cfRLUnblockHandlers) return false; closeMegamenu();" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+                                        Productos
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                                            <path fill="#21232A" d="M2.479 16.384L7.788 11.479 25.008 27.667 42.212 11.479 47.521 16.384 25.008 37.479z" transform="rotate(-90 25 24.48)" />
+                                        </svg>
+                                    </a>
+                                    <div class="row w-100 megamenu-sidebar-content">
+                                        <div class="col-12 col-md-8 megamenu-section">
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Equipos">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/e10a1abcbb1e4fcb94ba09d526039dab.webp" alt="Equipos">
+        </div>
+        <h6>Equipos</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=1089">PC Gamer/Dise&#xF1;o Alta</a></p>
+            <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=1088">PC Gamer/Dise&#xF1;o Media</a></p>
+            <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=1085">PC Oficina/Multimedia</a></p>
+            <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=4">Notebooks</a></p>
+        <p><a hidden></a></p>
+        <p><a hidden></a></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=CombosdeActualizacion">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/9ecc047bf2914805b44cf2dccc765058.webp" alt="Combos de Actualizacion">
+        </div>
+        <h6>Combos de Actualizacion</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1081">Combos AMD</a></p>
+            <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1082">Combos Intel</a></p>
+            <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1092">Gabinete y Fuente</a></p>
+            <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1083">Placa de Video y Fuente</a></p>
+        <p><a hidden></a></p>
+        <p><a hidden></a></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Procesadores">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/91e035fe78b94aaca59dc3f0b63a044c.png" alt="Procesadores">
+        </div>
+        <h6>Procesadores</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Procesadores&amp;CategorySelected=41">Procesadores AMD</a></p>
+            <p><a href="/Products?categoryName=Procesadores&amp;CategorySelected=43">Procesadores Intel</a></p>
+        <p><a hidden></a></p>
+        <p><a hidden></a></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Motherboards">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/db9865e3d3dd4131bd5f2f45b6660410.png" alt="Motherboards">
+        </div>
+        <h6>Motherboards</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Motherboards&amp;CategorySelected=45">Motherboards AMD</a></p>
+            <p><a href="/Products?categoryName=Motherboards&amp;CategorySelected=44">Motherboards Intel</a></p>
+        <p><a hidden></a></p>
+        <p><a hidden></a></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=MemoriaRAM">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/2124744cd0664b6bacd2a340d4f42f94.png" alt="Memoria RAM">
+        </div>
+        <h6>Memoria RAM</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=329">DDR5</a></p>
+            <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=46">DDR4</a></p>
+            <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=51">DDR3</a></p>
+            <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=753">SODIMM DDR4</a></p>
+            <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=1192">SODIMM DDR5</a></p>
+            <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=1191">SODIMM DDR3</a></p>
+        <p id="seeMoreId11" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+2)</a></b></p>
+        <p id="seeMoreId11more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Almacenamiento">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/928e76c8538744ff82665d14d4106390.png" alt="Almacenamiento">
+        </div>
+        <h6>Almacenamiento</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=39">HDD</a></p>
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=38">SSD</a></p>
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=61">SSD M.2</a></p>
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=750">Disco externo</a></p>
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=60">Memorias y Pendrives</a></p>
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=15">Lectoras</a></p>
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=62">Carry Disk 2.5</a></p>
+            <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=1242">Cables para discos</a></p>
+        <p id="seeMoreId12" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+4)</a></b></p>
+        <p id="seeMoreId12more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Placasdevideo">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/9cce503250394ce1b29da618eba50d3e.webp" alt="Placas de video">
+        </div>
+        <h6>Placas de video</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=58">AMD Radeon</a></p>
+            <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=59">NVIDIA GeForce</a></p>
+            <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=63">Soporte para VGA</a></p>
+            <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=346">Risers</a></p>
+        <p><a hidden></a></p>
+        <p><a hidden></a></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Fuentesdealimentacion">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/aaed3577e8a445fe84445a7a91bbf8c1.webp" alt="Fuentes de alimentaci&#xF3;n">
+        </div>
+        <h6>Fuentes de alimentaci&#xF3;n</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Fuentesdealimentacion&amp;CategorySelected=751">Fuentes</a></p>
+            <p><a href="/Products?categoryName=Fuentesdealimentacion&amp;CategorySelected=76">Accesorios para fuentes</a></p>
+        <p><a hidden></a></p>
+        <p><a hidden></a></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Gabinetes">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/b12751a6449b4996abb7bb65a01ffee6.png" alt="Gabinetes">
+        </div>
+        <h6>Gabinetes</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=68">Mini Tower</a></p>
+            <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=64">Mid Tower</a></p>
+            <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=65">Full Tower</a></p>
+            <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=66">Ultra Tower</a></p>
+            <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=67">Gabinetes con fuente</a></p>
+        <p id="seeMoreId6" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+1)</a></b></p>
+        <p id="seeMoreId6more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Refrigeracion">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/0378a6e049d743dbb54af3feee9ca4aa.png" alt="Refrigeraci&#xF3;n">
+        </div>
+        <h6>Refrigeraci&#xF3;n</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=79">Air cooling</a></p>
+            <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=78">Water cooling</a></p>
+            <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=323">Pasta T&#xE9;rmica</a></p>
+            <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=77">Fan Cooler</a></p>
+            <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=80">Hub para fan cooler</a></p>
+            <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=1079">Bases para notebook</a></p>
+        <p id="seeMoreId7" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+2)</a></b></p>
+        <p id="seeMoreId7more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Perifericos">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/da5cee9d3f2646e18030d6e5cf51f243.png" alt="Perifericos">
+        </div>
+        <h6>Perifericos</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=33">Teclados</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=1144">Hubs USB</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=34">Mouse</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=32">Mouse pads</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=1142">Gamepads / Controles</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=85">Webcam</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=110">Combo / Kit / Bundle</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=315">Capturadoras</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=87">Stream deck</a></p>
+            <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=1190">Volantes</a></p>
+        <p id="seeMoreId30" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+6)</a></b></p>
+        <p id="seeMoreId30more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Pantallasyvideo">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/a4ae9bf6a5f64ca580c590c2c57fdf4a.png" alt="Pantallas y video">
+        </div>
+        <h6>Pantallas y video</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=18">Monitores</a></p>
+            <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=17">Televisores</a></p>
+            <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=870">Proyectores</a></p>
+            <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=1059">Cables de video</a></p>
+            <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=836">Smart</a></p>
+        <p id="seeMoreId16" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+1)</a></b></p>
+        <p id="seeMoreId16more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Audio">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/724fc286ffbd4dd4afa23f7b84258bc5.png" alt="Audio">
+        </div>
+        <h6>Audio</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Audio&amp;CategorySelected=26">Parlantes</a></p>
+            <p><a href="/Products?categoryName=Audio&amp;CategorySelected=27">Auriculares</a></p>
+            <p><a href="/Products?categoryName=Audio&amp;CategorySelected=25">Micr&#xF3;fonos</a></p>
+            <p><a href="/Products?categoryName=Audio&amp;CategorySelected=97">Placas de Audio</a></p>
+            <p><a href="/Products?categoryName=Audio&amp;CategorySelected=96">Audio Externo USB</a></p>
+            <p><a href="/Products?categoryName=Audio&amp;CategorySelected=95">Parlantes Bluetooth</a></p>
+            <p><a href="/Products?categoryName=Audio&amp;CategorySelected=1045">Accesorios para Audio</a></p>
+        <p id="seeMoreId23" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+3)</a></b></p>
+        <p id="seeMoreId23more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Conectividadyredes">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/59ac12fde5dd42a7a80cfd728239d713.png" alt="Conectividad y redes">
+        </div>
+        <h6>Conectividad y redes</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=22">Routers</a></p>
+            <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=83">Router WiFi</a></p>
+            <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=21">Placas de red</a></p>
+            <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=81">Placas WiFi</a></p>
+            <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=82">Adaptador WiFi USB</a></p>
+            <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=20">Repetidores</a></p>
+            <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=94">Power Bank</a></p>
+        <p id="seeMoreId19" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+3)</a></b></p>
+        <p id="seeMoreId19more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Hogar">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/c8e0fa0230054810b7636b9e75d781ca.webp" alt="Hogar">
+        </div>
+        <h6>Hogar</h6>
+    </a>
+
+            <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=838">C&#xE1;maras de Seguridad</a></p>
+            <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=1133">Robots</a></p>
+            <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=867">Tablets</a></p>
+            <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=871">Impresoras</a></p>
+            <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=75">UPS</a></p>
+            <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=1188">Monopatines</a></p>
+        <p id="seeMoreId868" class="text-primary sub-menu-header-see-more-btn"><b><a href="#">Ver todo (+2)</a></b></p>
+        <p id="seeMoreId868more" class="text-primary sub-menu-header-see-more-btn"><b> <a href="#">(Ocultar)</a></b></p>
+
+</div>
+
+
+
+
+
+
+                                                
+<div class="megamenu-categorie sidebar-categorie list">
+
+    <a href="/Products?categoryName=Sillasybutacas">
+        <div class="img-container">
+            <img src="https://logg.api.cygnus.market/static/logg/Global/Category/e238ebfe836b4d8e95b27fb497d333e4.png" alt="Sillas y butacas">
+        </div>
+        <h6>Sillas y butacas</h6>
+    </a>
+
+        <p><a hidden></a></p>
+        <p><a hidden></a></p>
+
+</div>
+
+
+
+
+
+
+                                        </div>
+                                        <div class="col-12 col-md-4 megamenu-sepecial">
+                                            <img src="/images/categories/Joystikc.webp" alt="Joystikc">
+                                            <h3>Especial Gamers</h3>
+                                            <p>Secci&oacute;n exclusiva con todos los productos de LOGG pensados para la mejor experiencia gamer.</p>
+                                            <a href="/Products/" class="btn btn-primary">Ver productos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- End Menu xl -->
+                            <!-- Menu Sm
+
+                            <div id="menusidebar" class="sidebar" aria-label="Main sidebar containing navigation links and some information" aria-hidden="true">
+                                <div class="sidebar__content">
+
+                                    <button data-toggle-sidebar="menusidebar" aria-label="Toggle the document main sidebar visibility" class="btn-close">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 47 47">
+                                            <path fill="#21232A" d="M-0.57 15.651L4.739 10.848 21.958 26.699 39.162 10.848 44.472 15.651 21.958 36.307z" transform="rotate(90 21.95 23.577)" />
+                                        </svg>
+
+                                        <h3>Productos</h3>
+                                    </button>
+
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/e10a1abcbb1e4fcb94ba09d526039dab.webp" alt="Equipos">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Equipos">
+            <h6>Equipos</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=1089">PC Gamer/Dise&#xF1;o Alta</a></p>
+                <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=1088">PC Gamer/Dise&#xF1;o Media</a></p>
+                <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=1085">PC Oficina/Multimedia</a></p>
+                <p><a href="/Products?categoryName=Equipos&amp;CategorySelected=4">Notebooks</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/9ecc047bf2914805b44cf2dccc765058.webp" alt="Combos de Actualizacion">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=CombosdeActualizacion">
+            <h6>Combos de Actualizacion</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1081">Combos AMD</a></p>
+                <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1082">Combos Intel</a></p>
+                <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1092">Gabinete y Fuente</a></p>
+                <p><a href="/Products?categoryName=CombosdeActualizacion&amp;CategorySelected=1083">Placa de Video y Fuente</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/91e035fe78b94aaca59dc3f0b63a044c.png" alt="Procesadores">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Procesadores">
+            <h6>Procesadores</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Procesadores&amp;CategorySelected=41">Procesadores AMD</a></p>
+                <p><a href="/Products?categoryName=Procesadores&amp;CategorySelected=43">Procesadores Intel</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/db9865e3d3dd4131bd5f2f45b6660410.png" alt="Motherboards">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Motherboards">
+            <h6>Motherboards</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Motherboards&amp;CategorySelected=45">Motherboards AMD</a></p>
+                <p><a href="/Products?categoryName=Motherboards&amp;CategorySelected=44">Motherboards Intel</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/2124744cd0664b6bacd2a340d4f42f94.png" alt="Memoria RAM">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=MemoriaRAM">
+            <h6>Memoria RAM</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=329">DDR5</a></p>
+                <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=46">DDR4</a></p>
+                <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=51">DDR3</a></p>
+                <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=753">SODIMM DDR4</a></p>
+                <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=1192">SODIMM DDR5</a></p>
+                <p><a href="/Products?categoryName=MemoriaRAM&amp;CategorySelected=1191">SODIMM DDR3</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/928e76c8538744ff82665d14d4106390.png" alt="Almacenamiento">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Almacenamiento">
+            <h6>Almacenamiento</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=39">HDD</a></p>
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=38">SSD</a></p>
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=61">SSD M.2</a></p>
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=750">Disco externo</a></p>
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=60">Memorias y Pendrives</a></p>
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=15">Lectoras</a></p>
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=62">Carry Disk 2.5</a></p>
+                <p><a href="/Products?categoryName=Almacenamiento&amp;CategorySelected=1242">Cables para discos</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/9cce503250394ce1b29da618eba50d3e.webp" alt="Placas de video">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Placasdevideo">
+            <h6>Placas de video</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=58">AMD Radeon</a></p>
+                <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=59">NVIDIA GeForce</a></p>
+                <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=63">Soporte para VGA</a></p>
+                <p><a href="/Products?categoryName=Placasdevideo&amp;CategorySelected=346">Risers</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/aaed3577e8a445fe84445a7a91bbf8c1.webp" alt="Fuentes de alimentaci&#xF3;n">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Fuentesdealimentacion">
+            <h6>Fuentes de alimentaci&#xF3;n</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Fuentesdealimentacion&amp;CategorySelected=751">Fuentes</a></p>
+                <p><a href="/Products?categoryName=Fuentesdealimentacion&amp;CategorySelected=76">Accesorios para fuentes</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/b12751a6449b4996abb7bb65a01ffee6.png" alt="Gabinetes">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Gabinetes">
+            <h6>Gabinetes</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=68">Mini Tower</a></p>
+                <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=64">Mid Tower</a></p>
+                <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=65">Full Tower</a></p>
+                <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=66">Ultra Tower</a></p>
+                <p><a href="/Products?categoryName=Gabinetes&amp;CategorySelected=67">Gabinetes con fuente</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/0378a6e049d743dbb54af3feee9ca4aa.png" alt="Refrigeraci&#xF3;n">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Refrigeracion">
+            <h6>Refrigeraci&#xF3;n</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=79">Air cooling</a></p>
+                <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=78">Water cooling</a></p>
+                <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=323">Pasta T&#xE9;rmica</a></p>
+                <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=77">Fan Cooler</a></p>
+                <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=80">Hub para fan cooler</a></p>
+                <p><a href="/Products?categoryName=Refrigeracion&amp;CategorySelected=1079">Bases para notebook</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/da5cee9d3f2646e18030d6e5cf51f243.png" alt="Perifericos">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Perifericos">
+            <h6>Perifericos</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=33">Teclados</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=1144">Hubs USB</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=34">Mouse</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=32">Mouse pads</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=1142">Gamepads / Controles</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=85">Webcam</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=110">Combo / Kit / Bundle</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=315">Capturadoras</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=87">Stream deck</a></p>
+                <p><a href="/Products?categoryName=Perifericos&amp;CategorySelected=1190">Volantes</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/a4ae9bf6a5f64ca580c590c2c57fdf4a.png" alt="Pantallas y video">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Pantallasyvideo">
+            <h6>Pantallas y video</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=18">Monitores</a></p>
+                <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=17">Televisores</a></p>
+                <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=870">Proyectores</a></p>
+                <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=1059">Cables de video</a></p>
+                <p><a href="/Products?categoryName=Pantallasyvideo&amp;CategorySelected=836">Smart</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/724fc286ffbd4dd4afa23f7b84258bc5.png" alt="Audio">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Audio">
+            <h6>Audio</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Audio&amp;CategorySelected=26">Parlantes</a></p>
+                <p><a href="/Products?categoryName=Audio&amp;CategorySelected=27">Auriculares</a></p>
+                <p><a href="/Products?categoryName=Audio&amp;CategorySelected=25">Micr&#xF3;fonos</a></p>
+                <p><a href="/Products?categoryName=Audio&amp;CategorySelected=97">Placas de Audio</a></p>
+                <p><a href="/Products?categoryName=Audio&amp;CategorySelected=96">Audio Externo USB</a></p>
+                <p><a href="/Products?categoryName=Audio&amp;CategorySelected=95">Parlantes Bluetooth</a></p>
+                <p><a href="/Products?categoryName=Audio&amp;CategorySelected=1045">Accesorios para Audio</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/59ac12fde5dd42a7a80cfd728239d713.png" alt="Conectividad y redes">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Conectividadyredes">
+            <h6>Conectividad y redes</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=22">Routers</a></p>
+                <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=83">Router WiFi</a></p>
+                <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=21">Placas de red</a></p>
+                <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=81">Placas WiFi</a></p>
+                <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=82">Adaptador WiFi USB</a></p>
+                <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=20">Repetidores</a></p>
+                <p><a href="/Products?categoryName=Conectividadyredes&amp;CategorySelected=94">Power Bank</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/c8e0fa0230054810b7636b9e75d781ca.webp" alt="Hogar">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Hogar">
+            <h6>Hogar</h6>
+        </a>
+
+                <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=838">C&#xE1;maras de Seguridad</a></p>
+                <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=1133">Robots</a></p>
+                <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=867">Tablets</a></p>
+                <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=871">Impresoras</a></p>
+                <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=75">UPS</a></p>
+                <p><a href="/Products?categoryName=Hogar&amp;CategorySelected=1188">Monopatines</a></p>
+    </div>
+
+</div>
+                                        
+<div class="sidebar-categorie">
+
+    <img src="https://logg.api.cygnus.market/static/logg/Global/Category/e238ebfe836b4d8e95b27fb497d333e4.png" alt="Sillas y butacas">
+
+    <div class="sidebar-categorie-titles">
+        <a href="/Products?categoryName=Sillasybutacas">
+            <h6>Sillas y butacas</h6>
+        </a>
+
+    </div>
+
+</div>
+
+                                </div>
+                            </div>-->
+                            <!-- End Menu Sm -->
+
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-animation" href="/Build/Builder">
+                                Armador
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                                    <path fill="#21232A" d="M2.479 16.384L7.788 11.479 25.008 27.667 42.212 11.479 47.521 16.384 25.008 37.479z" transform="rotate(-90 25 24.48)" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-animation" href="/contact/">
+                                Contacto
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                                    <path fill="#21232A" d="M2.479 16.384L7.788 11.479 25.008 27.667 42.212 11.479 47.521 16.384 25.008 37.479z" transform="rotate(-90 25 24.48)" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-animation" href="/help/1">
+                                Ayuda
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                                    <path fill="#21232A" d="M2.479 16.384L7.788 11.479 25.008 27.667 42.212 11.479 47.521 16.384 25.008 37.479z" transform="rotate(-90 25 24.48)" />
+                                </svg>
+                            </a>
+                        </li>
+
+            <li class="nav-item my-account-sm nav-link">
+                <a href="/Account/Profile" class="my-account nav-icon d-flex align-items-center" style="width:100%;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 47 47" style="height:45px !important;">
+                        <path fill="#21232A" d="M33.292 22.52c0 1.622-1.316 2.938-2.938 2.938-1.621 0-2.937-1.316-2.937-2.937 0-1.622 1.316-2.938 2.937-2.938 1.622 0 2.938 1.316 2.938 2.938zm-16.646-2.937c-1.622 0-2.938 1.316-2.938 2.938 0 1.621 1.316 2.937 2.938 2.937 1.621 0 2.937-1.316 2.937-2.937 0-1.622-1.316-2.938-2.937-2.938zM23.5 35.25c4.377 0 5.875-3.917 5.875-3.917h-11.75s1.659 3.917 5.875 3.917zM47 24.579c0 3.77-1.755 9.279-6.496 10.16-3.836 6.838-9.55 10.303-17.004 10.303-7.451 0-13.168-3.465-17.004-10.301C1.756 33.858 0 28.35 0 24.579c0-4.189 1.575-8.015 5.568-8.27C6.455 6.323 13.295 0 23.5 0c10.205 0 17.045 6.323 17.932 16.311 3.988.253 5.568 4.06 5.568 8.268zm-3.917-.075c0-2.132-.448-3.651-1.236-4.164-.533-.349-1.205-.205-1.48-.081-1.29.576-2.755-.374-2.755-1.798 0-1.485-.196-4.419-1.456-7.279-2.27-4.241-5.263 2.573-12.663 2.573-7.399 0-10.392-6.814-12.662-2.57-1.26 2.857-1.456 5.79-1.456 7.278 0 1.414-1.457 2.378-2.754 1.798-.28-.124-.947-.268-1.481.08C2.98 21.752 3.576 30.82 7.757 30.9c.72.014 1.377.425 1.706 1.069 4.682 9.157 11.719 9.157 14.03 9.157 2.314 0 9.347 0 14.03-9.157.33-.646.986-1.055 1.705-1.069 3.63-.07 3.855-6.332 3.855-6.395z"></path>
+                    </svg>
+                    <div class="account-text">
+                            <span class="logg-color"></span><p> Mi Cuenta</p>
+                        <p class="text-orange">&#161;Promos exclusivas!</p>
+                    </div>
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                    <path fill="#21232A" d="M2.479 16.384L7.788 11.479 25.008 27.667 42.212 11.479 47.521 16.384 25.008 37.479z" transform="rotate(-90 25 24.48)" />
+                </svg>
+            </li>
+
+        </ul>
+
+
+        <!-- Dark Mode  -->
+
+        <div class="custom-control custom-switch">
+            <!-- <input type="checkbox" class="custom-control-input" id="customSwitch1" onchange="toggleTheme()">
+            <label class="custom-control-label" for="customSwitch1"></label>
+            -->
+            <label class="switch">
+                <input type="checkbox" onchange="if (!window.__cfRLUnblockHandlers) return false; toggleTheme()" id="customSwitch1" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+                <span class="slider round">
+                    <div class="custom-switch__circle"></div>
+                </span>
+            </label>
+        </div>
+
+    </div>
+
+    <!-- Resto del menu en todas las resolcuciones -->
+    <!--<form class="form-inline ml-auto my-2 my-lg-0 account-sm">-->
+    <div class="form-inline ml-auto my-2 my-lg-0 account-sm">
+
+        <!-- Carrito -->
+
+            <span id="__cartDiv">
+                
+
+
+    <label for="toggle-cart-input" id="cart-btn" class="toggle-cart-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+            <path d="M33.333 11.75V7.833C33.333 3.507 29.154 0 24 0s-9.333 3.507-9.333 7.833v3.917H3V47h42V11.75H33.333zM17 7.833c0-3.239 3.14-5.875 7-5.875s7 2.636 7 5.875v3.917H17V7.833zm23.333 35.25H7.667V15.667h7v2.937c0 .54.522.98 1.166.98.644 0 1.167-.44 1.167-.98v-2.937h14v2.937c0 .54.523.98 1.167.98s1.166-.44 1.166-.98v-2.937h7v27.416z" />
+        </svg>
+        <p class="cart-counter">0</p>
+    </label>
+
+
+ <input id="toggle-cart-input" type="checkbox" class="cart-btn__input" />
+    <span id="cart-content" class="cart-content">
+        <div>
+            <h3><b>Tu carrito</b></h3>
+            <p class="small-text">0 productos</p>
+            <div class="cart-content__icons">
+                <label for="toggle-cart-input" class="close-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 47 47">
+                        <path fill="#21232A" d="M47 39.535L30.716 23.459 46.775 7.24 39.535 0 23.453 16.289 7.179 0.225 0 7.404 16.295 23.541 0.225 39.821 7.404 47 23.535 30.711 39.76 46.775z" />
+                    </svg>
+                </label>
+            </div>
+
+            <div class="cart-items-container">
+            </div>
+                
+        </div>
+    </span>
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+    function removeCartCount(e, r, a, t) { dataLayer.push({ ecommerce: null }), dataLayer.push({ event: "removeFromCart", ecommerce: { remove: { products: [{ name: e, id: r, price: a.replace(/[^0-9]/g, ''), quantity: t }] } } }) }
+    function gtagRemoveFromCart(totalPrice, itemId, itemName, itemBrand, iteCategory, itemVariant, price, quantity) {
+        gtag("event", "remove_from_cart", {
+            currency: "ARS",
+            value: totalPrice,
+            items: [
+                {
+                    item_id: itemId,
+                    item_name: itemName,
+                    affiliation: "Online Store",
+                    item_brand: itemBrand,
+                    item_category: iteCategory,
+                    item_variant: itemVariant,
+                    price: price,
+                    quantity: quantity
+                }
+            ]
+        });
+    }
+</script>
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+
+    function addCartCount(a, e, t, d) { let r = document.getElementById('product-count').innerHTML;dataLayer.push({ ecommerce: null }), dataLayer.push({ event: "addToCart", ecommerce: { add: { products: [{ name: a, id: e, price: t, category: d, quantity: r }] } } }) }
+    
+    function gtagAddToCart( totalPrice, itemId, itemName, itemBrand, itemCategory, ItemVariant, price, quantity) {
+        gtag("event", "add_to_cart", {
+            currency: 'ARS',
+            value: totalPrice,
+            items: [
+                {
+                    item_id: itemId,
+                    item_name: itemName,
+                    item_brand: itemBrand,
+                    item_category: itemCategory,
+                    item_variant: ItemVariant,
+                    price: price,
+                    quantity: quantity
+                }
+            ]
+        });
+
+    }
+    function gtagAddToCartMultiple(currency, totalPrice, items) {
+        gtag("event", "add_to_cart", {
+            currency: currency,
+            value: totalPrice,
+            items
+        });
+
+    }
+
+</script>
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+    function onQuantityChange(selectItem, itemId, itemVariation, totalPrice, itemName, itemBrand, itemCategory, price, priviousQuantity) {
+        let selectedQuantity = Number(selectItem.value);
+        if(selectedQuantity > priviousQuantity){
+            let quantityToAdd = selectedQuantity - priviousQuantity;
+            totalPrice = price * quantityToAdd;
+            gtagAddToCart(totalPrice, itemId, itemName, itemBrand, itemCategory, itemVariation, price, quantityToAdd)
+        } else{
+            let quantityToRemove = priviousQuantity - selectedQuantity;
+            totalPrice = price * quantityToRemove;
+            gtagRemoveFromCart(totalPrice, itemId, itemName, itemBrand, itemCategory, itemVariation, price, quantityToRemove)
+        }
+        IncreaseProd(selectItem, itemId, itemVariation);
+    }
+
+    function removeFromCart(shoppingCartItemId, totalPrice, itemId, itemName, brandName, itemCategory, itemVariations, price, quantity) {
+        deleteItem(shoppingCartItemId)
+        gtagRemoveFromCart(totalPrice, itemId, itemName, brandName, itemCategory, itemVariations, price, quantity)
+    }
+    function closeCart(e) {
+        const cartContent = document.querySelector('.cart-content');
+        const cartButton = document.querySelector('.cart-btn__input');
+        const cart = document.getElementById('toggle-cart-input');
+        if ((event.target === cartButton || cartButton.contains(event.target))) {
+            return;
+        }
+        if (!cartContent.contains(e.target) ){
+          cart.checked = false;
+        }
+    }
+
+
+    document.addEventListener('click', closeCart);
+ 
+    function reloadCartDiv() {
+        $('#__cartDiv').load('/ProductDetail/1?handler=RefreshCartDiv');
+    }
+
+
+    function deleteItem(shoppingCartItemId) {
+        abp.ajax({
+            url: '/productdetail/' + shoppingCartItemId + '/?handler=DeleteItemFromCart&shoppingCartItemId=' + shoppingCartItemId,
+            method: 'POST',
+            contentType: 'application/x-www-form-urlencoded',
+        }).done(function () {
+            $('#addToCartButton').removeAttr('disabled');
+            reloadCartDiv();
+        });
+    }
+
+    function deleteBuilderItem(id, correlationId) {
+        abp.ajax({
+            url: '/productdetail/' + id + '/?handler=DeleteBuilderItemFromCart&correlationId=' + correlationId,
+            method: 'POST',
+            contentType: 'application/x-www-form-urlencoded',
+        }).done(function () {
+            $('#addToCartButton').removeAttr('disabled');
+            reloadCartDiv();
+        });
+    }
+
+    function IncreaseProd(e, prodId, productVariationId) {
+        abp.ajax({
+            url: '/productdetail/' + prodId + '/?handler=IncreaseProd&prodId=' + prodId + '&quantity=' + e.value + '&productVariationId=' + productVariationId,
+            method: 'POST',
+            contentType: 'application/x-www-form-urlencoded',
+        }).done(function () {
+            reloadCartDiv();
+        });
+    }
+
+    function navToCard() {
+        window.location.href = '/Checkout'
+    }
+  
+</script>
+            </span>
+
+        <!-- Cuenta -->
+
+        <a href="/Account/Profile" class="my-account my-account-lg nav-icon d-flex align-items-center">
+            <div class="account-text">
+                    <p><span class="logg-color"></span> Mi Cuenta</p>
+                <p class="text-orange">&#161;Promos exclusivas!</p>
+            </div>
+            <!-- <img src="data:image/webp;base64,UklGRs4DAABXRUJQVlA4WAoAAAAQAAAALgAALgAAQUxQSIkCAAABkCxr2yFJX3ZHtY2pGNva2rZt27Z1B7a9s23btl2Yimfx5/9nZsdcQERMgDjP233VibsfQx/vnljVPa947et1A/MbvXye9HuB8xf93Evdgbs7Ul0q8gS3nxR2JesB7j/IciHuHF6ei3M2A29nOCrw26Pf&#x2B;Z1sAHgedCXwHGC9g9QA0EGSJn139G1ConQGAqlmfYD9IiL&#x2B;1RGjyMpcIiKHgD5mB4FuikjpDX81f9aXEttewEEj6yf8S7YTSWy/eOOBjYvaJYo2NQI/LZNCwDXx8iZQ0KQpsNKTtUBTXaHp54EZnswBzk8rZDMmjDrYk2Go4TEi0gP7jp50sYEeEv3G7l22TbFuVY2qditm439v9ya6KfCudtXuuUUdFIYdlsbaAeFBiuTpXqXOS6DpRqC3aLMCAB01nQACWYraC9h4HvDrqqMu0ixSqK7LA5x/CUHR5wopXTVdlVAunQTgZRC&#x2B;G8joCOyJ0kTvgcgoMfwCgdeAz0DKD2xgid5qMLC8GMZE4NVZoKyJpxWBs5uAYTlkFLCpA3DdyhlXgQ5x34HBOaIv8D1OlgOR&#x2B;eU9KzMjDCwXyfMd9UFhTZFtpsU0RR&#x2B;hfs8jIi3CCucsO1mDfqvYR11EDbcQtelbhQGa&#x2B;B2avSmaIahvm4p92pCrwJdsO5FBz4HXYy2x938Drg5JE0P/F&#x2B;CwTyNWkUpFo0Qbcwz44hfzvgDrdObWRoC&#x2B;4tDaDbDE50LMcoBd4jjpJsCp3I7ynAG4meRMCj4G&#x2B;DE90Shp5k&#x2B;AxwXFzTy3Ub&#x2B;vaZ3fJn&#x2B;btd9Rb&#x2B;cRd1M3Kmrg9fPXQbQbU8X1jk/tjJ92FC99Ay47uDzAJ14XG7Xuxqcw4U831o0qJjk2Rv6TAFZQOCAeAQAA8AcAnQEqLwAvAD55LJJHpKKhoTx7&#x2B;ACQDwlpANKti1PDP4AP4X/Od8A/QA1p0Mwl2paQatjgQm2nFUhlr6AHwlPLTOne1DzQAP74Lvlfyp//8edBTAIDGP2THHHP7vT&#x2B;UIrmCLdpk5rsS&#x2B;QJ/c94AADn6JKdEEY7Vygake0UzoJ7lbc9D/GNNALEesP/5p8R3k7H62b&#x2B;QIo4UsIl5s2Dsc76B1uAJubH/MLnrPtxSpYy/paduoaKXodKuPvf/8z&#x2B;2hJUBhKwGPol5UWOcZe0y73PUi2OKHD&#x2B;KLI4za1e/NGOz8Hf/sbOA5ZC8WfEW/zM1tGnOQAu8554T/diKEPf9P6/y0&#x2B;0Baz1xTraCafgnKMA491b9TSpSDP3zbIAAA==" alt="logo" width="50px"/> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" viewBox="0 0 47 47">
+                <path  d="M33.292 22.52c0 1.622-1.316 2.938-2.938 2.938-1.621 0-2.937-1.316-2.937-2.937 0-1.622 1.316-2.938 2.937-2.938 1.622 0 2.938 1.316 2.938 2.938zm-16.646-2.937c-1.622 0-2.938 1.316-2.938 2.938 0 1.621 1.316 2.937 2.938 2.937 1.621 0 2.937-1.316 2.937-2.937 0-1.622-1.316-2.938-2.937-2.938zM23.5 35.25c4.377 0 5.875-3.917 5.875-3.917h-11.75s1.659 3.917 5.875 3.917zM47 24.579c0 3.77-1.755 9.279-6.496 10.16-3.836 6.838-9.55 10.303-17.004 10.303-7.451 0-13.168-3.465-17.004-10.301C1.756 33.858 0 28.35 0 24.579c0-4.189 1.575-8.015 5.568-8.27C6.455 6.323 13.295 0 23.5 0c10.205 0 17.045 6.323 17.932 16.311 3.988.253 5.568 4.06 5.568 8.268zm-3.917-.075c0-2.132-.448-3.651-1.236-4.164-.533-.349-1.205-.205-1.48-.081-1.29.576-2.755-.374-2.755-1.798 0-1.485-.196-4.419-1.456-7.279-2.27-4.241-5.263 2.573-12.663 2.573-7.399 0-10.392-6.814-12.662-2.57-1.26 2.857-1.456 5.79-1.456 7.278 0 1.414-1.457 2.378-2.754 1.798-.28-.124-.947-.268-1.481.08C2.98 21.752 3.576 30.82 7.757 30.9c.72.014 1.377.425 1.706 1.069 4.682 9.157 11.719 9.157 14.03 9.157 2.314 0 9.347 0 14.03-9.157.33-.646.986-1.055 1.705-1.069 3.63-.07 3.855-6.332 3.855-6.395z" />
+            </svg>
+
+        </a>
+        <!-- Buscador -->
+
+        <button id="search-btn" class="search-icon" onclick="if (!window.__cfRLUnblockHandlers) return false; openSearch();" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                    <path d="M47.618 42.39L35.208 30.24c2.334-3.143 3.714-7.01 3.714-11.184C38.922 8.548 30.192 0 19.46 0 8.73 0 0 8.548 0 19.055c0 10.508 8.73 19.054 19.46 19.054 4.068 0 7.846-1.228 10.974-3.325L42.91 47l4.708-4.61zM5.708 19.055c0-7.426 6.17-13.468 13.754-13.468s13.754 6.042 13.754 13.468-6.17 13.467-13.754 13.467c-7.586 0-13.754-6.041-13.754-13.467z" />
+                </svg>
+                <span> Buscar<span> productos, categorias o marcas</span>... </span>
+        </button>
+    </div> <!-- close  form inline-->
+
+            <div id="search-container" class="search">
+                <div class="search__input">
+                    <svg class="search__input--icon" xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                        <path d="M47.618 42.39L35.208 30.24c2.334-3.143 3.714-7.01 3.714-11.184C38.922 8.548 30.192 0 19.46 0 8.73 0 0 8.548 0 19.055c0 10.508 8.73 19.054 19.46 19.054 4.068 0 7.846-1.228 10.974-3.325L42.91 47l4.708-4.61zM5.708 19.055c0-7.426 6.17-13.468 13.754-13.468s13.754 6.042 13.754 13.468-6.17 13.467-13.754 13.467c-7.586 0-13.754-6.041-13.754-13.467z" />
+                    </svg>
+                    <input id="search-input-nav" 
+                           class="form-control mr-sm-2 searchProduct search__input--item" 
+                           type="search" 
+                           placeholder="Buscar productos, marcas o categorías... "
+                           >
+                    <div class="search__input--border"></div>
+                </div>
+                          
+                <button class="search__closeBtn btn btn-shadow" onclick="if (!window.__cfRLUnblockHandlers) return false; closeSearch();" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+                    X
+                </button>
+                <!-- Resultados de busqueda -->
+
+                <div class="search-results"></div>
+
+            </div>
+            <script src="/js/lottie-player.js?v=4Yig007w96XGGGVUvU9xSjbaFjcfP0mUg-FQRe9y87w" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+
+<!-- 
+            <a href="#" class=" nav-icon d-block d-lg-none" aria-expanded="false" data-toggle="dropdown" aria-haspopup="true" data-toggle-sidebar="searchsidebar" onclick="openSearchSidebar();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 47">
+                    <path fill="#21232A" d="M47.618 42.39L35.208 30.24c2.334-3.143 3.714-7.01 3.714-11.184C38.922 8.548 30.192 0 19.46 0 8.73 0 0 8.548 0 19.055c0 10.508 8.73 19.054 19.46 19.054 4.068 0 7.846-1.228 10.974-3.325L42.91 47l4.708-4.61zM5.708 19.055c0-7.426 6.17-13.468 13.754-13.468s13.754 6.042 13.754 13.468-6.17 13.467-13.754 13.467c-7.586 0-13.754-6.041-13.754-13.467z" />
+                </svg>
+            </a> -->
+<!-- 
+            <div id="searchsidebar" class="sidebar search-sidebar" aria-label="Main sidebar containing navigation links and some information" aria-hidden="true">
+                <div class="sidebar__content">
+                    <button class="close-button" data-toggle-sidebar="searchsidebar" aria-label="Toggle the document main sidebar visibility" onclick="closeSearchSidebar();">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+                            <path fill="#21232A" d="M47 39.535L30.716 23.459 46.775 7.24 39.535 0 23.453 16.289 7.179 0.225 0 7.404 16.295 23.541 0.225 39.821 7.404 47 23.535 30.711 39.76 46.775z" />
+                        </svg>
+                    </button>
+               <div id="search-container" class="search">
+                    <div class="search__input">
+                        <svg class="search__input--icon" xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47">
+                            <path d="M47.618 42.39L35.208 30.24c2.334-3.143 3.714-7.01 3.714-11.184C38.922 8.548 30.192 0 19.46 0 8.73 0 0 8.548 0 19.055c0 10.508 8.73 19.054 19.46 19.054 4.068 0 7.846-1.228 10.974-3.325L42.91 47l4.708-4.61zM5.708 19.055c0-7.426 6.17-13.468 13.754-13.468s13.754 6.042 13.754 13.468-6.17 13.467-13.754 13.467c-7.586 0-13.754-6.041-13.754-13.467z" />
+                        </svg>
+                        <input id="search-input-nav" 
+                            class="form-control mr-sm-2 searchProduct search__input--item" 
+                            type="search" 
+                            placeholder="Buscar productos o marcas">
+                        <div class="search__input--border"></div>
+                    </div>
+                    <button class="search__closeBtn btn btn-shadow"                         
+                            onclick="closeSearch();">
+                        X
+                    </button> -->
+                    <!-- Resultados de busqueda -->
+<!-- 
+                    <div class="search-results"></div>
+
+                 </div>
+
+                </div>
+            </div> -->
+
+
+
+</nav>
+
+
+<script src="/js/header.js?v=r7AYxMrRYwnRYsX5lRWBStdL7i2XU6e21nhughnduLk" defer type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+
+    function openSearch() {
+        $('#search-container').addClass('show-search');
+        $('body').addClass('block-scroll');
+        $('#search-input-nav').focus();
+    }
+
+    function closeSearch() {
+        $('#search-container').removeClass('show-search');
+        $('body').removeClass('block-scroll');
+    }
+    function toggleNavbar(){
+        $('body').toggleClass('block-scroll');
+        removeIcons(); 
+    }
+
+</script>
+
+
+
+    <div class="main">
+        
+
+<meta property="og:title" content="Disco S&#xF6;lido SSD ADATA LEGEND 710 5">
+<meta property="og:url" content="http://www.logg.com.ar/ProductDetail/ADATA-LEGEND-710-512GB">
+<meta property="og:description" content="&lt;p&gt;&lt;strong&gt;Mejora Tu Creatividad&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;LEGEND 710 utiliz">
+    <meta property="og:image" content="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/06b46c360fc9488bad4bc4481876a67a.webp">
+
+
+<div class="single-product">
+    <div class="container">
+        <div class="d-flex flex-wrap">
+            <div class="col-12 d-none d-md-block">
+                <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/Products/">Productos</a></li>
+                        <li class="breadcrumb-item"><a href="/Products?categoryName=Almacenamiento">Almacenamiento</a></li>
+                        <li class="breadcrumb-item"><a href="/Products?categoryName=Almacenamiento&amp;categorySelected=61">SSD M.2</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Disco S&#xF6;lido SSD ADATA LEGEND 710 512GB M.2 2280 PCIe Gen3 x4 2400MB/s</li>
+                </ol>
+            </div>
+
+            <div class="col-12 d-block d-md-none">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/Products/"><img src="/images/icons/prev.webp" alt="volver" /> Volver</a></li>
+                </ol>
+            </div>
+
+
+            <div class="col-12 col-lg-7">
+
+                <div class="single-product-card single-product-images">
+                    <a href="#" data-toggle="modal" data-target="#gallery-modal">
+                            <img src="https://logg.api.cygnus.market/static/logg/Global/Manufacturer/c2061852ccfd49e1b302e393bf2e773f.png" alt="producto" class="logo-img">
+                        <div class="swiper-container gallery-top">
+                            <div class="swiper-wrapper ">
+                                    <div class="swiper-slide single-product-slide">
+                                        <img src="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/06b46c360fc9488bad4bc4481876a67a.webp" alt="icon">
+                                    </div>
+                                    <div class="swiper-slide single-product-slide">
+                                        <img src="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/f04f831010f84d3e8a857ed3385494b2.webp" alt="icon">
+                                    </div>
+                            </div>
+                            <div class="swiper-pagination "></div>
+                        </div>
+                    </a>
+                    <!-- Carousel de imagenes pequeñas -->
+                    <div class="swiper-container gallery-thumbs d-none d-md-block">
+                        <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/06b46c360fc9488bad4bc4481876a67a.webp" alt="icon">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/f04f831010f84d3e8a857ed3385494b2.webp" alt="icon">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="gallery-modal" tabindex="-1" role="dialog" aria-labelledby="terms-modal" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title"><b>Galeria</b></h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body" style="flex:none">
+                                <div class="swiper-container gallery-modal">
+                                    <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/06b46c360fc9488bad4bc4481876a67a.webp" alt="product-img">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="https://logg.api.cygnus.market/static/logg/Global/Disco_S_lido_SSD_ADATA_LEGEND_710_512GB_M.2_2280_PCIe_Gen3_x4_2400MB_s/f04f831010f84d3e8a857ed3385494b2.webp" alt="product-img">
+                                            </div>
+                                    </div>
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 ">
+                <div>
+                    
+<div class="single-product-card single-product-pricing">
+
+    <!-- En caso de que sea reserva este div no debe tener la clase d-none -->
+    <div class="pricing-reservation d-none">
+        <p><b>Ingresa nuevamente con envíos a partir del 20.08</b></p>
+        <p>Quedan 12</p>
+    </div>
+
+    <input type="hidden" value="ADATA-LEGEND-710-512GB" id="__Product" />
+
+        <div class="online-exclusive"><p>¡PRECIOS EXCLUSIVOS ONLINE!</p></div>
+    <div class="pricing-description">
+
+        <h1>Disco S&#xF6;lido SSD ADATA LEGEND 710 512GB M.2 2280 PCIe Gen3 x4 2400MB/s</h1>
+
+        <div class="card-labels">
+                    <p class="stock-label">
+                        &#161;Producto en stock!
+                    </p>
+            <p class="info-label"><b>SKU:</b> ADASM2M2AD104</p>
+            <p class="info-label"><b>UPC:</b> 4711085937834</p>
+        </div>
+
+
+                <div class="pricing-list pricing-border d-flex flex-wrap no-gutters">
+                        <div class="col-12 col-md-4 col-lg-12 col-xl-4">
+                            <h3 class="">
+                                <b>$ 45.999</b>
+                            </h3>
+
+                            <p class="Preci"><p>Precio <strong class="text-primary">LOGG</strong>ico</p></p>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-12 col-xl-8">
+                            <p>Válido para efectivo, transferencias y transferencias desde Mercado Pago (CVU).</p>
+                        </div>
+                    
+                </div>
+                <div class="pricing-list  d-flex flex-wrap no-gutters">
+                        <div class="col-12 col-md-4 col-lg-12 col-xl-4">
+                    
+
+                            <p class="Cuota"><p>Cuota <strong class="text-primary">simple</strong></p></p>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-12 col-xl-8">
+                                <div class="quotes-section__container">
+                                    <img class="credit-img" src="/images/icons/credit-card_g.svg" alt="comillas" />
+                                    <p class="small-text quotes-section">
+                                        3 cuotas de  <b>$ 17.787 ( $ 53.359 ) a través de Mercado Pago</b>
+                                    </p>
+                                </div>
+                                <div class="quotes-section__container">
+                                    <img class="credit-img" src="/images/icons/credit-card_g.svg" alt="comillas" />
+                                    <p class="small-text quotes-section">
+                                        6 cuotas de  <b>$ 9.430 ( $ 56.579 ) a través de Mercado Pago</b>
+                                    </p>
+                                </div>
+                                <div class="quotes-section__container">
+                                    <img class="ahora-img" src="/images/icons/ahora12.webp" alt="comillas" />
+                                    <p class="small-text quotes-section">
+                                        12 cuotas de  <b>$ 5.367 ( $ 64.399 ) a través de Mercado Pago</b>
+                                    </p>
+                                </div>
+                        </div>
+                    
+                </div>
+
+
+                    <div class="pricing-shipping" style="display: block;">
+                        <p><b class="text-primary">-</b> Envíos a todo el país a través de OCA</p>
+                        <p><b class="text-primary">-</b> Moto mensajería en la zona de CABA</p>
+                    </div>
+            <p id="stockQuantity" class="d-none">7</p>
+            <div class="pricing-quantity">
+                <p>Cantidad </p>
+                    <button id="btnSubstractOne" onclick="if (!window.__cfRLUnblockHandlers) return false; substractOne('63477'); callGtagRemoveFromCart(45999.0, '63477', 'Disco S&#xF6;lido SSD ADATA LEGEND 710 512GB M.2 2280 PCIe Gen3 x4 2400MB/s', 'Adata', '61', 'System.Collections.Generic.List`1[Cygnus.Catalog.Web.Dtos.WebVariationDto]', 45999.00, 1)" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+                        <path fill="#21232A" d="M22 3.667c10.109 0 18.333 8.224 18.333 18.333 0 10.109-8.224 18.333-18.333 18.333C11.891 40.333 3.667 32.11 3.667 22 3.667 11.891 11.89 3.667 22 3.667zM22 0C9.85 0 0 9.85 0 22s9.85 22 22 22 22-9.85 22-22S34.15 0 22 0zm11 23.833H11v-3.666h22v3.666z" />
+                    </svg>
+                </button>
+                <p id="product-count" class="d-none">1 </p>
+                <span id="quantity">1 unidad</span>
+                    <button id="btnPlusOne" onclick="if (!window.__cfRLUnblockHandlers) return false; plusOne('63477', 'False')" data-cf-modified-ec4d75c0ce65c8966b1c514e-="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+                        <path fill="#21232A" d="M22 3.667c10.109 0 18.333 8.224 18.333 18.333 0 10.109-8.224 18.333-18.333 18.333C11.891 40.333 3.667 32.11 3.667 22 3.667 11.891 11.89 3.667 22 3.667zM22 0C9.85 0 0 9.85 0 22s9.85 22 22 22 22-9.85 22-22S34.15 0 22 0zm11 23.833h-9.167V33h-3.666v-9.167H11v-3.666h9.167V11h3.666v9.167H33v3.666z" />
+                    </svg>
+                </button>
+            </div>
+            <p id="modifiqued-quantity" class="text-warning ml-4 d-none">La cantidad fue modificada</p>
+            <div class="pricing-buttons">
+                <button class="btn btn-primary" id="buyNowButton" >Comprar ahora</button>
+                <button class="btn btn-light" id="addToCartButton" onclick="if (!window.__cfRLUnblockHandlers) return false; callGtagAddToCart(45999.0, '63477', 'Disco S&#xF6;lido SSD ADATA LEGEND 710 512GB M.2 2280 PCIe Gen3 x4 2400MB/s', 'Adata', '61', 'System.Collections.Generic.List`1[Cygnus.Catalog.Web.Dtos.WebVariationDto]', 45999.00) " data-cf-modified-ec4d75c0ce65c8966b1c514e-="">Añadir al carrito</button>
+            </div>
+
+
+
+
+
+    </div>
+</div>
+
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+
+    function addCartCount(a, e, t, d) { let r = document.getElementById('product-count').innerHTML;dataLayer.push({ ecommerce: null }), dataLayer.push({ event: "addToCart", ecommerce: { add: { products: [{ name: a, id: e, price: t, category: d, quantity: r }] } } }) }
+    
+    function gtagAddToCart( totalPrice, itemId, itemName, itemBrand, itemCategory, ItemVariant, price, quantity) {
+        gtag("event", "add_to_cart", {
+            currency: 'ARS',
+            value: totalPrice,
+            items: [
+                {
+                    item_id: itemId,
+                    item_name: itemName,
+                    item_brand: itemBrand,
+                    item_category: itemCategory,
+                    item_variant: ItemVariant,
+                    price: price,
+                    quantity: quantity
+                }
+            ]
+        });
+
+    }
+    function gtagAddToCartMultiple(currency, totalPrice, items) {
+        gtag("event", "add_to_cart", {
+            currency: currency,
+            value: totalPrice,
+            items
+        });
+
+    }
+
+</script>
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+    function callGtagAddToCart(totalPrice, itemId, itemName, brandName, itemCategory, itemVariations, price) {
+        const quantity = Number(document.getElementById('product-count').innerText)
+        totalPrice = totalPrice * quantity;
+        gtagAddToCart(totalPrice, itemId, itemName, brandName, itemCategory, itemVariations, price, quantity)
+        // addCartCount(itemName, itemId, price, itemCategory)
+    }
+    function callGtagRemoveFromCart(totalPrice, itemId, itemName, brandName, itemCategory, itemVariations, price, quantity) {
+        gtagRemoveFromCart(totalPrice, itemId, itemName, brandName, itemCategory, itemVariations, price, 1)
+    }
+</script>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-7">
+                    
+<div class="single-product-card single-product-info">
+    <div class="single-product-titles">
+        <div class="row">
+            <a class="nav-link font-weight-bold" id="detailsBttnTab" style="cursor: pointer;">Acerca del producto</a>
+            <a class="nav-link" id="questionsBttnTab" style=" cursor: pointer; color: #9da1ae;">Preguntas</a>
+        </div>
+            <a href="https://www.adata.com/ar/consumer/category/ssds/solid-state-drives-LEGEND-710/" class="btn btn-light" target="_blank">Web del fabricante</a>
+    </div>
+
+
+    <div id="detailsTabContainer" class="info-description">
+        <p><strong>Mejora Tu Creatividad</strong></p><p>LEGEND 710 utiliza PCIe Gen3 x4 y NVMe 1.4 para ofrecer velocidades sostenidas de lectura y escritura de hasta 2.400/1.800 MB por segundo. La especificación M.2 2280 admite las plataformas Intel y AMD más recientes, lo que incluye computadoras de escritorio y computadoras portátiles.</p><p><br></p><p><strong>Mantén Todo Bajo Control y a la Temperatura Correcta</strong></p><p>El diseño sencillo, pero elegante del disipador del LEGEND 710 se caracteriza por un esquema de colores azules reales con un recorte exquisito de color dorado. El disipador trabaja para mantener bajas las temperaturas en un 15 % para lograr un rendimiento y una estabilidad óptimos.</p><p><br></p><p><strong>Te Ayuda A Crear Mejor</strong></p><p>¡La creatividad no puede esperar! LEGEND 710 está equipado con almacenamiento en caché SLC y tecnología HMB (Host Memory Buffer) para una productividad sin interrupciones.</p><p><br></p><p><strong>Protege Tus Creaciones</strong></p><p>LEGEND 710, que cuenta con código de comprobación de paridad de baja densidad (LDPC, Low Density Parity Check Code) y cifrado AES de 256 bits, garantiza transmisiones precisas de datos y seguridad.</p><p><br></p><h2>Especificaciones</h2><ul><li><strong>Modelo:</strong> ALEG-710-512GCS</li><li><strong>Capacidad:</strong> 512GB</li><li><strong>Factor de forma:</strong> M.2 2280</li><li><strong>NAND Flash:</strong> 3D NAND</li><li><strong>Dimensiones (L x An x Al):</strong></li><li class="ql-indent-1">80 x 22 x 3,13 mm / 3,15 x 0,87 x 0,13 pulgadas (con disipador de calor)</li><li class="ql-indent-1">80 x 22 x 2,15 mm / 3,15 x 0,87 x 0,09 pulgadas (sin disipador de calor)</li><li><strong>Peso:</strong></li><li class="ql-indent-1">9 g/0,32 onzas (con disipador de calor)</li><li class="ql-indent-1">6,2 g/0,22 onzas (sin disipador de calor)</li><li><strong>Interfaz:</strong> PCIe Gen3 x4</li><li><strong>Lectura secuencial (máx):</strong> Hasta 2,400MB/s</li><li><strong>Escritura secuencial (máx):</strong> Hasta 1,600MB/s</li><li><strong>IOPS de lectura aleatoria de 4 KB (máx.):</strong> Hasta 90.000</li><li><strong>IOPS de escritura aleatoria de 4 KB (máx.):</strong> Hasta 150.000</li><li><strong>Temperatura de operación:</strong> 0ºC - 70°C</li><li><strong>Temperatura de almacenamiento:</strong> -40 °C - 85 °C</li><li><strong>Resistencia a golpes:</strong> 1500G/0.5ms</li><li><strong>MTBF:</strong> 1.500.000 horas</li><li><strong>Terabytes escritos (TBW):</strong> 130TB</li></ul>
+    </div>
+
+    <div id="questionsTabContainer" class="info-description">
+            <p>Inicia sesión para ver preguntas y respuestas!</p>
+    </div>
+
+</div>
+
+
+
+            </div>
+
+            <div class="col-12 col-lg-5">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gallery-modal-mercado-cuotas" tabindex="-1" role="dialog" aria-labelledby="terms-modal" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"><b>Promociones vigentes</b></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="flex:none">
+                    <div class="iframe-content-hidding">
+                        <iframe class="iframe-content-hidding" src="https://www.mercadopago.com.ar/cuotas" style="width:100%;height:70vh"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<a id="floatingIconShare" class="floating-icon-share" style="cursor: pointer;">
+    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 227.216 227.216" style="enable-background:new 0 0 227.216 227.216;" xml:space="preserve">
+<path fill="white" d="M175.897,141.476c-13.249,0-25.11,6.044-32.98,15.518l-51.194-29.066c1.592-4.48,2.467-9.297,2.467-14.317
+	c0-5.019-0.875-9.836-2.467-14.316l51.19-29.073c7.869,9.477,19.732,15.523,32.982,15.523c23.634,0,42.862-19.235,42.862-42.879
+	C218.759,19.229,199.531,0,175.897,0C152.26,0,133.03,19.229,133.03,42.865c0,5.02,0.874,9.838,2.467,14.319L84.304,86.258
+	c-7.869-9.472-19.729-15.514-32.975-15.514c-23.64,0-42.873,19.229-42.873,42.866c0,23.636,19.233,42.865,42.873,42.865
+	c13.246,0,25.105-6.042,32.974-15.513l51.194,29.067c-1.593,4.481-2.468,9.3-2.468,14.321c0,23.636,19.23,42.865,42.867,42.865
+	c23.634,0,42.862-19.23,42.862-42.865C218.759,160.71,199.531,141.476,175.897,141.476z M175.897,15
+	c15.363,0,27.862,12.5,27.862,27.865c0,15.373-12.499,27.879-27.862,27.879c-15.366,0-27.867-12.506-27.867-27.879
+	C148.03,27.5,160.531,15,175.897,15z M51.33,141.476c-15.369,0-27.873-12.501-27.873-27.865c0-15.366,12.504-27.866,27.873-27.866
+	c15.363,0,27.861,12.5,27.861,27.866C79.191,128.975,66.692,141.476,51.33,141.476z M175.897,212.216
+	c-15.366,0-27.867-12.501-27.867-27.865c0-15.37,12.501-27.875,27.867-27.875c15.363,0,27.862,12.505,27.862,27.875
+	C203.759,199.715,191.26,212.216,175.897,212.216z" />
+         </svg>
+</a>
+
+<a id="floatingIconShareWhatsapp" class="floating-icon-share-whatsapp" href="whatsapp://send?text=http://www.logg.com.ar/ProductDetail/ADATA-LEGEND-710-512GB" target="_blank">
+    <svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="300 -476.1 1792 1792">
+        <path fill="white" d="M1413 497.9c8.7 0 41.2 14.7 97.5 44s86.2 47 89.5 53c1.3 3.3 2 8.3 2 15 0 22-5.7 47.3-17 76-10.7 26-34.3 47.8-71 65.5s-70.7 26.5-102 26.5c-38 0-101.3-20.7-190-62-65.3-30-122-69.3-170-118s-97.3-110.3-148-185c-48-71.3-71.7-136-71-194v-8c2-60.7 26.7-113.3 74-158 16-14.7 33.3-22 52-22 4 0 10 .5 18 1.5s14.3 1.5 19 1.5c12.7 0 21.5 2.2 26.5 6.5s10.2 13.5 15.5 27.5c5.3 13.3 16.3 42.7 33 88s25 70.3 25 75c0 14-11.5 33.2-34.5 57.5s-34.5 39.8-34.5 46.5c0 4.7 1.7 9.7 5 15 22.7 48.7 56.7 94.3 102 137 37.3 35.3 87.7 69 151 101a44 44 0 0 0 22 7c10 0 28-16.2 54-48.5s43.3-48.5 52-48.5zm-203 530c84.7 0 165.8-16.7 243.5-50s144.5-78 200.5-134 100.7-122.8 134-200.5 50-158.8 50-243.5-16.7-165.8-50-243.5-78-144.5-134-200.5-122.8-100.7-200.5-134-158.8-50-243.5-50-165.8 16.7-243.5 50-144.5 78-200.5 134S665.3 78.7 632 156.4s-50 158.8-50 243.5a611 611 0 0 0 120 368l-79 233 242-77a615 615 0 0 0 345 104zm0-1382c102 0 199.5 20 292.5 60s173.2 93.7 240.5 161 121 147.5 161 240.5 60 190.5 60 292.5-20 199.5-60 292.5-93.7 173.2-161 240.5-147.5 121-240.5 161-190.5 60-292.5 60a742 742 0 0 1-365-94l-417 134 136-405a736 736 0 0 1-108-389c0-102 20-199.5 60-292.5s93.7-173.2 161-240.5 147.5-121 240.5-161 190.5-60 292.5-60z">
+        </path>
+    </svg>
+</a>
+
+<a id="floatingIconShareFacebook" class="floating-icon-share-facebook" href="https://facebook.com/sharer.php?display=page&u=http://www.logg.com.ar/ProductDetail/ADATA-LEGEND-710-512GB" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="white" d="M 19.253906 2 C 15.311906 2 13 4.0821719 13 8.8261719 L 13 13 L 8 13 L 8 18 L 13 18 L 13 30 L 18 30 L 18 18 L 22 18 L 23 13 L 18 13 L 18 9.671875 C 18 7.884875 18.582766 7 20.259766 7 L 23 7 L 23 2.2050781 C 22.526 2.1410781 21.144906 2 19.253906 2 z" /></svg>
+</a>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.js" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+
+    function addCartCount(a, e, t, d) { let r = document.getElementById('product-count').innerHTML;dataLayer.push({ ecommerce: null }), dataLayer.push({ event: "addToCart", ecommerce: { add: { products: [{ name: a, id: e, price: t, category: d, quantity: r }] } } }) }
+    
+    function gtagAddToCart( totalPrice, itemId, itemName, itemBrand, itemCategory, ItemVariant, price, quantity) {
+        gtag("event", "add_to_cart", {
+            currency: 'ARS',
+            value: totalPrice,
+            items: [
+                {
+                    item_id: itemId,
+                    item_name: itemName,
+                    item_brand: itemBrand,
+                    item_category: itemCategory,
+                    item_variant: ItemVariant,
+                    price: price,
+                    quantity: quantity
+                }
+            ]
+        });
+
+    }
+    function gtagAddToCartMultiple(currency, totalPrice, items) {
+        gtag("event", "add_to_cart", {
+            currency: currency,
+            value: totalPrice,
+            items
+        });
+
+    }
+
+</script>
+
+
+<script src="/js/productDetail.js?v=HJPqk8vlCs4k3CkpwxlbnnSRIUcoJ8gqqDj3hqx-3Gg" defer type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+
+
+    </div>
+
+        
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="footer-main">
+                <div class="col-12 col-md-4 col-lg-3 d-flex">
+                    <img id="footer-logo" src="/images/logo-w.webp" alt="logo">
+                    <div id="footer-microsites">
+
+                    </div>
+                    <!-- <p>HARD STORE</p>-->
+                </div>
+                <div class="d-flex footer-main-contact">                  
+                </div>
+            </div>
+
+                    <div class="col-6 col-md-3 col-lg-2 footer-column nav-column">
+                        <p class="footer-categorie"><a href="/products">Productos</a></p>
+                                <p><a href="/Products/Equipos">Equipos</a></p>
+                                <p><a href="/Products/Audio">Audios</a></p>
+                                <p><a href="/Products/Componentes">Componentes</a></p>
+                                <p><a href="/Products/Conectividad">Conectividad</a></p>
+                                <p><a href="/Products/Gabinetes">Gabinetes</a></p>
+                                <p><a href="/products">M&#225;s</a></p>
+
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 footer-column nav-column">
+                        <p class="footer-categorie"><a href="/Products/Componentes">Componentes</a></p>
+                                <p><a href="/components/motherboards">Motherboards</a></p>
+                                <p><a href="/Products/Motherboards">Placas de video</a></p>
+                                <p><a href="/Products/Conectividad">Conectividad</a></p>
+                                <p><a href="/Products/Almacenamiento">Almacenamiento</a></p>
+                                <p><a href="/Products/MemoriaRAM">Memorias RAM</a></p>
+                                <p><a href="/Products/Componentes">M&#225;s</a></p>
+
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 footer-column nav-column">
+                            <p class="footer-categorie"><a href="/Build/Builder">A tu medida</a></p>
+                            <p class="footer-categorie"><a href="/contact">LOGG</a></p>
+                                <p><a href="/contact">Nosotros</a></p>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 footer-column nav-column">
+                        <p class="footer-categorie"><a href="/help">Ayuda</a></p>
+                                <p><a href="/help/1">Como comprar</a></p>
+                                <p><a href="/help/3">Pagos</a></p>
+                                <p><a href="/help/4">Env&#xED;os</a></p>
+                                <p><a href="/help/5">Garant&#xED;a</a></p>
+                                <p><a href="/legals">Terminos y Condiciones</a></p>
+
+                    </div>
+
+            <div class="col-12 col-lg-4 footer-column suscrive-column">
+                <div class="col-12 col-md-6 col-lg-12 no-padding">
+                    <p class="footer-categorie">Enter&aacute;te de lo nuevo antes que todos</p>
+                    <div class="suscrive-section">
+                        <input type="text" placeholder="Tu email">
+                        <button class="btn-suscrive">Suscribirme</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-12 footer-hours no-padding">
+                    <img src="/images/icons/map_gray.webp" alt="Horarios">
+                    <a href="/Contact"><b>Atención comercial</b></a>
+                    <br />
+                    <p class="mt-2">Jose Hernandez 2525 - C.A.B.A </p>
+                    <p class="mt-2">Lunes a Viernes de 09:00 a 18 hs.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-12 footer-hours no-padding">
+                    <a href="/Account/Profile"><b>Servicio tecnico y RMA</b></a>
+                    <br />
+                    <p class="mt-2">Jose Hernandez 2525 - C.A.B.A </p>
+                    <p class="mt-2">Lunes a Viernes de 09:00 a 18 hs.</p>
+                </div>
+            </div>
+
+            <div class="col-12 footer-contact">
+
+                <div class="footer-contact-element">
+                    <h3 class="elegance">VENTAS</h3>
+                    <p> <a href="/cdn-cgi/l/email-protection#ec9a8982988d9fac80838b8bc28f8381c28d9e"><span class="__cf_email__" data-cfemail="6a1c0f041e0b192a06050d0d44090507440b18">[email&#160;protected]</span></a> <p />
+                </div>
+
+                <div class="footer-contact-element">
+                    <h3 class="elegance">MERCADO LIBRE</h3>
+                    <p><a href="/cdn-cgi/l/email-protection#9ff2faedfcfefbf0f3f6fdedfadff3f0f8f8b1fcf0f2b1feed"><span class="__cf_email__" data-cfemail="96fbf3e4f5f7f2f9fafff4e4f3d6faf9f1f1b8f5f9fbb8f7e4">[email&#160;protected]</span></a> <p />
+                </div>
+
+                <div class="footer-contact-element">
+                    <h3 class="elegance">PRESUPUESTOS</h3>
+                    <p> <a href="/cdn-cgi/l/email-protection#fb8b899e888e8b8e9e888f9488bb97949c9cd5989496d59a89"><span class="__cf_email__" data-cfemail="5d2d2f382e282d28382e29322e1d31323a3a733e3230733c2f">[email&#160;protected]</span></a> <p />
+                </div>
+                <div class="footer-contact-element">
+                    <h3 class="elegance">ATENCION TELEFÓNICA</h3>
+                    <img src="/images/icons/phone.webp" alt="Telefono"><p>(11) 4788-9372</p>
+                    <a href="https://wa.me/5491165305683" style="cursor:pointer;" target="_blank">
+                        <p>Whatsapp: (+549) 11-6530-5683</p>
+                    </a>
+                </div>
+
+                <div class="col-12 footer-media">
+                    <div class="footer-media__copyright">
+                        <a href="http://qr.afip.gob.ar/?qr=JYc1c6-mOuKrz7hzue3FSg,," target="_F960AFIPInfo">
+                            <img src="/images/icons/afip.webp" alt="afip">
+                        </a>
+                        <h2>LOGG Hard Store - Hardware para Gamers.</h2>
+                        <p>2025. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="media-icons">
+
+                        <p>Seguinos en nuestras Redes</p>
+                        <a href="https://www.twitch.tv/ayelogg" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28">
+                                <path d="M1.887 0L0 4.806V24.45h6.708V28h3.775l3.56-3.55h5.455l7.335-7.313V0H1.887zm22.43 15.988l-4.194 4.202h-6.708l-3.561 3.568V20.19H4.193V2.545h20.125v13.443zm-4.192-9.2v7.636h-2.516V6.788h2.516zm-6.708 0v7.636H10.9V6.788h2.516z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://www.instagram.com/logghardstore" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                                <path d="M14.412 7.412c-3.875 0-7 3.125-7 7 0 3.874 3.125 7 7 7 3.874 0 7-3.126 7-7 0-3.875-3.126-7-7-7zm0 11.53c-2.492 0-4.53-2.032-4.53-4.53s2.032-4.53 4.53-4.53 4.53 2.032 4.53 4.53-2.038 4.53-4.53 4.53zm8.647-12.354c0 .916-.738 1.647-1.647 1.647-.916 0-1.647-.737-1.647-1.647s.737-1.647 1.647-1.647 1.647.738 1.647 1.647zm4.843 1.639c-.107-2.243-.619-4.23-2.262-5.867C24.004.723 22.017.21 19.775.098c-2.311-.13-9.239-.13-11.55 0C5.99.205 4.002.717 2.36 2.354.717 3.99.21 5.978.098 8.22c-.13 2.311-.13 9.24 0 11.552.107 2.243.619 4.23 2.262 5.867 1.642 1.637 3.623 2.15 5.865 2.262 2.311.13 9.239.13 11.55 0 2.242-.107 4.229-.619 5.865-2.262 1.637-1.637 2.15-3.624 2.262-5.867.13-2.312.13-9.234 0-11.546zm-2.953 14.052c-.49 1.228-1.436 2.174-2.67 2.67-1.849.733-6.236.564-8.279.564s-6.436.162-8.279-.564c-1.228-.49-2.174-1.436-2.67-2.67-.733-1.849-.564-6.236-.564-8.279s-.162-6.436.564-8.279c.49-1.228 1.436-2.174 2.67-2.67 1.849-.733 6.236-.564 8.279-.564s6.436-.162 8.279.564c1.228.49 2.174 1.436 2.67 2.67.733 1.849.564 6.236.564 8.279s.169 6.436-.564 8.279z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://www.facebook.com/logghardstore" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="28" viewBox="0 0 448 512">
+                                <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://www.youtube.com/logg_hardstore" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20">
+                                <path d="M27.415 3.587c-.322-1.15-1.27-2.055-2.476-2.362C22.756.667 14 .667 14 .667s-8.756 0-10.94.558C1.857 1.532.908 2.438.586 3.587 0 5.671 0 10.02 0 10.02s0 4.348.585 6.431c.322 1.15 1.27 2.018 2.476 2.325 2.183.558 10.939.558 10.939.558s8.756 0 10.94-.558c1.204-.307 2.153-1.175 2.475-2.325C28 14.367 28 10.02 28 10.02s0-4.348-.585-6.432zM10.927 14V6l7.512 4-7.512 4z" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <a class="floating-icon" href="https://wa.me/5491165305683" target="_blank">
+        <svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="300 -476.1 1792 1792">
+            <path fill="white" d="M1413 497.9c8.7 0 41.2 14.7 97.5 44s86.2 47 89.5 53c1.3 3.3 2 8.3 2 15 0 22-5.7 47.3-17 76-10.7 26-34.3 47.8-71 65.5s-70.7 26.5-102 26.5c-38 0-101.3-20.7-190-62-65.3-30-122-69.3-170-118s-97.3-110.3-148-185c-48-71.3-71.7-136-71-194v-8c2-60.7 26.7-113.3 74-158 16-14.7 33.3-22 52-22 4 0 10 .5 18 1.5s14.3 1.5 19 1.5c12.7 0 21.5 2.2 26.5 6.5s10.2 13.5 15.5 27.5c5.3 13.3 16.3 42.7 33 88s25 70.3 25 75c0 14-11.5 33.2-34.5 57.5s-34.5 39.8-34.5 46.5c0 4.7 1.7 9.7 5 15 22.7 48.7 56.7 94.3 102 137 37.3 35.3 87.7 69 151 101a44 44 0 0 0 22 7c10 0 28-16.2 54-48.5s43.3-48.5 52-48.5zm-203 530c84.7 0 165.8-16.7 243.5-50s144.5-78 200.5-134 100.7-122.8 134-200.5 50-158.8 50-243.5-16.7-165.8-50-243.5-78-144.5-134-200.5-122.8-100.7-200.5-134-158.8-50-243.5-50-165.8 16.7-243.5 50-144.5 78-200.5 134S665.3 78.7 632 156.4s-50 158.8-50 243.5a611 611 0 0 0 120 368l-79 233 242-77a615 615 0 0 0 345 104zm0-1382c102 0 199.5 20 292.5 60s173.2 93.7 240.5 161 121 147.5 161 240.5 60 190.5 60 292.5-20 199.5-60 292.5-93.7 173.2-161 240.5-147.5 121-240.5 161-190.5 60-292.5 60a742 742 0 0 1-365-94l-417 134 136-405a736 736 0 0 1-108-389c0-102 20-199.5 60-292.5s93.7-173.2 161-240.5 147.5-121 240.5-161 190.5-60 292.5-60z">
+            </path>
+        </svg>
+    </a>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.mercadopago.com/v2/security.js" view="item" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    
+
+    <script src="/lib/jquery/jquery.min.js?v=couYcG8CCTlmLVT-SS3nCZbJYs0CYWQrc29467zf5s0" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js?v=Xt8pc4G0CdcRvI0nZ2lRpZ4VHng0EoUDMlGcBSQ9HiQ" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <script src="/js/common.js?v=ctOjT8NSWspOuYT8GuFT6aJFOsyZCv48R9gBanCCOwI" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <script src="/js/abp.min.js?v=Yy5Zdnud8HmYpUAqVgl-pBEr5X-7b6ju94iaTLnZDaA" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <script src="/js/abp.jquery.js?v=8Zmv00iaQqGJQDJb4P-7h3CfKzhRZ4Lvb97s2vPHHD4" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <script src="/js/signalr.min.js?v=LUYj068gw6mGv1x_4a7sqcMod5laF5g4YQxq1H1P6hE" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <script src="/js/cygnus.verification.js?v=8glSLJPcMOrLZCXg6dQgc2j6_Uafsr-XpBbfHirujos" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+
+    <script src="/lib/croppie/croppie.min.js?v=bQTfUf1lSu0N421HV2ITHiSjpZ6_5aS6mUNlojIGGWg" type="ec4d75c0ce65c8966b1c514e-text/javascript"></script>
+    <link rel="stylesheet" href="/lib/croppie/croppie.css?v=M8o9uqnAVROBWo3_2ZHSIJG-ZHbaQdpljJLLvdpeKcI" />
+
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+    // This is used to get the application's root path from javascript.
+    // It's useful if you're running application in a virtual directory under IIS.
+    var abp = abp || {};
+    abp.appPath = '/';
+
+    abp.security.antiForgery.tokenCookieName = 'Public-XSRF-TOKEN';
+    abp.security.antiForgery.tokenHeaderName = 'Public-X-XSRF-TOKEN';
+
+    $(document).ready(function () {
+        document.getElementsByTagName("html")[0].style.visibility = "visible";
+    });
+</script>
+
+    
+
+    <script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+        $('#gallery-modal-mercado-cuotas').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 5,
+            slidesPerView: 4,
+            loopedSlides: 0, //looped slides should be the same
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            loopedSlides: 0, //looped slides should be the same
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            thumbs: {
+                swiper: galleryThumbs
+            }
+        });
+        var galleryModal = new Swiper('.gallery-modal', {
+            spaceBetween: 10,
+            loopedSlides: 0, //looped slides should be the same
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+
+    </script>
+
+    <script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+    $(function () {
+        $('#addToCartButton').on('click', function (e) {
+            e.preventDefault();
+            callAddToCart("", 7, '__Product', '63477', 'False');
+        });
+
+        $('#buyNowButton').on('click', function (e) {
+            e.preventDefault();
+            callAddToCart('/Checkout', 7, '__Product', '63477', 'False');
+        });
+    });
+
+    $(document).ready(function () {
+        cleanMercadoCuotas();
+    });
+
+</script>
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="ec4d75c0ce65c8966b1c514e-|49" defer></script></body>
+
+</html>
+
+<script type="ec4d75c0ce65c8966b1c514e-text/javascript">
+    $(window).scroll(function () {
+        if ($(window).scrollTop() != 0) {
+            $('#sticky-nav').addClass('nav-shadow');
+        } else {
+            $('#sticky-nav').removeClass('nav-shadow');
+        }
+    });
+
+</script>
+

@@ -63,7 +63,7 @@ class Producto_controller extends Controller {
         $input = $this->validate([
             //'nombre_prod', 'marca', 'imagen', 'categoria_id', 'precio', 'precio_vta', 'stock', 'stock_min'
             'nombre_prod' => 'required|min_length[3]',
-            'marca' => 'required|min_length[3]',
+            'marca' => 'required|min_length[1]',
             'imagen' => 'uploaded[imagen]',
             'categoria_id' => 'is_not_unique[categorias.id]',
             'precio' => 'required|numeric',
